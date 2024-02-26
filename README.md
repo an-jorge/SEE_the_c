@@ -1,5 +1,3 @@
-# Mark this repository as archived and read-only.
+# Getting Started with C language
 
-## Godot-Learning
-Learning Godot
-Game development 
+
