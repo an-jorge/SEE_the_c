@@ -1,4 +1,4 @@
-# Getting Started with C language
+# Iniciando na linguagem C
 
 ---
 
