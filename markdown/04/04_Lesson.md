@@ -113,3 +113,46 @@ int main() {
 - Os valores nos casos (`case`) devem ser constantes e do mesmo tipo que a expressão sendo avaliada.
 - O `break` é crucial para evitar a execução descontrolada de casos subsequentes.
 - O bloco `default` é opcional, mas recomendado para lidar com valores inesperados da expressão.
+
+## Instrução `while`
+
+O loop `while` em C que permite executar um bloco de código repetidamente enquanto uma determinada condição permanecer verdadeira. É particularmente útil quando você não sabe de antemão quantas vezes precisa repetir o código ou quando o número de repetições depende de uma condição dinâmica.
+
+```c
+#include <stdio.h>
+
+int main() {
+    int i = 0; // Inicialização
+
+    while (i < 5) { // Condição: loop até que i chegue a 5
+        printf("Valor de i: %d\n", i);
+        i++; // Incrementa i para a próxima iteração
+    }
+
+    printf("Loop finalizado.\n");
+    return 0;
+}
+```
+
+## Instrução `do-while`
+
+O `do-while` é uma estrutura de controle de repetição, assim como o `while` e o `for`. A diferença é que o `do-while` garante que o bloco de código dentro dele seja executado pelo menos uma vez, mesmo que a condição especificada seja falsa desde o início.
+
+```c
+int i = 0;
+
+do {
+  printf("Número: %d\n", i);
+  i++;
+} while (i < 5);```
+
+**Vantagens:**
+
+- Garante que o bloco de instruções seja executado pelo menos uma vez, mesmo que a condição seja inicialmente falsa.
+- Útil em situações onde a ação precisa ser executada pelo menos uma vez antes de verificar a condição.
+
+**Desvantagens:**
+
+- Pode levar à execução desnecessária do bloco de instruções, caso a condição seja falsa na primeira verificação.
+- Requer atenção especial para evitar loops infinitos, pois a condição é testada após a execução do bloco.
+```
