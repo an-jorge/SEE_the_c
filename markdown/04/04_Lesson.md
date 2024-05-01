@@ -146,6 +146,9 @@ do {
   i++;
 } while (i < 5);```
 
+
+```
+
 **Vantagens:**
 
 - Garante que o bloco de instruções seja executado pelo menos uma vez, mesmo que a condição seja inicialmente falsa.
@@ -155,4 +158,3 @@ do {
 
 - Pode levar à execução desnecessária do bloco de instruções, caso a condição seja falsa na primeira verificação.
 - Requer atenção especial para evitar loops infinitos, pois a condição é testada após a execução do bloco.
-```
