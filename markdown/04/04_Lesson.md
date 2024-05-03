@@ -145,8 +145,6 @@ do {
   printf("Número: %d\n", i);
   i++;
 } while (i < 5);```
-
-
 ```
 
 **Vantagens:**
