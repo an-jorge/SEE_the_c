@@ -34,7 +34,7 @@ int main() {
 Além disso, você pode inicializar um array ao declará-lo, como mostrado no exemplo abaixo:
 
 ```c
-int number[5] = {10, 20, 30, 40, 50};
+int numbers[5] = {10, 20, 30, 40, 50};
 
 ```
 
