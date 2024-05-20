@@ -2,7 +2,7 @@
 
 Arrays, também conhecidos como vetores, são uma das estruturas de dados mais importantes e versáteis. Eles permitem armazenar uma coleção de valores do mesmo tipo, de forma eficiente e organizada.
 
-**Exemplo de declaração array**
+- Exemplo de declaração array
 
 ```c
 #include <stdio.h>
@@ -27,15 +27,12 @@ int main() {
 
     return 0;
 }
-
-
 ```
 
 Além disso, você pode inicializar um array ao declará-lo, como mostrado no exemplo abaixo:
 
 ```c
 int numbers[5] = {10, 20, 30, 40, 50};
-
 ```
 
 Neste caso, o array é declarado e inicializado com os valores especificados entre chaves.
