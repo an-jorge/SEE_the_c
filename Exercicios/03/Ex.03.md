@@ -28,5 +28,4 @@ int main(){
 ```
 
 **Ajuda**
-
 3.0_Lesson.md
