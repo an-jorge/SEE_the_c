@@ -21,14 +21,14 @@ int main() {
 
 **Observações Adicionais:**
 
-- `scanf` lê entrada do fluxo de entrada padrão (`stdin`), que normalmente se refere ao teclado. Você também pode redirecionar a entrada de um arquivo usando o operador `<`.
+- `scanf` lê entrada do fluxo de entrada padrão (`stdin`), que normalmente se refere ao teclado. Você também pode redireccionar a entrada de um arquivo usando o operador `<`.
 - `scanf` retorna o número de itens lidos com sucesso. Se o número for menor que o número de variáveis, indica um erro ou entrada incompleta.
 - É crucial combinar os especificadores de conversão na string de formato com os tipos de dados das variáveis para evitar corrupção de dados ou comportamento indefinido.
-- `scanf` não é tão segura quanto `fgets` para ler strings, pois não verifica se há estouros de buffer. Considere usar `fgets` para entrada de string e, em seguida, analisar a string separadamente.
+- `scanf` não é tão segura quanto `fgets` para ler strings, pois não verifica se há estouro de buffer. Considere usar `fgets` para entrada de string e, em seguida, analisar a string separadamente.
 
 ## `fgets`
 
-A função `fgets` é usada para ler uma linha de caracteres do fluxo de entrada padrão (`stdin`) e armazená-la em uma string. Ela retorna um ponteiro para a string lida ou `NULL` em caso de erro ou fim de arquivo.
+A função `fgets` é usada para ler uma linha de carácter do fluxo de entrada padrão (`stdin`) e armazená-la em uma string. Ela retorna um ponteiro para a string lida ou `NULL` em caso de erro ou fim de arquivo.
 
 ```c
 char *fgets(char *str, int num, FILE *stream);
@@ -37,7 +37,7 @@ char *fgets(char *str, int num, FILE *stream);
 **Parâmetros:**
 
 - `str`: Um ponteiro para a string onde a linha de caracteres será armazenada.
-- `num`: O tamanho máximo da string (incluindo o caractere nulo de terminação `\0`).
+- `num`: O tamanho máximo da string (incluindo o carácter nulo de terminação `\0`).
 - `stream`: Um ponteiro para o fluxo de entrada de onde ler a linha. Geralmente, `stdin` é usado para ler a entrada do teclado.
 
 ```c
@@ -55,6 +55,6 @@ int main() {
 
 Embora ambas as funções leiam strings do fluxo de entrada padrão, existem algumas diferenças importantes:
 
-- **Caractere de nova linha**: `fgets` inclui o caractere de nova linha (`\n`) na string lida, enquanto `gets` não.
-- **Limite de leitura:** `fgets` permite especificar um limite máximo de caracteres a serem lidos, evitando estouros de buffer. `gets` lê até encontrar um caractere de nova linha ou o fim do arquivo, podendo levar a estouros de buffer se a entrada não for validada.
-- **Segurança:** `fgets` é geralmente considerada mais segura que `gets` devido ao seu limite de leitura e menor risco de estouros de buffer.
+- **carácter de nova linha**: `fgets` inclui o carácter de nova linha (`\n`) na string lida, enquanto `gets` não.
+- **Limite de leitura:** `fgets` permite especificar um limite máximo de carácter a serem lidos, evitando estouro de buffer. `gets` lê até encontrar um caracteres de nova linha ou o fim do arquivo, podendo levar a estouro de buffer se a entrada não for validada.
+- **Segurança:** `fgets` é geralmente considerada mais segura que `gets` devido ao seu limite de leitura e menor risco de estouro de buffer.
