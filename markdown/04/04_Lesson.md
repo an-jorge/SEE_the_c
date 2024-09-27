@@ -33,7 +33,7 @@ int main() {
 
 ## Instrução `switch`
 
-`switch` em C é usada para realizar uma seleção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções `if` e `else if`. A estrutura básica do `switch` é a seguinte:
+`switch` em C é usada para realizar uma selecção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções `if` e `else if`. A estrutura básica do `switch` é a seguinte:
 
 ```c
 switch (expressao) {
@@ -106,7 +106,7 @@ int main() {
 
 - **Melhora a legibilidade:** O `switch` torna o código mais organizado e fácil de ler, especialmente quando comparado a longas cadeias de instruções `if-else if`.
 - **Manutenção facilitada:** Adicionar ou remover casos é simples, pois cada condição e seu código associado ficam agrupados.
-- **Eficiência:** Em alguns casos, o `switch` pode ser mais eficiente que encadeamentos de `if-else if` devido à otimizações realizadas pelo compilador.
+- **Eficiência:** Em alguns casos, o `switch` pode ser mais eficiente que encadeamentos de `if-else if` devido à optimizações realizadas pelo compilador.
 
 **Observações:**
 
@@ -150,7 +150,7 @@ do {
 **Vantagens:**
 
 - Garante que o bloco de instruções seja executado pelo menos uma vez, mesmo que a condição seja inicialmente falsa.
-- Útil em situações onde a ação precisa ser executada pelo menos uma vez antes de verificar a condição.
+- Útil em situações onde a acção precisa ser executada pelo menos uma vez antes de verificar a condição.
 
 **Desvantagens:**
 
