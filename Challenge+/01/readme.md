@@ -1,4 +1,4 @@
-Projeto Prático: Calculadora Simples
+# Projeto Prático: Calculadora Simples
 
 Descrição:
 Neste projeto prático, você irá criar uma calculadora simples em C que permitirá ao usuário realizar operações básicas de adição, subtração, multiplicação e divisão. O objetivo é aplicar os fundamentos aprendidos, como variáveis, operadores, condicionais e funções, para criar uma aplicação funcional.
@@ -13,8 +13,7 @@ Passos do Projeto:
 
 Exemplo de Execução:
 
-```
-Bem-vindo(a) à Calculadora Simples!
+``` Bem-vindo(a) à Calculadora Simples!
 
 Escolha uma operação:
 1 - Adição
@@ -60,4 +59,4 @@ Opção: 0
 Calculadora encerrada. Obrigado!
 ```
 
-Este projeto prático da calculadora simples irá ajudá-lo a aplicar os fundamentos aprendidos em C, criar funções reutilizáveis e trabalhar com condicionais e loops. Além disso, você terá a oportunidade de praticar a entrada e saída de dados com o usuário. Divirta-se criando sua própria calculadora funcional!
+Este projeto prático da calculadora simples irá ajudá-lo a aplicar os fundamentos aprendidos em C, criar funções reutilizáveis e trabalhar com condicionais e loops. Além disso, você terá a oportunidade de praticar a entrada e saída de dados com o usuário. Divirta-se criando sua própria calculadora funcional
