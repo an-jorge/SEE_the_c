@@ -2,19 +2,30 @@
 
 int main()
 {
-    int sum, subs, mult,  A, B = 0;
+    int sum, subs, mult, numb1, numb2 = 0;
     float divis;
 
-    printf("Escreva um NUM:\n");
+#ifdef _WIN32
+    printf("Escreva um numero:\n");
+    scanf_s("%d", &numb1);
     fflush(stdin);
-    scanf_s("%d", &A);
-    printf("Escreva outro NUM:\n");
-    scanf_s("%d", &B);
+    printf("Escreva outro numero: \n");
+    scanf_s("%d", &numb2);
+    fflush(stdin);
+#else
+    printf("Escreva um numero:\n");
+    scanf("%d", &numb1);
+    fflush(stdin);
+    printf("Escreva outro numero: \n");
+    scanf("%d", &numb2);
+    fflush(stdin);
 
-    sum = A + B;
-    subs = A - B;
-    mult = A * B;
-    divis = A / B;
+#endif
+
+    sum = numb1 + numb2;
+    subs = numb1 - numb2;
+    mult = numb1 * numb2;
+    divis = numb1 / numb2;
 
     printf("\n RESULTADOS \n");
     printf("Soma: %d \n", sum);
@@ -23,5 +34,4 @@ int main()
     printf("Divis %f \n", divis);
 
     return 0;
-
 }
