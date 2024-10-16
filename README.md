@@ -10,7 +10,7 @@ Este guia de aprendizagem em C apresenta os tópicos essenciais da linguagem, co
 
 | Tópico                        | Descrição                                                                                                                                                            | Tempo de Estudo (Aproximadamente) | Checkbox |
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | -------- |
-| **Noções Básicas**            | - Compreendendo variáveis, tipos de dados (int, float, char, etc.) - Aprender operadores (aritméticos, relacionais, lógicos) - Dominar entrada/saída (printf, scanf) | 1 Semana                          | [ ]      |
+| **Noções Básicas**            | - Compreendendo variáveis, tipos de dados (int, float, char, etc.) - Aprender operadores (aritméticos, relacionais, lógicos) - Dominar entrada/saída (printf, scanf) | 2 Semana                          | [ ]      |
 | **Fluxo de Controle**         | - Aprender instruções condicionais (if-else, switch) - Entender loops (for, while, do-while)                                                                         | 1 Semana                          | [ ]      |
 | **Funções**                   | - Definir e chamar funções - Passar argumentos e retornar valores                                                                                                    | 1 Semana                          | [ ]      |
 | **Arrays**                    | - Aprender a declarar, inicializar e acessar arrays - Entender operações básicas em arrays (percorrer, pesquisar)                                                    | 1 Semana                          | [ ]      |
@@ -34,8 +34,6 @@ O guia é organizado em secções que cobrem os principais conceitos da linguage
 
 ### 1. Declaração de variáveis
 
-**Convenções de estilo**:
-
 Na prática, as variáveis em C são geralmente nomeadas de acordo com a **convenção de nomenclatura camelCase** ou **snake_case**, dependendo do estilo adoptado pelo projecto ou programador.
 
 - `ratePerDay` (camelCase)
@@ -46,7 +44,6 @@ Para neste projecto adoptei por utilizar estilo snake_case, com **variáveis** e
 ```c
 int total_fruit;
 void game_over();
-
 ```
 
 ### 2. **ALL_CAPS** para macros e constantes
@@ -56,7 +53,6 @@ Para macros e constantes definidas com `#define`, o estilo `ALL_CAPS` (todas as 
 ```c
 #define ENEMIES 100
 const int MAX_LIFE = 5;
-
 ```
 
 **1 - Motivo**: O uso de maiúsculas ajuda a distinguir macros e constantes de variáveis regulares, tornando o código mais legível e ajudando a evitar confusões.
