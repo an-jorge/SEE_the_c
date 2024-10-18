@@ -8,9 +8,9 @@
 
    1. **Entendimento do código:**
 
-      - O código define três variáveis inteiras: `number_fi`, `number_se` e `sum_numbers`.
-      - `number_fi` é inicializada com o valor 10 e `number_se` com o valor 5.
-      - A variável `sum_number` armazena o resultado da soma de `number_fi` e `number_se`.
+      - O código define três variáveis inteiras: `first_number`, `second_number` e `sum_numbers`.
+      - `first_number` é inicializada com o valor 10 e `second_number` com o valor 5.
+      - A variável `sum_number` armazena o resultado da soma de `first_number` e `second_number`.
       - O programa, então, exibe o resultado da soma usando `printf`.
 
    2. **Tarefa:**
@@ -22,12 +22,12 @@
    3. **Perguntas para reflexão:**
 
       - Como o valor da soma é calculado e armazenado na variável `sum_numbers`?
-      - O que acontece se você alterar os valores de `number_fi` e `number_se`?
+      - O que acontece se você alterar os valores de `first_number` e `second_number`?
       - Como você poderia modificar o código para realizar outras operações, como subtracção, multiplicação ou divisão?
 
    4. **Desafio extra:**
 
-      - Modifique o código para permitir que o usuário insira os valores de `number_fi` e `number_se` usando `scanf`, em vez de usar valores fixos.
+      - Modifique o código para permitir que o usuário insira os valores de `first_number` e `second_number` usando `scanf`, em vez de usar valores fixos.
       - Adicione outras operações matemáticas (subtracção, multiplicação e divisão) e exiba os resultados de cada uma delas na saída do programa.
 
 2. Exercício: **Cálculo de Média Aritmética em C**
