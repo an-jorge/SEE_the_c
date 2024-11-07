@@ -180,7 +180,7 @@
 
 7. **Exercício**: Cálculo de Percentual de Votos em uma Eleição Municipal
    
-   **Objetivo:** Neste exercício, você desenvolverá um programa que calcula o percentual de votos brancos, nulos e válidos em relação ao total de eleitores de um município. Este programa ajudará a entender conceitos básicos de porcentagem e manipulação de variáveis em um algoritmo.
+   **Objectivo:** Neste exercício, você desenvolverá um programa que calcula o percentual de votos brancos, nulos e válidos em relação ao total de eleitores de um município. Este programa ajudará a entender conceitos básicos de percentagem e manipulação de variáveis em um algoritmo.
    
    **Instruções:**
    
@@ -229,11 +229,61 @@
       - Modifique o programa para exibir uma mensagem de erro se a soma de votos brancos, nulos e válidos for maior que o total de eleitores.
       - Adicione uma funcionalidade para calcular o percentual de abstenção, considerando o total de eleitores e a soma de todos os votos.
 
-8. **Exercício**: Cálculo de Reajuste Salarial
+8. **Exercício**: Cálculo de Novo Salário com Reajuste
    
-   **Objectivos:** Neste exercício, você desenvolverá um programa para calcular o novo salário de um funcionário após um reajuste. O programa irá ler o salário actual e o percentual de reajuste, calcular o aumento e exibir o valor do novo salário. Este exercício ajuda a entender operações básicas de entrada e saída de dados, além de cálculos percentuais.
+   **Objectivo:** Neste exercício, você criará um programa que calcula o novo salário de um funcionário após um reajuste percentual. O programa deverá ler o salário actual e o percentual de reajuste, realizar o cálculo do novo valor e exibir o resultado. Esse exercício ajuda a praticar operações matemáticas simples e manipulação de variáveis em um algoritmo.
    
    **Instruções:**
+   
+   1. **Requisitos do Programa:**
+      
+      - O programa deve solicitar ao usuário:
+        1. O salário mensal actual do funcionário.
+        2. O percentual de reajuste.
+      - Com essas informações, o programa calculará o novo salário considerando o reajuste.
+   
+   2. **Fórmula sugerida:**
+      
+      - Novo salário = salário actual + (salário actual * percentual de reajuste / 100)
+   
+   3. **Tarefa:**
+      
+      - Implemente o código no seu ambiente de programação.
+      - Solicite ao usuário que insira o salário actual do funcionário e o percentual de reajuste.
+      - Calcule o valor do novo salário e exiba o resultado.
+   
+   4. **Exemplo de Saída Esperada:**
+      
+      ```textile
+      Digite o salário atual do funcionário: 3000.00
+      Digite o percentual de reajuste: 5
+      O novo salário é: 3150.00
+      
+      ```
+      
+      - **Perguntas para reflexão:**
+        
+        - Como você garantiria que o usuário insira um valor válido para o percentual de reajuste (por exemplo, evitando valores negativos)?
+        - Como o programa deveria se comportar se o reajuste for 0%?
+        - O programa deveria permitir valores decimais no percentual de reajuste?
+      
+      - **Desafio extra:**
+        
+        - Modifique o programa para exibir também o valor do aumento separadamente (a diferença entre o novo salário e o salário actual).
+        - Adicione uma funcionalidade para calcular e exibir o salário anual do funcionário após o reajuste, multiplicando o novo salário mensal por 12.
+
+9. **Exercício**: Cálculo de Novo Salário com Reajuste
+   
+   **Instruções:**
+   
+   1. **Requisitos do Programa:**
+      
+      - O programa deve solicitar ao usuário:
+        1. O salário mensal actual do funcionário.
+        2. O percentual de reajuste.
+      - Com essas informações, o programa calculará o novo salário considerando o reajuste.
+
+1. **Instruções:**
    
    1. **Requisitos do Programa:**
       
