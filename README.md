@@ -85,22 +85,32 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 
 **Tipos de commit**
 
-        **fix** - Você corrigiu algo 
+        **fix** - Você corrigiu algo ou um bug
 
-            *corrigiu bug*
+            *bug fixed*
 
-            *corrigiu Indentação*
+     **new** - Você adicionou coisas novas
 
-     **add new** - Você adicionou coisas novas
-
-           *add new ex [número]*
+           *add new exe [número]*
 
            *add new lesson [número]*
 
-           *add new challe [número] para desafios ou exercícios mais elaborados*
+           *add new cha [número] para desafios ou exercícios mais elaborados*
 
-    **style**  - Você encontrou algum problema de padrão no markdown ou corrigiu a escrita
+          *add new topic - Você adicionou um novo tópico no documento*
+
+    **style**  - Você encontrou algum problema de padrão no markdown, corrigiu a escrita ou melhorou output (saída do usuário)
 
            *style md*
 
           *style write*
+
+          *style output*
+
+         *style indent*
+
+**resolved** - Você resolveu um exercício ou um desafio
+
+        *exe resolved [número]*
+
+       *cha resolved [número]*
