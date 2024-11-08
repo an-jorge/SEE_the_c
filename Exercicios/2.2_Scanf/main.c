@@ -1,7 +1,7 @@
 /*
 Exercício: Entrada de Dados e Formatação de Saída
 Este exercício tem como objetivo praticar a entrada de dados pelo usuário e a formatação de saída em C.
-Utilizando as funções scanf_s e printf, você irá criar um programa simples que solicita ao usuário 
+Utilizando as funções scanf_s e printf, você irá criar um programa simples que solicita ao usuário
 sua idade e peso, e em seguida exibe essas informações formatadas.
 
 Instruções:
@@ -20,8 +20,8 @@ int main()
     int age = 0;
     float weight = 0.0;
     printf("Informe a usa idade \n");
-    scanf_s("%d", &age);
+    scanf("%d", &age);
     printf("Informe o seu peso \n");
-    scanf_s("%f", &weight);
+    scanf("%f", &weight);
     printf("Voce informou %d anos e %.2f kg \n", age, weight);
 }
