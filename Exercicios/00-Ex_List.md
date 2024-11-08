@@ -258,7 +258,6 @@
       Digite o salário atual do funcionário: 3000.00
       Digite o percentual de reajuste: 5
       O novo salário é: 3150.00
-      
       ```
       
       - **Perguntas para reflexão:**
@@ -271,53 +270,47 @@
         
         - Modifique o programa para exibir também o valor do aumento separadamente (a diferença entre o novo salário e o salário actual).
         - Adicione uma funcionalidade para calcular e exibir o salário anual do funcionário após o reajuste, multiplicando o novo salário mensal por 12.
+        - Adicione descontos de imposto (IRT, INSS)
 
-9. **Exercício**: Cálculo de Novo Salário com Reajuste
+9. **Exercício**: Jogo de Adivinhação Simples
+   
+   **Objectivo:** Neste exercício, você criará um programa de adivinhação em que o usuário deve tentar adivinhar um número específico. O programa informará ao usuário se ele errou e pedirá que tente novamente até acertar o número correto. O exercício ajuda a praticar o uso de loops e a interacção com o usuário.
    
    **Instruções:**
    
    1. **Requisitos do Programa:**
       
-      - O programa deve solicitar ao usuário:
-        1. O salário mensal actual do funcionário.
-        2. O percentual de reajuste.
-      - Com essas informações, o programa calculará o novo salário considerando o reajuste.
+      - O programa deve solicitar que o usuário digite um número.
+      - Se o número digitado for diferente de 4, o programa exibe a mensagem "Errou novamente" e pede um novo palpite.
+      - O programa continua solicitando um novo número até que o usuário digite o número 4.
+      - Quando o usuário acerta, o programa exibe "Ganhou" e termina a execução.
+   
+   2. **Passos para Implementar:**
+      
+      - Compile e execute o código em um ambiente de programação.
+      - Observe o comportamento do programa quando o usuário acerta e erra o número.
+   
+   3. **Exemplo de Saída Esperada:**
+      
+      ```textile
+      Diga um número
+      3
+      Errou novamente
+      Diga um número
+      7
+      Errou novamente
+      Diga um número
+      4
+      Parabéns! Ganhou.
+      ```
+      
+      **Perguntas para Reflexão:**
+      
+      - O que aconteceria se o número correto fosse alterado para outro valor? Como você poderia modificar o código para facilitar essa alteração?
+      - Como você faria para limitar o número de tentativas que o usuário pode fazer antes de encerrar o programa?
+   
+   4. **Desafio Extra:**
+      
+      - Modifique o programa para gerar o número correto aleatoriamente, entre 1 e 10, em vez de fixar o valor como 4. Para isso, utilize a biblioteca `<stdlib.h>` e a função `rand()`.
 
-1. **Instruções:**
-   
-   1. **Requisitos do Programa:**
-      
-      - O programa deve solicitar ao usuário:
-        1. O salário mensal actual do funcionário.
-        2. O percentual de reajuste.
-      - O programa deve calcular o valor do novo salário considerando o reajuste.
-   
-   2. **Fórmula sugerida:**
-      
-      - Novo salário = salário actual + (salário actual * percentual de reajuste / 100).
-   
-   3. - **Tarefa:**
-        
-        - Implemente o código no seu ambiente de desenvolvimento.
-        - Solicite ao usuário que insira o salário actual e o percentual de reajuste.
-        - Calcule o valor do novo salário e exiba o resultado.
-      
-      - **Exemplo de Saída Esperada:**
-        
-        ```textile
-        Digite o salário atual do funcionário: 2000.00
-        Digite o percentual de reajuste: 10
-        O novo salário é: 2200.00
-        
-        ```
-- **Perguntas para reflexão:**
-  
-  - Como o cálculo seria diferente se o percentual de reajuste fosse negativo? O programa deveria permitir essa possibilidade?
-  - Como o programa se comporta se o percentual de reajuste for 0?
-  - O programa deve validar se o valor do salário actual e do percentual de reajuste são positivos?
-
-- **Desafio extra:**
-  
-  - Modifique o programa para que ele também exiba o valor do aumento, separadamente do novo salário.
-  - Adicione descontos de imposto (IRT, INSS) 
-  - Adicione uma funcionalidade para calcular o salário anual do funcionário após o reajuste.
+10. Exercício
