@@ -1,18 +1,13 @@
-/*
-
-Desenvolva um algoritmo em c para somar dois valores inteiros (10 + 5)
-
-*/
-
 #include <stdio.h>
 
-int main(){
-    int number_a = 10;
-    int number_b = 5;
-    int sum;
+int main()
+{
+    int number_first = 10;
+    int second_number = 5;
+    int sum_numbers;
 
-    sum = number_a + number_b;
-    printf("O resultado da soma entre %d + %d = %d", number_a, number_b, sum);
+    sum_numbers = number_first + second_number;
+    printf("O resultado da soma entre %d + %d = %d", number_first, second_number, sum_numbers);
 
     return 0;
 }
