@@ -4,21 +4,21 @@
 
 ## **Introdução**
 
-Este guia de aprendizagem em C apresenta os tópicos essenciais da linguagem, com descrições, tempo estimado de estudo e caixas de selecção para acompanhar seu progresso. É direccionado para pessoas como eu com pouca ou nenhuma experiência anterior em programação.
+Este guia de aprendizagem em C apresenta os tópicos essenciais da linguagem, com descrições, tempo estimado de estudo e caixas de selecção para acompanhar seu progresso. É direccionado para pessoas como pouca ou nenhuma experiência anterior em programação.
 
 ### **Estrutura do Guia**
 
-| Tópico                        | Descrição                                                                                                                                                            | Tempo de Estudo (Aproximadamente) | Checkbox |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | -------- |
-| **Noções Básicas**            | - Compreendendo variáveis, tipos de dados (int, float, char, etc.) - Aprender operadores (aritméticos, relacionais, lógicos) - Dominar entrada/saída (printf, scanf) | 2 Semana                          | [ ]      |
-| **Fluxo de Controle**         | - Aprender instruções condicionais (if-else, switch) - Entender loops (for, while, do-while)                                                                         | 1 Semana                          | [ ]      |
-| **Funções**                   | - Definir e chamar funções - Passar argumentos e retornar valores                                                                                                    | 1 Semana                          | [ ]      |
-| **Arrays**                    | - Aprender a declarar, inicializar e acessar arrays - Entender operações básicas em arrays (percorrer, pesquisar)                                                    | 1 Semana                          | [ ]      |
-| **Ponteiros**                 | - Compreender o conceito de endereços de memória - Aprender declaração, aritmética e manipulação de ponteiros (importante, mas pode ser desafiador)                  | 2 Semanas                         | [ ]      |
-| **Estruturas**                | - Definir tipos de dados compostos pelo usuário que agrupam variáveis - Aprender como acessar e manipular membros da estrutura                                       | 1 Semana                          | [ ]      |
-| **Cadeias de Caracteres**     | - Compreender conceitos básicos de strings e manipulação usando funções embutidas (strlen, strcpy, etc.)                                                             | 1 Semana                          | [ ]      |
-| **Entrada/Saída de Arquivos** | - Aprender como abrir, ler, escrever e fechar arquivos                                                                                                               | 1 Semana                          | [ ]      |
-| **Gerenciamento de Memória**  | - Entender alocação de memória (malloc, calloc, free) - Aprender como evitar vazamentos de memória (conceito importante)                                             | 1 Semana                          | [ ]      |
+| Tópico                        | Descrição                                                                                                                                                          | Tempo de Estudo (Aproximadamente) | Checkbox |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- | -------- |
+| **Noções Básicas**            | Compreendendo variáveis, tipos de dados (int, float, char, etc.) - Aprender operadores (aritméticos, relacionais, lógicos) - Dominar entrada/saída (printf, scanf) | 2 Semana                          | [ ]      |
+| **Fluxo de Controle**         | - Aprender instruções condicionais (if-else, switch) - Entender loops (for, while, do-while)                                                                       | 1 Semana                          | [ ]      |
+| **Funções**                   | - Definir e chamar funções - Passar argumentos e retornar valores                                                                                                  | 1 Semana                          | [ ]      |
+| **Arrays**                    | - Aprender a declarar, inicializar e acessar arrays - Entender operações básicas em arrays (percorrer, pesquisar)                                                  | 1 Semana                          | [ ]      |
+| **Ponteiros**                 | - Compreender o conceito de endereços de memória - Aprender declaração, aritmética e manipulação de ponteiros (importante, mas pode ser desafiador)                | 2 Semanas                         | [ ]      |
+| **Estruturas**                | - Definir tipos de dados compostos pelo usuário que agrupam variáveis - Aprender como acessar e manipular membros da estrutura                                     | 1 Semana                          | [ ]      |
+| **Cadeias de Caracteres**     | - Compreender conceitos básicos de strings e manipulação usando funções embutidas (strlen, strcpy, etc.)                                                           | 1 Semana                          | [ ]      |
+| **Entrada/Saída de Arquivos** | - Aprender como abrir, ler, escrever e fechar arquivos                                                                                                             | 1 Semana                          | [ ]      |
+| **Gerenciamento de Memória**  | - Entender alocação de memória (malloc, calloc, free) - Aprender como evitar vazamentos de memória (conceito importante)                                           | 1 Semana                          | [ ]      |
 
 O guia é organizado em secções que cobrem os principais conceitos da linguagem C:
 
@@ -67,7 +67,6 @@ const int MAX_LIFE = 5;
 
 **Recursos Adicionais**
 
-- <https://www.freecodecamp.org/espanol/>
 - [C docs - get started, tutorials, reference. | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/c-language/?view=msvc-170)
 - [Especificadores de formatação em C](https://www.freecodecamp.org/portuguese/news/especificadores-de-formatacao-em-c/)
 
@@ -76,41 +75,3 @@ const int MAX_LIFE = 5;
 - Pratique bastante usando os conceitos aprendidos em diferentes contextos.
 - Experimente diferentes modificadores e conversões para obter a formatação desejada.
 - Consulte a documentação oficial das funções e bibliotecas para obter informações mais detalhadas.
-
-**Guia de contribuições**
-
-Este é um guia em constante desenvolvimento. Se você tiver sugestões, correcções ou traduções de outros materiais relevantes para o aprendizado de C para este guia estou a utilizar português de Portugal, por favor, compartilhe-as para que o guia possa ser aprimorado e beneficiar mais pessoas.
-
-Este projecto completamente gratuito aceita contribuições via pull requests no GitHub. Este documento é responsável por alinhar as doações pelos padrões estabelecidos nele. Em caso de dúvida, [abra um issue](https://github.com/an-jorge/Clang/issues).
-
-**Tipos de commit**
-
-        **fix** - Você corrigiu algo ou um bug
-
-            *bug fixed*
-
-     **new** - Você adicionou coisas novas
-
-           *add new exe [número]*
-
-           *add new lesson [número]*
-
-           *add new cha [número] para desafios ou exercícios mais elaborados*
-
-          *add new topic - Você adicionou um novo tópico no documento*
-
-    **style**  - Você encontrou algum problema de padrão no markdown, corrigiu a escrita ou melhorou output (saída do usuário)
-
-           *style md*
-
-          *style write*
-
-          *style output*
-
-         *style indent*
-
-**resolved** - Você resolveu um exercício ou um desafio
-
-        *exe resolved [número]*
-
-       *cha resolved [número]*
