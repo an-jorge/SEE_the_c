@@ -4,7 +4,7 @@
 
 ## **Introdução**
 
-Este guia de aprendizagem em C apresenta os tópicos essenciais da linguagem, com descrições, tempo estimado de estudo e caixas de selecção para acompanhar seu progresso. É direccionado para pessoas como pouca ou nenhuma experiência anterior em programação.
+Este é um guia de aprendizagem da linguagem C apresento os tópicos essenciais da linguagem, com descrições, tempo estimado de estudo e caixas de selecção para acompanhar o seu progresso. É direccionado para pessoas com pouca ou nenhuma experiência anterior em programação.
 
 ### **Estrutura do Guia**
 
@@ -39,7 +39,7 @@ Na prática, as variáveis em C são geralmente nomeadas de acordo com a **conve
 - `ratePerDay` (camelCase)
 - `rate_per_day` (snake_case)
 
-Para neste projecto adoptei por utilizar estilo snake_case, com **variáveis** e **funções** escritas em inglês para melhor leitura de código, tudo output será em Português.
+Para neste projecto adoptei por utilizar estilo snake_case, com **variáveis** e **funções** escritas em inglês para melhor leitura de código, tudo **output** (saída para usuário) será em Português.
 
 ```c
 int total_fruit;
@@ -75,3 +75,5 @@ const int MAX_LIFE = 5;
 - Pratique bastante usando os conceitos aprendidos em diferentes contextos.
 - Experimente diferentes modificadores e conversões para obter a formatação desejada.
 - Consulte a documentação oficial das funções e bibliotecas para obter informações mais detalhadas.
+
+### [Contribuições](https://github.com/an-jorge/Clang/blob/worker/contribution.md)
