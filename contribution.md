@@ -4,24 +4,28 @@ Este é um guia em constante desenvolvimento. Se você tiver sugestões, correc�
 
 Este projecto completamente gratuito aceita contribuições via pull requests no GitHub. Este documento é responsável por alinhar as doações pelos padrões estabelecidos nele. Em caso de dúvida, [abra um issue](https://github.com/an-jorge/Clang/issues).
 
-**Tipos de commit**
+## Tipos de commit
 
-   **fix** - Você corrigiu algo ou um bug
-        *bug fixed*
+**Fix** - Você corrigiu algo ou um bug
 
-   **new** - Você adicionou coisas novas
-        *add new exe [número]*
-        *add new lesson [número]*
-        *add new cha [número] para desafios ou exercícios mais elaborados*
-        *add new topic - Você adicionou um novo tópico no documento*
-        *add new file*
+- bug fixed
 
-   **style**  - Você encontrou algum problema de padrão no markdown, corrigiu a escrita ou melhorou output (saída do usuário)
-         *style md*
-         *style write*
-         *style output*
-         *style indent*
+**New** - Você adicionou coisas novas
 
-   **resolved** - Você resolveu um exercício ou um desafio
-       *exe resolved [número]*
-       *cha resolved [número]*
+- add new exe [número]
+- add new lesson [número]
+- add new cha [número] para desafios ou exercícios mais elaborados
+- add new topic - Você adicionou um novo tópico no documento
+- add new file
+
+**Style** - Você encontrou algum problema de padrão no markdown, corrigiu a escrita ou melhorou output (saída do usuário)
+
+- style md
+- style write
+- style output
+- style indent
+
+**Resolved** - Você resolveu um exercício ou um desafio
+
+- exe resolved [número]
+- cha resolved [número]
