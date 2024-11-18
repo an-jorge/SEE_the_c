@@ -20,6 +20,8 @@ Este é um guia de aprendizagem da linguagem C apresento os tópicos essenciais 
 | **Entrada/Saída de Arquivos** | - Aprender como abrir, ler, escrever e fechar arquivos                                                                                                             | 1 Semana                          | [ ]      |
 | **Gerenciamento de Memória**  | - Entender alocação de memória (malloc, calloc, free) - Aprender como evitar vazamentos de memória (conceito importante)                                           | 1 Semana                          | [ ]      |
 
+
+
 O guia é organizado em secções que cobrem os principais conceitos da linguagem C:
 
 1. **Noções Básicas:** Apresenta as variáveis, tipos de dados, operadores, entrada e saída.
