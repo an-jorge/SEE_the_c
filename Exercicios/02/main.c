@@ -20,5 +20,6 @@ int main()
     printf("(3) %d \n", third_exam);
     sum_exams = first_exam + second_exam + third_exam / 3;
     printf("%dv é a nota média \n\n", sum_exams);
+
     return 0;
 }
