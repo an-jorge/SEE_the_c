@@ -18,12 +18,9 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 - add new topic - Você adicionou um novo tópico no documento
 - add new file
 
-**Style** - Você encontrou algum problema de padrão no markdown, corrigiu a escrita ou melhorou output (saída do usuário)
+**Style** - Você encontrou algum problema de padrão no markdown, corrigiu a escrita, código ou melhorou output (saída do usuário)
 
-- style md
 - style write
-- style output
-- style indent
 
 **Resolved** - Você resolveu um exercício ou um desafio
 
