@@ -29,6 +29,8 @@
       
       - Modifique o código para permitir que o usuário insira os valores de `first_number` e `second_number` usando `scanf`, em vez de usar valores fixos.
       - Adicione outras operações matemáticas (subtracção, multiplicação e divisão) e exiba os resultados de cada uma delas na saída do programa.
+        
+        
 
 2. Exercício: **Cálculo de Média Aritmética em C**
    
@@ -61,6 +63,8 @@
       
       - Modifique o programa para que o usuário possa inserir as três notas em tempo de execução, usando a função `scanf`.
       - Modifique o código para exibir a média com uma casa decimal, utilizando variáveis do tipo `float` para melhorar a precisão do cálculo da média.
+        
+        
 
 3. Exercício: **Conversão de Temperatura de Celsius para Fahrenheit em C**
    
@@ -93,6 +97,8 @@
       - Modifique o programa para permitir que o usuário insira uma temperatura em Celsius através da função `scanf` e exiba a conversão correspondente para Fahrenheit.
       - Adicione uma função para converter Fahrenheit de volta para Celsius.
       - Teste o programa com diferentes valores de temperatura para garantir que as conversões estão corretas.
+        
+        
 
 4. Exercício: **Verificação de Paridade de um Número em C**
    
@@ -124,6 +130,8 @@
       - Modifique o programa para que o usuário possa inserir um número através da função `scanf` e, em seguida, verificar se esse número é par ou ímpar.
       - Modifique o programa para lidar com múltiplos números em sequência, permitindo que o usuário verifique a paridade de uma lista de números.
       - Exiba uma mensagem personalizada no caso de o número ser zero, indicando que "zero é um número neutro".
+        
+        
 
 5. Exercício: **Entrada e Saída de Dados Simples em C**
    
@@ -148,6 +156,8 @@
       - Como você poderia modificar o código para lidar com erros de entrada (por exemplo, se o usuário digitar algo inválido)?
    
    4. **Desafio extra:** Modifique o código para também pedir o nome do usuário (um `char[]`) e exibir uma saudação personalizada juntamente com a idade e o peso.
+      
+      
 
 6. Exercício: **Leitura e Impressão de Elementos de um Array em C**
    
@@ -177,8 +187,10 @@
       
       - Modifique o programa para que ele possa armazenar e exibir um número maior de elementos, por exemplo, 10 números ao invés de 5.
       - Adicione uma verificação para garantir que o usuário está inserindo apenas números inteiros. Caso contrário, peça que insira o valor novamente.
+        
+        
 
-7. **Exercício**: Cálculo de Percentual de Votos em uma Eleição Municipal
+7. Exercício: **Cálculo de Percentual de Votos em uma Eleição Municipal**
    
    **Objectivo:** Neste exercício, você desenvolverá um programa que calcula o percentual de votos brancos, nulos e válidos em relação ao total de eleitores de um município. Este programa ajudará a entender conceitos básicos de percentagem e manipulação de variáveis em um algoritmo.
    
@@ -228,8 +240,10 @@
       
       - Modifique o programa para exibir uma mensagem de erro se a soma de votos brancos, nulos e válidos for maior que o total de eleitores.
       - Adicione uma funcionalidade para calcular o percentual de abstenção, considerando o total de eleitores e a soma de todos os votos.
+        
+        
 
-8. **Exercício**: Cálculo de Novo Salário com Reajuste
+8. Exercício: **Cálculo de Novo Salário com Reajuste**
    
    **Objectivo:** Neste exercício, você criará um programa que calcula o novo salário de um funcionário após um reajuste percentual. O programa deverá ler o salário actual e o percentual de reajuste, realizar o cálculo do novo valor e exibir o resultado. Esse exercício ajuda a praticar operações matemáticas simples e manipulação de variáveis em um algoritmo.
    
@@ -271,8 +285,10 @@
         - Modifique o programa para exibir também o valor do aumento separadamente (a diferença entre o novo salário e o salário actual).
         - Adicione uma funcionalidade para calcular e exibir o salário anual do funcionário após o reajuste, multiplicando o novo salário mensal por 12.
         - Adicione descontos de imposto (IRT, INSS)
+          
+          
 
-9. **Exercício**: Jogo de Adivinhação Simples
+9. Exercício: **Jogo de Adivinhação Simples**
    
    **Objectivo:** Neste exercício, você criará um programa de adivinhação em que o usuário deve tentar adivinhar um número específico. O programa informará ao usuário se ele errou e pedirá que tente novamente até acertar o número correto. O exercício ajuda a praticar o uso de loops e a interacção com o usuário.
    
@@ -312,8 +328,10 @@
    4. **Desafio Extra:**
       
       - Modifique o programa para gerar o número correto aleatoriamente, entre 1 e 10, em vez de fixar o valor como 4. Para isso, utilize a biblioteca `<stdlib.h>` e a função `rand()`.
+        
+        
 
-10. **Exercício: Pesquisa de Elemento em um Array**
+10. Exercício: **Pesquisa de Elemento em um Array**
     
     **Objetivo:** Neste exercício, você desenvolverá um programa que preenche um array com 10 números inteiros e permite ao usuário buscar por um número específico. O programa verificará se o número informado pelo usuário está presente no array e indicará sua posição ou, se não encontrado, exibirá uma mensagem informando que o número não existe.
     
@@ -335,34 +353,81 @@
     3. **Exemplo de Saída Esperada:**
        
        ```textile
-       Digite o número 1 do vetor: 5
-       Digite o número 2 do vetor: 10
-       Digite o número 3 do vetor: 15
-       Digite o número 4 do vetor: 20
-       Digite o número 5 do vetor: 25
-       Digite o número 6 do vetor: 30
-       Digite o número 7 do vetor: 35
-       Digite o número 8 do vetor: 40
-       Digite o número 9 do vetor: 45
-       Digite o número 10 do vetor: 50
+       Digite o número 1 do array: 5
+       Digite o número 2 do array: 10
+       Digite o número 3 do array: 15
+       Digite o número 4 do array: 20
+       Digite o número 5 do array: 25
+       Digite o número 6 do array: 30
+       Digite o número 7 do array: 35
+       Digite o número 8 do array: 40
+       Digite o número 9 do array: 45
+       Digite o número 10 do array: 50
        
-       Digite um número para pesquisar no vetor: 25
-       O número 25 está na posição 4 do vetor.
+       Digite um número para pesquisar no array: 25
+       O número 25 está na posição 4 do array.
        ```
        
        ```textile
-       Digite um número para pesquisar no vetor: 100
-       O número 100 não foi encontrado no vetor.
+       Digite um número para pesquisar no array: 100
+       O número 100 não foi encontrado no array.
        ```
     
     4. - **Perguntas para Reflexão:**
          
          - Como o programa deve se comportar se houver números repetidos no array?
-         - O que aconteceria se o array fosse muito maior (por exemplo, 100 elementos)? Você poderia otimizar a busca de alguma forma?
+         - O que aconteceria se o array fosse muito maior (por exemplo, 100 elementos)? Você poderia optimizar a busca de alguma forma?
        
        - **Desafio Extra:**
          
          - Modifique o programa para exibir todas as posições onde o número informado aparece (caso ele se repita no array).
-           - Adicione a opção de o usuário continuar pesquisando outros números no array sem precisar reiniciar o programa.
+         - Adicione a opção de o usuário continuar pesquisando outros números no array sem precisar reiniciar o programa.
+           
+           
 
-11. **Exercício**
+11. Exercício: **Manipulação de Arrays - Inserindo e Exibindo Valores**
+    
+    **Objectivo:** Neste exercício, você irá praticar a manipulação de array em C. O objectivo é solicitar que o usuário insira valores em um array, armazenar esses valores e, em seguida, exibi-los. Essa actividade ajuda a consolidar o uso de laços de repetição e o trabalho com arrays.
+
+**Instruções:**
+
+1. **Descrição do Programa:**
+   
+   - O programa utiliza um array de 5 posições para armazenar números inteiros.
+   - Solicita ao usuário que digite 5 números, que serão armazenados no array.
+   - Após a entrada de todos os números, o programa exibe os valores armazenados.
+
+2. **Tarefas:**
+   
+   - Compile e execute o código.
+   - Insira 5 números quando solicitado.
+   - Observe como os números digitados são exibidos na sequência após o processamento.
+
+3. **Exemplo de Saída Esperada:**
+   
+   ```textile
+   Digite Um número
+   10
+   Digite Um número
+   20
+   Digite Um número
+   30
+   Digite Um número
+   40
+   Digite Um número
+   50
+   
+   Números inseridos
+   10, 20, 30, 40, 50
+   ```
+
+4. **Perguntas para Reflexão:**
+   
+   - O que acontece se você tentar inserir mais do que 5 números? Como o programa poderia ser adaptado para evitar isso?
+   - Como o programa se comporta se você inserir valores não numéricos? É possível melhorar a validação da entrada?
+
+5. **Desafios Extras:**
+   
+   - Modifique o programa para permitir a inserção de 10 números em vez de 5.
+   - Adicione um recurso para calcular e exibir a soma de todos os números armazenados no array.
+   - Faça o programa exibir os números em ordem inversa à que foram inseridos.
