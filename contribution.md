@@ -18,11 +18,16 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 - add new topic - Você adicionou um novo tópico no documento
 - add new file
 
-**Style** - Você encontrou algum problema de padrão no markdown, corrigiu a escrita, código ou melhorou output (saída do usuário)
+**Style** - Você encontrou algum problema de padrão markdown, corrigiu erro ortográfico 
 
-- style write
+- Style
 
-**Resolved** - Você resolveu um exercício ou um desafio
+**Resolved** - Você resolveu um exercício
 
-- exe resolved [número]
-- cha resolved [número]
+- Exercício *commit* 'EXE [número] resolved'
+- Challenge *commit* 'CHA [número] resolved'
+- 
+- Tarefa *commit* 'TFA [número] resolved' - *A linha do tópico da modificação será considerando o número da tarefa contando partir do primeiro tópico*
+  
+  
+- Desafio extra *commit* 'DET [número] resolved' - *A linha do tópico da modificação será considerando o número do desafio extra contando partir do primeiro tópico*
