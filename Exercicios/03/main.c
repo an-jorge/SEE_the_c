@@ -14,8 +14,8 @@ int main()
 
   int celsius = 20;
   int degrees = (celsius * 9 / 5) + 32;
-  printf("Temperatura em celsius %dºC \n", celsius);
-  printf("Temperatura em fahrenheit %dºF", degrees);
+  printf("Temperatura em celsius %d°C \n", celsius);
+  printf("Temperatura em fahrenheit %d°F", degrees);
 
   return 0;
 }
