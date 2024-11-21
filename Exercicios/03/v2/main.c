@@ -23,31 +23,22 @@ int main()
         scanf("%f", &user_input);
         degrees = (user_input * 9 / 5) + 32;
         // Formula    (0°C × 9/5) + 32 = 32°F
-        printf("%f°C são %.2f°F \n", user_input, degrees);
+        printf("%.2f°C são %.2f°F \n", user_input, degrees);
         break;
 
     case 2:
         printf("Informe a temperatura em Fahrenheit \n");
         scanf("%f", &user_input);
         degrees = (user_input - 32) * 5 / 9;
-        //  Formula (0°F − 32) × 5/9 = -17.78°C
-        printf("%f°F são %.2f °C \n", user_input, degrees);
+        //  Formula      (0°F − 32) × 5/9 = -17.78°C
+        printf("%.2f°F são %.2f °C \n", user_input, degrees);
         break;
 
     default:
+        printf("Opção indispónivel. \n"
+               "Tente novamente... \n");
         break;
     }
 
     return 0;
 }
-
-/*
-
-MENU
-----
-
-1 - Para C
-2 - Para F
-
-
-*/
