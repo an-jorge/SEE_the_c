@@ -8,15 +8,15 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 
 **Fix** - Você corrigiu algo ou um bug
 
-- bug fixed
+- Bug fixed
 
 **New** - Você adicionou coisas novas
 
-- add new exe [número]
-- add new lesson [número]
-- add new cha [número] para desafios ou exercícios mais elaborados
-- add new topic - Você adicionou um novo tópico no documento
-- add new file
+- Add new exe [número]
+- Add new lesson [número]
+- Add new cha [número] para desafios ou exercícios mais elaborados
+- Add new topic - Você adicionou um novo tópico no documento
+- Add new file
 
 **Style** - Você encontrou algum problema de padrão markdown, corrigiu erro ortográfico 
 
@@ -26,8 +26,6 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 
 - Exercício *commit* 'EXE [número] resolved'
 - Challenge *commit* 'CHA [número] resolved'
-- 
 - Tarefa *commit* 'TFA [número] resolved' - *A linha do tópico da modificação será considerando o número da tarefa contando partir do primeiro tópico*
-  
-  
+
 - Desafio extra *commit* 'DET [número] resolved' - *A linha do tópico da modificação será considerando o número do desafio extra contando partir do primeiro tópico*
