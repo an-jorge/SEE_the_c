@@ -25,7 +25,9 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 **Resolved** - Você resolveu um exercício
 
 - Exercício *commit* 'EXE [número] resolved'
+
 - Challenge *commit* 'CHA [número] resolved'
+
 - Tarefa *commit* 'TFA [número] resolved' - *A linha do tópico da modificação será considerando o número da tarefa contando partir do primeiro tópico*
 
 - Desafio extra *commit* 'DET [número] resolved' - *A linha do tópico da modificação será considerando o número do desafio extra contando partir do primeiro tópico*
