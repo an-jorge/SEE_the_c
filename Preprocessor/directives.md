@@ -61,8 +61,14 @@ O pré-processador executa as directivas antes que o compilador processe o códi
      printf("Código para outro sistema.\n");
      #endif
      ```
+5. **Remoção de definições (#undef):**
 
-### **Por que usar `#include <stdio.h>`?**
+      ```c
+      #define TAMANHO 100
+      #undef TAMANHO
+     ```
+
+### **Por que usar? `#include <stdio.h>`**
 
 - Ele fornece a definição de funções como:
   
@@ -72,19 +78,10 @@ O pré-processador executa as directivas antes que o compilador processe o códi
   - `gets()`: (obsoleto) Para ler uma string.
   - `fopen()`, `fclose()`, etc.: Para manipulação de arquivos.
 
-- Permite que o compilador saiba o que são essas funções e como usá-las, fornecendo as **declarações** adequadas.
-
 - O **pré-processador** copia o conteúdo do arquivo `stdio.h` para o código-fonte.
 
 - Durante a **compilação**, o compilador verifica o código para garantir que você está usando as funções correctamente (por exemplo, chamando `printf()` com os argumentos correctos).
 
 - Na fase de **linkagem**, o compilador liga seu programa às implementações reais de `printf()` e outras funções, que estão na biblioteca padrão (`libc` no caso do C).
 
-Em C, a directiva `#include <stdio.h>` é usada para incluir o cabeçalho (**header file**) da biblioteca padrão de entrada e saída (**Standard Input/Output Library**) no programa. Esse cabeçalho contém declarações de funções, macros e tipos que são usados para realizar operações básicas de entrada e saída, como leitura e escrita.
-
----
-
-### **Por que `<stdio.h>` e não outro nome?**
-
-- O nome `stdio` significa **Standard Input/Output** (entrada/saída padrão), pois contém funções para interagir com dispositivos de entrada (teclado, arquivos, etc.) e saída (tela, arquivos, etc.).
-- O sufixo `.h` indica que é um **arquivo de cabeçalho**, contendo declarações de funções e macros.
+Em C, a directiva `#include <stdio.h>` é usada para incluir o cabeçalho (**header file**) da biblioteca padrão de entrada e saída (**Standard Input/Output Library**) no programa. Esse cabeçalho contém declarações de funções, macros e tipos que são usados para realizar operações básicas de entrada e saída, como leitura e escrita. O sufixo `.h` indica que é um **arquivo de cabeçalho**, contendo declarações de funções e macros.
