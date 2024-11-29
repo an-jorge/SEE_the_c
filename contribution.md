@@ -15,14 +15,14 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 - Add new exe [número]
 - Add new lesson [número]
 - Add new cha [número] para desafios ou exercícios mais elaborados
-- Add new topic - Você adicionou um novo tópico no documento
+- Add new topic [Titulo] - Você adicionou um novo tópico no documento
 - Add new file
 
 **Style** - Você encontrou algum problema de padrão markdown, corrigiu erro ortográfico 
 
 - Style
 
-**Resolved** - Você resolveu um exercício
+**Resolved** - Você resolveu
 
 - Exercício *commit* 'EXE [número] resolved'
 
