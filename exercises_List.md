@@ -15,22 +15,29 @@
    
    2. **Tarefa:**
       
-      - Copie e cole o código no seu ambiente de desenvolvimento C.
-      - Compile e execute o programa.
-      - Observe a saída, que exibe o resultado da soma de 10 e 5.
+      1. Copie e cole o código no seu ambiente de desenvolvimento C.
+      
+      2. Compile e execute o programa.
+      
+      3. Observe a saída, que exibe o resultado da soma de 10 e 5.
    
    3. **Perguntas para reflexão:**
       
-      - Como o valor da soma é calculado e armazenado na variável `sum_numbers`?
-      - O que acontece se você alterar os valores de `first_number` e `second_number`?
-      - Como você poderia modificar o código para realizar outras operações, como subtracção, multiplicação ou divisão?
+      1. Como valor da soma é calculado e armazenado na variável `sum_numbers`?
+      
+      2. O que acontece se você alterar os valores de `first_number` e `second_number`?
+      
+      3. Como você poderia modificar o código para realizar outras operações, como subtracção, multiplicação ou divisão?
    
    4. **Desafio extra:**
       
-      - Modifique o código para permitir que o usuário insira os valores de `first_number` e `second_number` usando `scanf`, em vez de usar valores fixos.
-      - Adicione outras operações matemáticas (subtracção, multiplicação e divisão) e exiba os resultados de cada uma delas na saída do programa.
-        
-        
+      1. Modifique o código para permitir que o usuário insira os valores de `first_number` e `second_number` usando `scanf`, em vez de usar valores fixos.
+      
+      2. Adicione outras operações matemáticas (subtracção, multiplicação e divisão) e exiba os resultados de cada uma delas na saída do programa.
+
+---
+
+
 
 2. Exercício: **Cálculo de Média Aritmética em C**
    
@@ -46,8 +53,9 @@
    
    2. **Tarefa:**
       
-      - Execute o código em seu compilador C.
-      - Observe o valor da média exibida. O cálculo parece correto?
+      1. Execute o código em seu compilador C.
+      
+      2. Observe o valor da média exibida. O cálculo parece correto?
    
    3. **Perguntas para reflexão:**
       
@@ -61,10 +69,15 @@
    
    5. **Desafio extra:**
       
-      - Modifique o programa para que o usuário possa inserir as três notas em tempo de execução, usando a função `scanf`.
-      - Modifique o código para exibir a média com uma casa decimal, utilizando variáveis do tipo `float` para melhorar a precisão do cálculo da média.
-        
-        
+      1. Modifique o programa para que o usuário possa inserir as três notas em tempo de execução, usando a função `scanf`.
+      
+      2. Modifique o código para exibir a média com uma casa decimal, utilizando variáveis do tipo `float` para melhorar a precisão do cálculo da média.
+
+
+
+---
+
+
 
 3. Exercício: **Conversão de Temperatura de Celsius para Fahrenheit em C**
    
@@ -82,9 +95,11 @@
    
    2. **Tarefa:**
       
-      - Copie o código e execute-o no seu compilador C.
-      - Observe a saída com as temperaturas exibidas tanto em Celsius quanto em Fahrenheit.
-      - Certifique-se de que a configuração da localidade funcione correctamente. Se a localidade `portuguese` não estiver disponível no sistema, o código exibe uma mensagem de erro.
+      1. Copie o código e execute-o no seu compilador C.
+      
+      2. Observe a saída com as temperaturas exibidas tanto em Celsius quanto em Fahrenheit.
+      
+      3. Certifique-se de que a configuração da localidade funcione correctamente. Se a localidade `portuguese` não estiver disponível no sistema, o código exibe uma mensagem de erro.
    
    3. **Perguntas para reflexão:**
       
@@ -94,11 +109,15 @@
    
    4. **Desafio extra:**
       
-      - Modifique o programa para permitir que o usuário insira uma temperatura em Celsius através da função `scanf` e exiba a conversão correspondente para Fahrenheit.
-      - Adicione uma função para converter Fahrenheit de volta para Celsius.
-      - Teste o programa com diferentes valores de temperatura para garantir que as conversões estão corretas.
-        
-        
+      1. Modifique o programa para permitir que o usuário insira uma temperatura em Celsius através da função `scanf` e exiba a conversão correspondente para Fahrenheit.
+      
+      2. Adicione uma função para converter Fahrenheit de volta para Celsius.
+      
+      3. Teste o programa com diferentes valores de temperatura para garantir que as conversões estão corretas.
+
+---
+
+
 
 4. Exercício: **Verificação de Paridade de um Número em C**
    
@@ -114,10 +133,15 @@
    
    2. **Tarefa:**
       
-      - Copie e cole o código no seu ambiente de desenvolvimento C.
-      - Execute o programa e observe a saída para o número 13.
-      - Altere o valor da variável `number` para outros números inteiros e verifique se o programa classifica correctamente os números como pares ou ímpares.
-      - Altere do `if-else` para `while` ou `do-while`
+      1. Copie e cole o código no seu ambiente de desenvolvimento C.
+      
+      2. Execute o programa e observe a saída para o número 13.
+      
+      3. Altere o valor da variável `number` para outros números inteiros e verifique
+      
+      4. se o programa classifica correctamente os números como pares ou ímpares.
+      
+      5. Altere do `if-else` para `while` ou `do-while`
    
    3. **Perguntas para reflexão:**
       
@@ -127,11 +151,15 @@
    
    4. **Desafio extra:**
       
-      - Modifique o programa para que o usuário possa inserir um número através da função `scanf` e, em seguida, verificar se esse número é par ou ímpar.
-      - Modifique o programa para lidar com múltiplos números em sequência, permitindo que o usuário verifique a paridade de uma lista de números.
-      - Exiba uma mensagem personalizada no caso de o número ser zero, indicando que "zero é um número neutro".
-        
-        
+      1. Modifique o programa para que o usuário possa inserir um número através da função `scanf` e, em seguida, verificar se esse número é par ou ímpar.
+      
+      2. Modifique o programa para lidar com múltiplos números em sequência, permitindo que o usuário verifique a paridade de uma lista de números.
+      
+      3. Exiba uma mensagem personalizada no caso de o número ser zero, indicando que "zero é um número neutro".
+
+---
+
+
 
 5. Exercício: **Entrada e Saída de Dados Simples em C**
    
@@ -146,8 +174,9 @@
    
    2. **Tarefa**:
       
-      - Execute o código no seu compilador C (por exemplo, usando `clang` ou `gcc` no Ubuntu).
-      - Insira diferentes valores para a idade e o peso durante a execução do programa e observe a saída.
+      1. Execute o código no seu compilador C (por exemplo, usando `clang` ou `gcc` no Ubuntu).
+      
+      2. Insira diferentes valores para a idade e o peso durante a execução do programa e observe a saída.
    
    3. **Perguntas para reflexão:**
       
@@ -155,9 +184,13 @@
       - O que acontece se você inserir um valor não numérico ao ser solicitado um número?
       - Como você poderia modificar o código para lidar com erros de entrada (por exemplo, se o usuário digitar algo inválido)?
    
-   4. **Desafio extra:** Modifique o código para também pedir o nome do usuário (um `char[]`) e exibir uma saudação personalizada juntamente com a idade e o peso.
+   4. **Desafio extra:** 
       
-      
+      1. Modifique o código para também pedir o nome do usuário (um `char[]`) e exibir uma saudação personalizada juntamente com a idade e o peso.
+
+----
+
+
 
 6. Exercício: **Leitura e Impressão de Elementos de um Array em C**
    
@@ -173,9 +206,11 @@
    
    2. **Tarefa:**
       
-      - Copie o código e execute-o no seu compilador C.
-      - Insira cinco números inteiros quando solicitado.
-      - Verifique se os números inseridos são exibidos correctamente na tela.
+      1. Copie o código e execute-o no seu compilador C.
+      
+      2. Insira cinco números inteiros quando solicitado.
+      
+      3. Verifique se os números inseridos são exibidos correctamente na tela.
    
    3. **Perguntas para reflexão:**
       
@@ -185,10 +220,13 @@
    
    4. **Desafio extra:**
       
-      - Modifique o programa para que ele possa armazenar e exibir um número maior de elementos, por exemplo, 10 números ao invés de 5.
-      - Adicione uma verificação para garantir que o usuário está inserindo apenas números inteiros. Caso contrário, peça que insira o valor novamente.
-        
-        
+      1. Modifique o programa para que ele possa armazenar e exibir um número maior de elementos, por exemplo, 10 números ao invés de 5.
+      
+      2. Adicione uma verificação para garantir que o usuário está inserindo apenas números inteiros. Caso contrário, peça que insira o valor novamente.
+
+---
+
+
 
 7. Exercício: **Cálculo de Percentual de Votos em uma Eleição Municipal**
    
@@ -213,9 +251,13 @@
    
    3. **Tarefa:**
       
-      - Implemente o código em seu ambiente de desenvolvimento.
-      - Solicite ao usuário que insira os dados necessários.
-      - Calcule os percentuais para cada tipo de voto e exiba o resultado.
+      1. Implemente o código em seu ambiente de desenvolvimento.
+      
+      2. Solicite ao usuário que insira os dados necessários.
+      
+      3. Calcule os percentuais para cada tipo de voto e exiba o resultado.
+         
+         
    
    4. **Exemplo de Saída Esperada:**
       
@@ -238,10 +280,13 @@
    
    6. **Desafio extra:**
       
-      - Modifique o programa para exibir uma mensagem de erro se a soma de votos brancos, nulos e válidos for maior que o total de eleitores.
-      - Adicione uma funcionalidade para calcular o percentual de abstenção, considerando o total de eleitores e a soma de todos os votos.
-        
-        
+      1. Modifique o programa para exibir uma mensagem de erro se a soma de votos brancos, nulos e válidos for maior que o total de eleitores.
+      
+      2. Adicione uma funcionalidade para calcular o percentual de abstenção, considerando o total de eleitores e a soma de todos os votos.
+
+---
+
+
 
 8. Exercício: **Cálculo de Novo Salário com Reajuste**
    
@@ -262,9 +307,13 @@
    
    3. **Tarefa:**
       
-      - Implemente o código no seu ambiente de programação.
-      - Solicite ao usuário que insira o salário actual do funcionário e o percentual de reajuste.
-      - Calcule o valor do novo salário e exiba o resultado.
+      1. Implemente o código no seu ambiente de programação.
+      
+      2. Solicite ao usuário que insira o salário actual do funcionário e o percentual de reajuste.
+      
+      3. Calcule o valor do novo salário e exiba o resultado.
+         
+         
    
    4. **Exemplo de Saída Esperada:**
       
@@ -282,11 +331,15 @@
       
       - **Desafio extra:**
         
-        - Modifique o programa para exibir também o valor do aumento separadamente (a diferença entre o novo salário e o salário actual).
-        - Adicione uma funcionalidade para calcular e exibir o salário anual do funcionário após o reajuste, multiplicando o novo salário mensal por 12.
-        - Adicione descontos de imposto (IRT, INSS)
-          
-          
+        1. Modifique o programa para exibir também o valor do aumento separadamente (a diferença entre o novo salário e o salário actual).
+        
+        2. Adicione uma funcionalidade para calcular e exibir o salário anual do funcionário após o reajuste, multiplicando o novo salário mensal por 12.
+        
+        3. Adicione descontos de imposto (IRT, INSS)
+
+---
+
+
 
 9. Exercício: **Jogo de Adivinhação Simples**
    
@@ -327,9 +380,11 @@
    
    4. **Desafio Extra:**
       
-      - Modifique o programa para gerar o número correto aleatoriamente, entre 1 e 10, em vez de fixar o valor como 4. Para isso, utilize a biblioteca `<stdlib.h>` e a função `rand()`.
-        
-        
+      1. Modifique o programa para gerar o número correto aleatoriamente, entre 1 e 10, em vez de fixar o valor como 4. Para isso, utilize a biblioteca `<stdlib.h>` e a função `rand()`.
+
+---
+
+
 
 10. Exercício: **Pesquisa de Elemento em um Array**
     
@@ -380,10 +435,13 @@
        
        - **Desafio Extra:**
          
-         - Modifique o programa para exibir todas as posições onde o número informado aparece (caso ele se repita no array).
-         - Adicione a opção de o usuário continuar pesquisando outros números no array sem precisar reiniciar o programa.
-           
-           
+         1. Modifique o programa para exibir todas as posições onde o número informado aparece (caso ele se repita no array).
+         
+         2. Adicione a opção de o usuário continuar pesquisando outros números no array sem precisar reiniciar o programa.
+
+---
+
+
 
 11. Exercício: **Manipulação de Arrays - Inserindo e Exibindo Valores**
     
@@ -399,9 +457,13 @@
 
 2. **Tarefas:**
    
-   - Compile e execute o código.
-   - Insira 5 números quando solicitado.
-   - Observe como os números digitados são exibidos na sequência após o processamento.
+   1. Compile e execute o código.
+   
+   2. Insira 5 números quando solicitado.
+   
+   3. Observe como os números digitados são exibidos na sequência após o processamento.
+   
+   
 
 3. **Exemplo de Saída Esperada:**
    
@@ -420,6 +482,8 @@
    Números inseridos
    10, 20, 30, 40, 50
    ```
+   
+   
 
 4. **Perguntas para Reflexão:**
    
@@ -428,6 +492,10 @@
 
 5. **Desafios Extras:**
    
-   - Modifique o programa para permitir a inserção de 10 números em vez de 5.
-   - Adicione um recurso para calcular e exibir a soma de todos os números armazenados no array.
-   - Faça o programa exibir os números em ordem inversa à que foram inseridos.
+   1. Modifique o programa para permitir a inserção de 10 números em vez de 5.
+   
+   2. Adicione um recurso para calcular e exibir a soma de todos os números armazenados no array.
+   
+   3. Faça o programa exibir os números em ordem inversa à que foram inseridos.
+
+---
