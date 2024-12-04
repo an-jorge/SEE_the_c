@@ -2,7 +2,11 @@
 
 A directiva `#include <string.h>` é usada em C para incluir a biblioteca de manipulação de strings. Essa biblioteca fornece funções para operar com strings, como copiar, concatenar, comparar, determinar o comprimento e buscar substrings, além de manipular blocos de memória.
 
+### **Por que usar `<string.h>`?**
 
+- Simplifica a manipulação de strings e memória.
+- Fornece funções optimizadas e seguras para operações comuns.
+- Faz parte da biblioteca padrão do C, garantindo portabilidade.
 
 ### **Principais funções de `<string.h>`**
 
@@ -24,9 +28,7 @@ Aqui está uma tabela com as funções mais comuns da biblioteca e suas descriç
 | `memcpy(dest, src, n)`     | Copia `n` bytes de `src` para `dest`.                                          | `memcpy(dest, src, 10);`                    |
 | `memcmp(ptr1, ptr2, n)`    | Compara `n` bytes entre `ptr1` e `ptr2`.                                       | `memcmp(arr1, arr2, 5)` → 0 (se iguais)     |
 
----
-
-### **Exemplo prático**
+### Exemplo prático
 
 Aqui está um programa que demonstra algumas funções de `<string.h>`:
 
@@ -63,5 +65,40 @@ int main() {
 
     return 0;
 }
-
 ```
+
+### **Funções relacionadas à memória**
+
+Além de manipular strings, a biblioteca `<string.h>` também oferece funções para trabalhar directamente com blocos de memória (`memset`, `memcpy`, `memcmp`, etc.). Essas funções são úteis para manipulação de dados binários.
+
+**Exemplo com `memset` e `memcpy`:**
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char buffer[10];
+    memset(buffer, 0, sizeof(buffer)); // Zera o buffer
+    memcpy(buffer, "Texto", 5);        // Copia "Texto" para o buffer
+
+    printf("Buffer: %s\n", buffer);
+
+    return 0;
+}
+```
+
+### **Cuidados ao usar `<string.h>`**
+
+1. **Overflow de buffer:**
+   
+   - Ao usar funções como `strcpy` e `strcat`, certifique-se de que o destino possui espaço suficiente.
+   - Prefira versões seguras como `strncpy` e `strncat` para evitar problemas.
+
+2. **Ponteiros nulos:**
+   
+   - Funções como `strchr` e `strstr` retornam ponteiros nulos (`NULL`) se não encontrarem o caracteres ou substring, então sempre verifique o resultado.
+
+3. **Comparação de strings:**
+   
+   - Não use operadores como `==` para comparar strings. Use `strcmp` ou `strncmp`.
