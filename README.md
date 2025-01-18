@@ -1,6 +1,6 @@
 ---
-description: Seus primeiros passos na programação
 icon: centercode
+description: Seus primeiros passos na programação
 ---
 
 # Bem-vindos a Jornada
@@ -8,6 +8,10 @@ icon: centercode
 ***
 
 ## A introdução a Linguagem C
+
+C é uma linguagem poderosa e flexível, ideal para desenvolvimento de baixo nível e aplicações que exigem desempenho otimizado. Embora exigente em termos de gerenciamento de memória e complexidade, seu aprendizado é fundamental para quem deseja entender profundamente como o computador e a programação funcionam.
+
+Desenvolvida por Dennis Ritchie no início dos anos 1970 na AT\&T Bell Labs. Ela é amplamente utilizada devido à sua eficiência, flexibilidade e controle detalhado sobre o hardware, C é considerada uma linguagem de baixo nível em relação a outras linguagens modernas, o que a torna ideal para o desenvolvimento de sistemas, aplicativos e software que exigem alta performance.
 
 Este é um guia de aprendizagem da linguagem C apresento os tópicos essenciais da linguagem, com descrições, tempo estimado de estudo e caixas de selecção para acompanhar o seu progresso. É direccionado para pessoas com pouca ou nenhuma experiência anterior em programação.
 
@@ -40,7 +44,7 @@ Na prática, as variáveis em C são geralmente nomeadas de acordo com a **conve
 * `ratePerDay` (camelCase)
 * `rate_per_day` (snake\_case)
 
-Para neste projecto adoptei por utilizar estilo snake\_case, com **variáveis** e **funções** escritas em inglês para melhor leitura de código, tudo **output** (saída para usuário) será em Português.
+Para neste projecto adoptei por utilizar estilo snake\_case, com **variáveis** e **funções** escritas em inglês para melhor leitura de código, com tudo outputs (saída para usuário) será em Português.
 
 ```c
 int total_fruit;
