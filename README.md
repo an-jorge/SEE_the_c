@@ -1,18 +1,19 @@
 ---
-description: Iniciando a linguagem C
+description: Seus primeiros passos na programação
+icon: centercode
 ---
 
-# See The C
-
-### **Introdução** <a href="#introducao" id="introducao"></a>
+# Bem-vindos a Jornada
 
 ***
+
+## A introdução a Linguagem C
 
 Este é um guia de aprendizagem da linguagem C apresento os tópicos essenciais da linguagem, com descrições, tempo estimado de estudo e caixas de selecção para acompanhar o seu progresso. É direccionado para pessoas com pouca ou nenhuma experiência anterior em programação.
 
 #### **Estrutura do Guia** <a href="#estrutura-do-guia" id="estrutura-do-guia"></a>
 
-<table data-full-width="true"><thead><tr><th width="215">Tópico</th><th width="495">Descrição</th><th width="317">Estimativa</th><th>Checkbox</th></tr></thead><tbody><tr><td><strong>Noções Básicas</strong></td><td>Compreendendo variáveis, tipos de dados (int, float, char, etc.) - Aprender operadores (aritméticos, relacionais, lógicos) - Dominar entrada/saída (printf, scanf)</td><td>2 Semana</td><td>[ ]</td></tr><tr><td><strong>Fluxo de Controle</strong></td><td>- Aprender instruções condicionais (if-else, switch) - Entender loops (for, while, do-while)</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Funções</strong></td><td>- Definir e chamar funções - Passar argumentos e retornar valores</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Arrays</strong></td><td>- Aprender a declarar, inicializar e acessar arrays - Entender operações básicas em arrays (percorrer, pesquisar)</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Ponteiros</strong></td><td>- Compreender o conceito de endereços de memória - Aprender declaração, aritmética e manipulação de ponteiros (importante, mas pode ser desafiador)</td><td>2 Semanas</td><td>[ ]</td></tr><tr><td><strong>Estruturas</strong></td><td>- Definir tipos de dados compostos pelo usuário que agrupam variáveis - Aprender como acessar e manipular membros da estrutura</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Cadeias de Caracteres</strong></td><td>- Compreender conceitos básicos de strings e manipulação usando funções embutidas (strlen, strcpy, etc.)</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Entrada/Saída de Arquivos</strong></td><td>- Aprender como abrir, ler, escrever e fechar arquivos</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Gerenciamento de Memória</strong></td><td>- Entender alocação de memória (malloc, calloc, free) - Aprender como evitar vazamentos de memória (conceito importante)</td><td>1 Semana</td><td>[ ]</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="215">Tópico</th><th width="495">Descrição</th><th width="317">Estimativa</th><th>Checkbox</th></tr></thead><tbody><tr><td><strong>Noções Básicas</strong></td><td><ul><li>Compreendendo variáveis</li><li>Tipos de dados (int, float, char, etc.)</li><li>Aprender operadores (aritméticos, relacionais, lógicos)</li><li>Dominar entrada/saída (printf, scanf)</li></ul></td><td>2 Semana</td><td>[ ]</td></tr><tr><td><strong>Fluxo de Controle</strong></td><td><ul><li>Aprender instruções condicionais (if-else, switch) </li><li>Entender loops (for, while, do-while)</li></ul></td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Funções</strong></td><td><ul><li>Definir e chamar funções</li><li>Passar argumentos e retornar valores</li></ul></td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Arrays</strong></td><td><ul><li>Aprender a declarar, inicializar e acessar arrays</li><li>Entender operações básicas em arrays (percorrer, pesquisar)</li></ul></td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Ponteiros</strong></td><td><ul><li>Compreender o conceito de endereços de memória </li><li>Aprender declaração, aritmética e manipulação de ponteiros (importante, mas pode ser desafiador)</li></ul></td><td>2 Semanas</td><td>[ ]</td></tr><tr><td><strong>Estruturas</strong></td><td><ul><li>Definir tipos de dados compostos pelo usuário que agrupam variáveis</li><li>Aprender como acessar e manipular membros da estrutura</li></ul></td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Cadeias de Caracteres</strong></td><td><ul><li>Compreender conceitos básicos de strings e manipulação usando funções embutidas (strlen, strcpy, etc.)</li></ul></td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Entrada/Saída de Arquivos</strong></td><td><ul><li>Aprender como abrir, ler, escrever e fechar arquivos</li></ul></td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Gerenciamento de Memória</strong></td><td><ul><li>Entender alocação de memória (malloc, calloc, free)</li><li> Aprender como evitar vazamentos de memória (conceito importante)</li></ul></td><td>1 Semana</td><td>[ ]</td></tr></tbody></table>
 
 
 

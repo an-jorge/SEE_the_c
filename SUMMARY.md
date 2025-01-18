@@ -2,7 +2,7 @@
 
 ## Intro
 
-* [See The C](README.md)
+* [Bem-vindos a Jornada](README.md)
 * [Guia de contribuições](intro/guia-de-contribuicoes.md)
 
 ## Bascis
