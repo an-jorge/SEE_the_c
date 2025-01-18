@@ -4,6 +4,8 @@
 
 Variáveis são elementos fundamentais para armazenar e manipular dados durante a execução de um programa. Elas permitem que você represente valores e associe-os a identificadores únicos para uso posterior. Antes de usar uma variável, é necessário declará-la. A declaração informa ao compilador o tipo de dado que a variável armazenará e aloca memória para ela.
 
+<figure><img src="../.gitbook/assets/RAM memory.jpg" alt="Memoria RAM"><figcaption><p>RAM Memory</p></figcaption></figure>
+
 A sintaxe básica para declarar variáveis em C é:
 
 ```c
