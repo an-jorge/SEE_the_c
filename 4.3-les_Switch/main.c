@@ -4,7 +4,7 @@ int main()
 {
     int day;
     printf("Insira o dia da Semana entre 1 a 7\n");
-    scanf_s("%d", &day);
+    scanf("%d", &day);
     switch (day)
     {
     case 1:

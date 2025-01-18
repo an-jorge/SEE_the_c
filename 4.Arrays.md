@@ -1,6 +1,6 @@
 # Array
 
-Arrays, também conhecidos como vetores, são uma das estruturas de dados mais importantes e versáteis. Eles permitem armazenar uma coleção de valores do mesmo tipo, de forma eficiente e organizada.
+Arrays, também conhecidos como vectores, são uma das estruturas de dados mais importantes e versáteis. Eles permitem armazenar uma colecção de valores do mesmo tipo, de forma eficiente e organizada.
 
 - Exemplo de declaração array
 

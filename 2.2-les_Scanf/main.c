@@ -1,8 +1,18 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int age = 0;
-    printf("Informe a sua idade \n");
+#ifdef _WIN32
+    // For Windows
+    print("informe a sua idade: \n");
     scanf_s("%d", &age);
-    printf("Meus parabens pelos %d anos \n", age);
+
+#else
+    // Linux
+    printf("Informe a sua idade: ");
+    scanf("%d", &age);
+#endif
+    printf("Meus parabens pelos %d anos\n", age);
+    return 0;
 }

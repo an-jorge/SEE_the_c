@@ -1,20 +1,32 @@
 #include <stdio.h>
-int main(void)
-{   float exame;
-    printf("Insira a nota do exame: \n");
-    scanf_s("%f", &exame);
 
-    if (exame >= 7.0)
+#define TEXT "MEDIA FINAL DO ALUNO" // Variavel do tipo constante
+
+int main()
+{
+    printf("%s \n", TEXT);
+    printf("QUAL NOTA DO ALUNO: \n");
+    float result = 0;
+#ifdef _WIN32
+    scanf_s("%s", &result);
+    fflush(stdin);
+#else
+    scanf("%f", &result);
+    fflush(stdin);
+#endif
+
+    if (result > 10.0)
     {
-        printf("APROVADO");
-    } 
-    else if (exame >= 5.0)
-    {
-        printf("TEM MAIS UMA OPORTUNIDADE");
-    } else
-    {
-        printf("REPROVADO");
+        printf("APROVADO \n");
     }
-    
-    
+    else
+    {
+        printf("REPROVADO \n");
+    }
+
+    printf("SUA NOTA %.1f", result);
+
+    return 0;
 }
+
+// TEXT "MEDIA FINAL DO ALUNO";

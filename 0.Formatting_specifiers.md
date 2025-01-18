@@ -6,17 +6,17 @@ Na linguagem C, os especificadores de formato são usados para controlar a forma
 2. `%ld`: Longo inteiro decimal
 3. `%f`: Ponto flutuante
 4. `%lf`: Duplo ponto flutuante
-5. `%c`: Caractere
+5. `%c`: caracteres
 6. `%s`: String
 7. `%x` ou `%X`: Inteiro hexadecimal
 8. `%o`: Inteiro octal
 9. `%u`: Inteiro sem sinal
 10. `%p`: Ponteiro
-11. `%%`: Caractere de porcentagem (para imprimir um símbolo de porcentagem)
+11. `%%`: caracteres de percentagem (para imprimir um símbolo de percentagem)
 
 Estes são apenas alguns dos especificadores de formato básicos. Existem outros modificadores que podem ser usados com esses especificadores para controlar a precisão, largura do campo, preenchimento, alinhamento e muito mais.
 
-## Sequencias de escape em C
+## Sequência de escape em C
 
 1. `\n`: Nova linha
 2. `\t`: Tabulação horizontal
@@ -28,7 +28,7 @@ Estes são apenas alguns dos especificadores de formato básicos. Existem outros
 8. `\f`: Avanço de página (usado para mover o cursor para a próxima página)
 9. `\v`: Tabulação vertical
 10. `\a`: Alerta sonoro (produz um som de alerta)
-11. `\0`: Caractere nulo (termina uma string)
+11. `\0`: caracteres nulo (termina uma string)
 
 Essas sequências de escape são frequentemente usadas para formatar saída de texto ou para representar caracteres especiais dentro de strings em programas C.
 
@@ -40,7 +40,7 @@ Os especificadores de formato de `scanf()` são usados para especificar o tipo d
 2. `%ld`: Longo inteiro decimal
 3. `%f`: Ponto flutuante
 4. `%lf`: Duplo ponto flutuante
-5. `%c`: Caractere
+5. `%c`: caracteres
 6. `%s`: String
 7. `%x`: Inteiro hexadecimal
 8. `%o`: Inteiro octal
