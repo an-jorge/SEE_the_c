@@ -43,7 +43,7 @@ Além desses, C também suporta modificadores de tipo, como `unsigned` para indi
 
 #### Variáveis imutáveis <a href="#variaveis-imutaveis" id="variaveis-imutaveis"></a>
 
-Em C, `#define` e `const` são usados para finalidades semelhantes (definir valores constantes), mas são conceitos diferentes e têm nomes específicos:
+Embora que as variaveis podem ser alteradas na programação temos variáveis imutáveis aquelas que não pode ser alteradas depois de declaradas. Em C, `#define` e `const` são usados para finalidades semelhantes (definir valores constantes), mas são conceitos diferentes e têm nomes específicos:
 
 #### `define` — **Directiva de pré-processador** (Macro) <a href="#define--directiva-de-pre-processador-macro" id="define--directiva-de-pre-processador-macro"></a>
 
@@ -63,7 +63,7 @@ Aqui, `WEIGHT_MAX` será substituído por `100` em todo o código onde aparecer.
 const weightMax 100
 ```
 
-Aqui, `weightMax` é uma variável do tipo `int` que não pode ser modificada. Diferente de `#define`, ela tem um tipo definido (neste caso, `int`), e o compilador faz a verificação de tipo.
+Aqui, `weightMax` é uma variável do tipo `int` que não pode ser modificada. Diferente de `#define`, ela tem um tipo definido (neste caso `int`) e o compilador faz a verificação de tipo.
 
 #### Diferenças entre `#define` e `const` <a href="#diferencas-entre-define-e-const" id="diferencas-entre-define-e-const"></a>
 
