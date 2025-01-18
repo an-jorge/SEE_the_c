@@ -10,3 +10,4 @@
 * [O básico da Línguagem](bascis/o-basico-da-linguagem.md)
 * [Introdução a variáveis](bascis/introducao-a-variaveis.md)
 * [Tipos de dados](bascis/tipos-de-dados.md)
+* [Operadores Matemáticos](bascis/operadores-matematicos.md)

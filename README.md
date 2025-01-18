@@ -14,6 +14,12 @@ Este é um guia de aprendizagem da linguagem C apresento os tópicos essenciais 
 
 <table data-full-width="true"><thead><tr><th width="215">Tópico</th><th width="495">Descrição</th><th width="317">Estimativa</th><th>Checkbox</th></tr></thead><tbody><tr><td><strong>Noções Básicas</strong></td><td>Compreendendo variáveis, tipos de dados (int, float, char, etc.) - Aprender operadores (aritméticos, relacionais, lógicos) - Dominar entrada/saída (printf, scanf)</td><td>2 Semana</td><td>[ ]</td></tr><tr><td><strong>Fluxo de Controle</strong></td><td>- Aprender instruções condicionais (if-else, switch) - Entender loops (for, while, do-while)</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Funções</strong></td><td>- Definir e chamar funções - Passar argumentos e retornar valores</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Arrays</strong></td><td>- Aprender a declarar, inicializar e acessar arrays - Entender operações básicas em arrays (percorrer, pesquisar)</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Ponteiros</strong></td><td>- Compreender o conceito de endereços de memória - Aprender declaração, aritmética e manipulação de ponteiros (importante, mas pode ser desafiador)</td><td>2 Semanas</td><td>[ ]</td></tr><tr><td><strong>Estruturas</strong></td><td>- Definir tipos de dados compostos pelo usuário que agrupam variáveis - Aprender como acessar e manipular membros da estrutura</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Cadeias de Caracteres</strong></td><td>- Compreender conceitos básicos de strings e manipulação usando funções embutidas (strlen, strcpy, etc.)</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Entrada/Saída de Arquivos</strong></td><td>- Aprender como abrir, ler, escrever e fechar arquivos</td><td>1 Semana</td><td>[ ]</td></tr><tr><td><strong>Gerenciamento de Memória</strong></td><td>- Entender alocação de memória (malloc, calloc, free) - Aprender como evitar vazamentos de memória (conceito importante)</td><td>1 Semana</td><td>[ ]</td></tr></tbody></table>
 
+
+
+***
+
+
+
 O guia é organizado em secções que cobrem os principais conceitos da linguagem C:
 
 1. **Noções Básicas:** Apresenta as variáveis, tipos de dados, operadores, entrada e saída.
