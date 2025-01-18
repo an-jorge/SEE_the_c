@@ -11,3 +11,4 @@
 * [Introdução a variáveis](bascis/introducao-a-variaveis.md)
 * [Tipos de dados](bascis/tipos-de-dados.md)
 * [Operadores Matemáticos](bascis/operadores-matematicos.md)
+* [Operadores de Comparação](bascis/operadores-de-comparacao.md)
