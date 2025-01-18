@@ -76,4 +76,4 @@ const int MAX_LIFE = 5;
 * Experimente diferentes modificadores e conversões para obter a formatação desejada.
 * Consulte a documentação oficial das funções e bibliotecas para obter informações mais detalhadas.
 
-#### [Contribuições](https://github.com/an-jorge/Clang/blob/worker/contribution.md) <a href="#contribuicoes" id="contribuicoes"></a>
+#### [Contribuições](https://uuntu.gitbook.io/see-the-c/intro/guia-de-contribuicoes) <a href="#contribuicoes" id="contribuicoes"></a>
