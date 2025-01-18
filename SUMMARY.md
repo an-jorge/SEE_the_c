@@ -7,5 +7,5 @@
 
 ## Bascis
 
-* [Sumário](bascis/sumario.md)
+* [O básico da Línguagem](bascis/o-basico-da-linguagem.md)
 * [Introdução a variáveis](bascis/introducao-a-variaveis.md)
