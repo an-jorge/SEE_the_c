@@ -40,18 +40,6 @@ Esses tipos são construídos a partir dos tipos primitivos e permitem armazenar
 
 ***
 
-## &#x20;<a href="#operadores-matematicos" id="operadores-matematicos"></a>
-
-***
-
-## &#x20;<a href="#operadores-de-comparacao" id="operadores-de-comparacao"></a>
-
-***
-
-## &#x20;<a href="#operadores-atribuicao" id="operadores-atribuicao"></a>
-
-***
-
 ## Função `printf` <a href="#funcao-printf" id="funcao-printf"></a>
 
 A função `printf` é uma ferramenta essencial na linguagem C para exibir mensagens e dados na tela. Ela oferece flexibilidade para formatar a saída e apresentar informações.

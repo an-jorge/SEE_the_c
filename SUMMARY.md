@@ -14,3 +14,4 @@
 * [Operadores de Comparação](bascis/operadores-de-comparacao.md)
 * [Operadores atribuição](bascis/operadores-atribuicao.md)
 * [Ordem de precedência dos operadores](bascis/ordem-de-precedencia-dos-operadores.md)
+* [I/O Funções](bascis/i-o-funcoes.md)
