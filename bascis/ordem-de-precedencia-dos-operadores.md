@@ -26,3 +26,46 @@ Quando há operadores com a mesma precedência, a avaliação ocorre da esquerda
 
 
 
+Exemplo que demonstra a **precedência de operadores** :&#x20;
+
+#### **Exemplo de Código**
+
+{% code title="main.c" overflow="wrap" lineNumbers="true" %}
+````c
+```c
+#include <stdio.h>
+
+int main()
+{
+    int a = 10, b = 5, c = 2, result;
+
+    result = a + b * c; 
+    // Multiplicação (*) tem precedência sobre adição (+)
+    printf("Resultado 1: %d\n", result);
+
+    result = (a + b) * c; // Parênteses alteram a precedência
+    printf("Resultado 2: %d\n", result);
+    
+    result = a > b && b > c; 
+    // Operadores relacionais têm precedência sobre operadores lógicos
+    printf("Resultado 3: %d\n", result);
+
+    return 0;
+}
+
+```
+````
+{% endcode %}
+
+#### **Saída**
+
+```
+Resultado 1: 20
+Resultado 2: 30
+Resultado 3: 1
+
+```
+
+#### **Explicação**
+
+1.
