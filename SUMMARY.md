@@ -3,11 +3,12 @@
 ## Intro
 
 * [Prefácio](README.md)
-* [Bem-vindos a Jornada](<README (1).md>)
+* [A Jornada](intro/a-jornada.md)
 * [Guia de contribuições](intro/guia-de-contribuicoes.md)
 
 ## Capítulo 1: Bascis
 
+* [Ciclo de Desenvolvimento](capitulo-1-bascis/ciclo-de-desenvolvimento.md)
 * [O básico da Línguagem](capitulo-1-bascis/o-basico-da-linguagem.md)
 * [Introdução a variáveis](capitulo-1-bascis/introducao-a-variaveis.md)
 * [Tipos de dados](capitulo-1-bascis/tipos-de-dados.md)
