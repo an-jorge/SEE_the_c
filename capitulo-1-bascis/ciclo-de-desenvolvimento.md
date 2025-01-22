@@ -1,5 +1,7 @@
 # Ciclo de Desenvolvimento
 
+
+
 ## Algoritmos
 
 Desenvolver um aplicativo, um software desktop ou um website começa com o que chamamos de algoritmo expresso em uma linguagem de programação. Tudo que você já viu ou vai ver, desde a máquina de café a foguetes existe uma logica e um algoritmo. &#x20;
@@ -13,3 +15,7 @@ Os programas devem ser expressos usando regras consistentes para que os computad
 Esse "conversor" é chamado de **compilador**. Um compilador deve analisar um programa, converter a sintaxe e a semântica desse programa em estruturas internas e, em seguida, gerar código de linguagem de máquina com base nessas estruturas internas. Para um programador, a execução do código de linguagem de máquina gerado deve corresponder à semântica do programa de alto nível original.
 
 **Um compilador gera pedaços de código de máquina que precisam ser reunidos em um pacote executável**. Este pacote é normalmente construído por uma ferramenta de linker que coloca os pedaços do programador junto com qualquer código de sistema necessário. O resultado final é um pacote de vários pedaços de código e informações que permitirão que um sistema operacional comece a executar um programa.
+
+
+
+&#x20;**desenho de ciclo desenvolvimento /\*\*\*\*\***

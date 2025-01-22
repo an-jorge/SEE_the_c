@@ -2,7 +2,9 @@
 
 #### **Sobre**
 
-O guia see the C nasceu pelo interesse na linguagem e por querer registrar os meus estudos e do desejo de compartilhar com você o que aprendi ao longo dos anos. Se você já se sentiu perdido ou inseguro sobre algo, bem este guia é para você.
+O guia see the C nasceu pelo interesse na linguagem e por querer registrar os meus estudos e do desejo de compartilhar com você o que aprendi ao longo dos anos. Se você já se sentiu perdido ou inseguro sobre algo, bem este guia é para você.&#x20;
+
+Este guia é diferente por causa dos Exercícios e Projecto no final de cada capítulo. Começa pequeno faça as suas alterações, pratique bastante peça ajuda quando necessário as "respostas" estão disponibilizadas para você visualizar
 
 #### Objectivo
 
