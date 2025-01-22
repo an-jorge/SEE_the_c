@@ -2,15 +2,19 @@
 
 ## Obrigado pelo Interesse
 
+***
+
+
+
 Este é um guia em constante desenvolvimento. Se você tiver sugestões, correcções ou traduções de outros materiais relevantes para o aprendizado de C para este guia estou a utilizar português de Portugal, por favor, compartilhe-as para que o guia possa ser aprimorado e beneficiar mais pessoas.
 
 Este projecto completamente gratuito aceita contribuições via pull requests no GitHub. Este documento é responsável por alinhar as doações pelos padrões estabelecidos nele. Em caso de dúvida, [abra um issue](https://github.com/an-jorge/Clang/issues).
 
 ### Tipos de commit
 
-**Fix** - Você corrigiu algo ou um bug
+**Fix** - Você corrigiu um bug
 
-* Bug fixed
+* [ ] Bug fixed
 
 **New** - Você adicionou coisas novas
 
