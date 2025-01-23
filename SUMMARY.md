@@ -9,6 +9,7 @@
 ## Capítulo 1: Bascis
 
 * [Introdução a Linguagem C](capitulo-1-bascis/introducao-a-linguagem-c.md)
+* [Bit e byte](capitulo-1-bascis/bit-e-byte.md)
 * [Ciclo de Desenvolvimento](capitulo-1-bascis/ciclo-de-desenvolvimento.md)
 * [O básico da Línguagem](capitulo-1-bascis/o-basico-da-linguagem.md)
 * [Introdução a variáveis](capitulo-1-bascis/introducao-a-variaveis.md)
