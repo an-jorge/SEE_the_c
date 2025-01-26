@@ -16,6 +16,7 @@ Esse "conversor" é chamado de **compilador**. Um compilador deve analisar um pr
 
 **Um compilador gera pedaços de código de máquina que precisam ser reunidos em um pacote executável**. Este pacote é normalmente construído por uma ferramenta de linker que coloca os pedaços do programador junto com qualquer código de sistema necessário. O resultado final é um pacote de vários pedaços de código e informações que permitirão que um sistema operacional comece a executar um programa.
 
+***
 
+<figure><img src="../.gitbook/assets/Fluxo do processo.jpg" alt="Fluxo do processo"><figcaption><p><strong>Fluxo d﻿o processo em c</strong></p></figcaption></figure>
 
-&#x20;**desenho de ciclo desenvolvimento /\*\*\*\*\***
