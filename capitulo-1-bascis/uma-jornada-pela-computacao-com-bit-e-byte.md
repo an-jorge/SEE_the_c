@@ -28,5 +28,5 @@ Bits e bytes são os alicerces da informação digital. Ao entender esses concei
 
 **NÃO ESQUEÇA: Os computadores só entendem bits.** Toda a complexidade dos programas, desde simples cálculos até jogos e sistemas operacionais, no final é reduzida a sequências de 0s e 1s.
 
-Ao longo do tempo para facilitar a vida dos programadores, foram criadas **linguagens de programação** de alto nível, como Python, Java, C, C++ etc. Essas linguagens são mais próximas da linguagem humana o que os torna mais fáceis de entender e escrever.
+Ao longo do tempo para facilitar a vida dos programadores, foram criadas **linguagens de programação** de alto nível, como Python, Java, C++ etc. Essas linguagens são mais próximas da linguagem humana o que os torna mais fáceis de entender e escrever.
 
