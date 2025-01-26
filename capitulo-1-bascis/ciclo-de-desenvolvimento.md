@@ -1,7 +1,5 @@
 # Ciclo de Desenvolvimento
 
-
-
 ## Algoritmos
 
 Desenvolver um aplicativo, um software desktop ou um website começa com o que chamamos de algoritmo expresso em uma linguagem de programação. Tudo que você já viu ou vai ver, desde a máquina de café a foguetes existe uma logica e um algoritmo. &#x20;
@@ -18,5 +16,58 @@ Esse "conversor" é chamado de **compilador**. Um compilador deve analisar um pr
 
 ***
 
-<figure><img src="../.gitbook/assets/Fluxo do processo.jpg" alt="Fluxo do processo"><figcaption><p><strong>Fluxo d﻿o processo em c</strong></p></figcaption></figure>
+### **Fluxo de compilação de um programa em C**
 
+<div data-full-width="false"><figure><img src="../.gitbook/assets/Fluxo do processo.jpg" alt="Compilação de um programa em C "><figcaption><p><strong>Fluxo do processo de compilação de um programa em C</strong></p></figcaption></figure></div>
+
+***
+
+
+
+### Etapas do processo de compilação
+
+#### **1. Código-fonte (Escrita)**
+
+* O desenvolvedor escreve o programa em **linguagem C** e salva em um arquivo com extensão `.c`.
+  * Exemplo: `main.c`.
+
+#### **2. Preprocessamento**
+
+* O **preprocessador** (etapa inicial do compilador) executa instruções de diretivas, como `#include` e `#define`.
+  * Inclui arquivos de cabeçalho, como `<stdio.h>` ou `<math.h>`.
+  * Substitui macros (`#define`) por seus valores.
+  * Remove comentários e expande diretivas do tipo `#ifdef`.
+* O resultado é um arquivo intermediário com as diretivas processadas.
+
+#### **3. Compilação**
+
+* O **compilador** converte o código-fonte preprocessado em **código assembly** (um conjunto de instruções específicas para o processador da máquina).
+  * O código assembly é de baixo nível, próximo da linguagem de máquina, mas ainda legível por humanos.
+  * Exemplo: Um arquivo `.s` gerado.
+
+#### **4. Montagem**
+
+* O **montador** converte o código assembly em **código de máquina** (binário), gerando um arquivo objeto (`.o` ou `.obj`).
+  * Esse arquivo contém instruções binárias que o processador pode entender, mas ele ainda não é um programa executável, porque depende de outras partes (bibliotecas, funções, etc.).
+
+#### **5. Linkagem**
+
+* O **linker** junta o arquivo objeto gerado com outras bibliotecas e arquivos objeto necessários.
+  * Resolve referências entre funções e variáveis (exemplo: `printf()` é ligado à biblioteca padrão `libc`).
+  * Gera o programa final, que é um executável.
+  * O resultado é o arquivo **executável** (por exemplo, `programa.exe` no Windows ou `programa.out` no Linux).
+
+#### **6. Execução**
+
+* Após a linkagem, o programa compilado pode ser executado diretamente pelo sistema operacional.
+
+***
+
+### **Resumo das ferramentas envolvidas**
+
+* **Preprocessador:** Expande macros e inclui cabeçalhos.
+* **Compilador:** Converte para código assembly.
+* **Montador:** Gera código de máquina.
+* **Linker:** Junta tudo e resolve dependências.
+
+Ferramentas como o **GCC (GNU Compiler Collection)** seguem esse processo completo.
