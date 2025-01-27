@@ -36,3 +36,50 @@ Usam a sintaxe e conceitos de **C** como base:
   Desenvolvimento para Windows, web (ASP.NET) e jogos (Unity).
 * **Diferença para C:**\
   Sintaxe moderna, garbage collector e integração com o .NET Framework.
+
+4. **Java**
+
+* **O que é?**\
+  Inspirada pela sintaxe do C e do C++, mas é 100% **orientada a objetos** e roda em uma **Máquina Virtual Java (JVM)**.
+* **Usos:**\
+  Desenvolvimento web, aplicativos empresariais, Android, entre outros.
+* **Diferença para C:**\
+  Sem ponteiros e com gerenciamento automático de memória.
+
+5. **Python**
+
+* **O que é?**\
+  Embora seja de alto nível, sua implementação inicial foi feita em C (**CPython**) e sua sintaxe foi levemente inspirada por C.
+* **Usos:**\
+  Ciência de dados, inteligência artificial, automação, e desenvolvimento web.
+* **Diferença para C:**\
+  Sintaxe mais simples, tipagem dinâmica e foco na legibilidade.
+
+6. **Rust**
+
+* **O que é?**\
+  Uma linguagem moderna inspirada por C e C++, mas com foco em segurança de memória e performance.
+* **Usos:**\
+  Sistemas operacionais, webassembly e aplicações de alto desempenho.
+* **Diferença para C:**\
+  Sem ponteiros inseguros e com um sistema de "ownership" para evitar erros de memória.
+
+***
+
+#### **Sistemas operacionais baseados em C**
+
+Além das linguagens, o C é a base para muitos sistemas operacionais, como:
+
+* **UNIX**: Originalmente escrito em C.
+* **Linux**: O kernel é escrito em C.
+* **Android:**&#x20;
+  * O Android é construído sobre o[ **kernel Linux**](#user-content-fn-1)[^1], que é escrito predominantemente em **C**.
+  * O kernel é responsável por:
+    * Gerenciar hardware (CPU, memória, armazenamento, etc.).
+    * Controlar processos, segurança e drivers.
+  * Como o Android utiliza o Linux, toda a interação de [baixo nível](#user-content-fn-2)[^2] depende diretamente de C.
+* **Windows**: Grandes partes foram implementadas em C.
+
+[^1]: O kernel é o **cérebro do sistema operacional**, controlando tudo o que acontece entre o hardware e os programas. Sem ele, nada funcionaria.
+
+[^2]: **Baixo nível** se refere a uma proximidade maior do **hardware** e das operações internas do computador. As linguagens ou sistemas de baixo nível lidam diretamente com os componentes da máquina, como processador, memória e dispositivos.
