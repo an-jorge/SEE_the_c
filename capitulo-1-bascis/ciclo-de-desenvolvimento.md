@@ -71,3 +71,21 @@ Esse "conversor" é chamado de **compilador**. Um compilador deve analisar um pr
 * **Linker:** Junta tudo e resolve dependências.
 
 Ferramentas como o **GCC (GNU Compiler Collection)** seguem esse processo completo.
+
+***
+
+
+
+## **Como funciona a programação?**
+
+\
+
+
+{% embed url="https://www.blip.ai/blog/wp-content/uploads/2022/08/linguagens_de_programacao_mais_usadas_img1.webp" %}
+**como funciona a programação?**
+{% endembed %}
+
+
+
+
+
