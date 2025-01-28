@@ -80,6 +80,14 @@ Além das linguagens, o C é a base para muitos sistemas operacionais, como:
   * Como o Android utiliza o Linux, toda a interação de [baixo nível](#user-content-fn-2)[^2] depende diretamente de C.
 * **Windows**: Grandes partes foram implementadas em C.
 
+***
+
+
+
+### [TIOBE Index for January 2025](https://www.tiobe.com/tiobe-index/)
+
+
+
 [^1]: O kernel é o **cérebro do sistema operacional**, controlando tudo o que acontece entre o hardware e os programas. Sem ele, nada funcionaria.
 
 [^2]: **Baixo nível** se refere a uma proximidade maior do **hardware** e das operações internas do computador. As linguagens ou sistemas de baixo nível lidam diretamente com os componentes da máquina, como processador, memória e dispositivos.
