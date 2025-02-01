@@ -1,0 +1,178 @@
+# Função
+
+Na programação funções são blocos de código reutilizáveis que ajudam a organizar um programa e evitar repetição de código.&#x20;
+
+Ao invés de repetir o mesmo código várias vezes, você pode escrever uma função e simplesmente chamá-la sempre que precisar, Isso é o poder de funções.
+
+A linguagem incorpora muitas funções que facilita a vida de programadores ao longo da sua leitura conheceras muitas outras funções
+
+### **Estrutura de uma Função**
+
+Uma função normalmente tem:\
+1️**Nome** – Para ser chamada dentro do código.\
+2️**Parâmetros (opcionais)** – Entrada de dados.\
+3️**Código executável** – O que a função faz.\
+4️**Retorno (opcional)** – O que a função devolve ao chamador.
+
+{% code title="main.c" overflow="wrap" fullWidth="false" %}
+```c
+#include <stdio.h>  // Biblioteca padrão de entrada e saída
+
+int main()  // Função principal do programa
+{
+    printf("Hello World");  // Exibe "Hello World" na tela
+
+    return 0;  // Indica que o programa foi executado com sucesso
+}
+
+```
+{% endcode %}
+
+
+
+## Função `printf` <a href="#funcao-printf" id="funcao-printf"></a>
+
+A função `printf` é uma ferramenta essencial na linguagem C para exibir mensagens e dados na tela. Ela oferece flexibilidade para formatar a saída e apresentar informações.
+
+```c
+printf(format_string, argument1, argument2);
+```
+
+**Componentes:**
+
+* `format_string`: Uma string que define o layout da saída, incluindo texto e especificadores de formato.
+* `argument1, argument2, ...`: Uma lista variável de argumentos que fornecem os dados a serem impressos.
+
+```c
+printf("Olá, mundo!\n"); // Exibe a mensagem "Olá, mundo!"
+printf("O valor de x é %d\n", 10); // Exibe "O valor de x é 10"
+printf("Nome: %s, Idade: %d\n", "João", 30); // Exibe "Nome: João, Idade: 30"
+```
+
+### Especificadores de formato <a href="#especificadores-de-formato" id="especificadores-de-formato"></a>
+
+Os especificadores de formato determinam como os argumentos serão formatados e exibidos na tela, em funções como `printf()` e `scanf()`. Alguns dos mais comuns incluem:
+
+*
+  1. `%d`: Inteiro decimal
+  2. `%ld`: Longo inteiro decimal
+  3. `%f`: Ponto flutuante
+  4. `%lf`: Duplo ponto flutuante
+  5. `%c`: carácter
+  6. `%s`: String
+  7. `%x` ou `%X`: Inteiro hexadecimal
+  8. `%o`: Inteiro octal
+  9. `%u`: Inteiro sem sinal
+  10. `%p`: Ponteiro
+  11. `%%`: carácter de percentagem (para imprimir um símbolo de percentagem)
+
+```c
+printf("Olá, mundo!\n"); // Exibe a mensagem "Olá, mundo!"
+printf("O valor de x é %d\n", 10); // Exibe "O valor de x é 10"
+printf("Nome: %s, Idade: %d\n", "João", 30); // Exibe "Nome: João, Idade: 30"
+```
+
+**Formatação adicional:**
+
+A função `printf` oferece opções avançadas para formatar a saída, como:
+
+* Especificar a largura e justificação dos campos de texto.
+* Definir a precisão de casas decimais para números de ponto flutuante.
+* Usar modificadores de tipo de dados para garantir a correspondência correta entre especificadores e argumentos.
+
+### Sequências de escape em C <a href="#sequencias-de-escape-em-c" id="sequencias-de-escape-em-c"></a>
+
+1. : Nova linha
+2. : Tabulação horizontal
+3. : Retorno de carro (move o cursor para o início da linha)
+4. `\\`: Barra invertida (usada para representar uma barra invertida literal)
+5. `\"`: Aspas duplas (usada para representar aspas duplas literais dentro de uma string)
+6. `\'`: Apóstrofo (usado para representar um apóstrofo literal dentro de uma string)
+7. `\b`: Retrocesso (move o cursor uma posição para trás)
+8. `\f`: Avanço de página (usado para mover o cursor para a próxima página)
+9. `\v`: Tabulação vertical
+10. `\a`: Alerta sonoro (produz um som de alerta)
+11. `\0`: carácter nulo (termina uma string)
+
+Estes são apenas alguns dos especificadores de formato básicos. Existem outros modificadores que podem ser usados com esses especificadores para controlar a precisão, largura do campo, preenchimento, alinhamento e muito mais.
+
+### Função `scanf_s` <a href="#funcao-scanf_s" id="funcao-scanf_s"></a>
+
+`scanf_s` é uma versão alternativa e mais segura da função `scanf` introduzida no padrão C11 (2011) e em bibliotecas C seguras como Microsoft Secure CRT. Ela oferece recursos para mitigar os problemas de segurança associados ao `scanf` tradicional, mas nem sempre está disponível em todos os ambientes de desenvolvimento.
+
+**Vantagens de segurança do scanf\_s:**
+
+* **Verificação de tamanho:** Ao especificar o tamanho máximo do buffer de destino como argumento adicional, `scanf_s` ajuda a prevenir estouro de buffer.
+* **Validação de tipo (opcional):** Dependendo da implementação, `scanf_s` pode realizar verificações de tipo opcionais para garantir que os dados lidos correspondam ao tipo de variável esperado.
+* **Retorno de erro:** `scanf_s` retorna códigos de erro específicos para indicar problemas durante a leitura, auxiliando no tratamento de excepções.
+
+```c
+#include <stdio.h>
+
+int main() 
+{
+  char name[50];
+  int idade;
+
+  printf("Digite seu nome: ");
+  scanf_s("%s", nome, sizeof(name));
+  printf("Digite sua idade: ");
+  scanf_s("%d", &idade, sizeof(idade));
+  printf("Nome: %s, Idade: %d\n", name, idade);
+
+  return 0;
+}
+```
+
+### Scanf\_s ambas plataformas <a href="#scanf_s-ambas-plataformas" id="scanf_s-ambas-plataformas"></a>
+
+**`scanf_s`**, não está disponível em sistemas Linux porque faz parte de uma extensão de segurança usada no Microsoft Visual Studio, e não faz parte do padrão C.
+
+**Observações Scanf**
+
+* **`scanf_s`** é exclusivo do Microsoft Visual Studio e Windows, enquanto `scanf` é amplamente suportado em qualquer compilador compatível com C (incluindo Linux, GCC, Clang, etc.).
+* Usar diretivas de pré-processador permite que o código se adapte automaticamente ao sistema onde está sendo compilado, tornando-o portável entre Windows e Linux.
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    float height = 0.0;
+
+#ifdef _WIN32
+    // Se estiver no Windows, usa scanf_s
+    printf("Enter your height: ");
+    scanf_s("%f", &height);
+#else
+    // Para Linux e outros sistemas, usa scanf
+    printf("Enter your height: ");
+    scanf("%f", &height);
+#endif
+
+    printf("The height: %.2f\n", height);
+    return 0;
+}
+```
+
+**Por que `_WIN32` funciona no Windows de 64 bits?**
+
+O nome **`_WIN32`** é um resquício histórico da época em que o Windows 32 bits era introduzido, mas foi mantido por razões de compatibilidade. Mesmo em ambientes de 64 bits, essa macro é definida para indicar que o sistema operacional é Windows, independentemente da arquitectura.
+
+Se você quiser especificamente verificar se está em um sistema **Windows de 64 bits**, pode usar a macro **`_WIN64`**, que **apenas** é definida em sistemas Windows de 64 bits. Assim, se você precisa distinguir entre sistemas de 32 bits e 64 bits no Windows, pode usar as duas macros:
+
+```c
+#include <stdio.h>
+
+int main() {
+    #ifdef _WIN64
+        printf("Sistema Windows 64 bits\n");
+    #elif _WIN32
+        printf("Sistema Windows 32 bits\n");
+    #else
+        printf("Sistema não é Windows\n");
+    #endif
+
+    return 0;
+}
+```

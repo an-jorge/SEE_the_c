@@ -1,8 +1,10 @@
-# Introdução a variáveis
+# Compreendendo variáveis
 
 ## Variáveis <a href="#variaveis" id="variaveis"></a>
 
 Variáveis são elementos fundamentais para armazenar e manipular dados durante a execução de um programa. Elas permitem que você represente valores e associe-os a identificadores únicos para uso posterior. Antes de usar uma variável, é necessário declará-la. A declaração informa ao compilador o tipo de dado que a variável armazenará e aloca memória para ela.
+
+
 
 <figure><img src="../.gitbook/assets/RAM memory.jpg" alt="Memoria RAM"><figcaption><p>RAM Memory</p></figcaption></figure>
 
@@ -41,7 +43,7 @@ char letter; // Declara uma variável do tipo caractere chamada 'letter'
 
 Além desses, C também suporta modificadores de tipo, como `unsigned` para indicar que um número inteiro não deve ser negativo, e `signed` para indicar que um número inteiro pode ser positivo ou negativo (o qual é implícito para tipos inteiros).
 
-#### Variáveis imutáveis <a href="#variaveis-imutaveis" id="variaveis-imutaveis"></a>
+### Variáveis imutáveis <a href="#variaveis-imutaveis" id="variaveis-imutaveis"></a>
 
 Embora que as variaveis podem ser alteradas na programação temos variáveis imutáveis aquelas que não pode ser alteradas depois de declaradas. Em C, `#define` e `const` são usados para finalidades semelhantes (definir valores constantes), mas são conceitos diferentes e têm nomes específicos:
 
@@ -65,14 +67,14 @@ const weightMax 100
 
 Aqui, `weightMax` é uma variável do tipo `int` que não pode ser modificada. Diferente de `#define`, ela tem um tipo definido (neste caso `int`) e o compilador faz a verificação de tipo.
 
-#### Diferenças entre `#define` e `const` <a href="#diferencas-entre-define-e-const" id="diferencas-entre-define-e-const"></a>
+## Diferenças entre `#define` e `const` <a href="#diferencas-entre-define-e-const" id="diferencas-entre-define-e-const"></a>
 
 1. **Tempo de avaliação**: O `#define` é processado pelo pré-processador antes da compilação, enquanto `const` é avaliado durante a compilação.
 2. **Tipo**: Uma macro `#define` não possui tipo, enquanto uma variável `const` é do tipo especificado (como `int`, `float`, etc.).
 3. **Escopo e visibilidade**: As variáveis `const` seguem as regras de escopo da linguagem C (local ou global), enquanto macros `#define` têm escopo global, a menos que sejam usadas dentro de directivas condicionais.
 4. **Segurança**: `const` é mais seguro, já que está sob controle do compilador, com verificação de tipos.
 
-#### Características <a href="#caracteristicas" id="caracteristicas"></a>
+### Características <a href="#caracteristicas" id="caracteristicas"></a>
 
 * **Não ocupa memória**: Diferente de variáveis, `#define` não ocupa espaço de memória, já que a substituição ocorre antes da compilação.
 * **Sem tipo**: Como é uma substituição de texto, não tem tipo definido. É importante tomar cuidado com tipos e precedências ao usar macros.
