@@ -4,7 +4,7 @@
 
 Em C, os tipos de dados são categorias que definem o tipo e o tamanho da informação que pode ser armazenada em uma variável. Eles podem ser classificados em **tipos primitivos**, **modificadores de tipo** e **tipos derivados**. Aqui está uma visão geral:
 
-#### **1. Tipos primitivos (ou básicos):** <a href="#id-1-tipos-primitivos-ou-basicos" id="id-1-tipos-primitivos-ou-basicos"></a>
+### **1. Tipos primitivos (ou básicos):** <a href="#id-1-tipos-primitivos-ou-basicos" id="id-1-tipos-primitivos-ou-basicos"></a>
 
 Estes são os tipos de dados fundamentais que vêm com a linguagem:
 
@@ -12,7 +12,7 @@ Estes são os tipos de dados fundamentais que vêm com a linguagem:
 
 ***
 
-#### **2. Modificadores de tipo:** <a href="#id-2-modificadores-de-tipo" id="id-2-modificadores-de-tipo"></a>
+### **2. Modificadores de tipo:** <a href="#id-2-modificadores-de-tipo" id="id-2-modificadores-de-tipo"></a>
 
 Esses modificadores ajustam o tamanho ou o comportamento de tipos primitivos. Eles incluem:
 
@@ -26,15 +26,17 @@ Esses modificadores ajustam o tamanho ou o comportamento de tipos primitivos. El
 
 ***
 
-#### **3. Tipos derivados:** <a href="#id-3-tipos-derivados" id="id-3-tipos-derivados"></a>
+### **3. Tipos derivados:** <a href="#id-3-tipos-derivados" id="id-3-tipos-derivados"></a>
 
 Esses tipos são construídos a partir dos tipos primitivos e permitem armazenar colecções de valores ou criar estruturas mais complexas.
 
 <table data-full-width="false"><thead><tr><th>Tipo</th><th>Descrição</th></tr></thead><tbody><tr><td><strong>Array</strong></td><td>Colecção de elementos do mesmo tipo.</td></tr><tr><td><strong>Pointer</strong></td><td>Armazena o endereço de uma variável.</td></tr><tr><td><strong>Struct</strong></td><td>Agrupa diferentes tipos de dados.</td></tr><tr><td><strong>Union</strong></td><td>Semelhante à <code>struct</code>, mas compartilha o mesmo espaço de memória.</td></tr><tr><td><strong>Enum</strong></td><td>Define um conjunto de valores constantes inteiros.</td></tr></tbody></table>
 
+
+
 ***
 
-#### **Resumo da classificação:** <a href="#resumo-da-classificacao" id="resumo-da-classificacao"></a>
+### **Resumo da classificação:** <a href="#resumo-da-classificacao" id="resumo-da-classificacao"></a>
 
 <table data-header-hidden data-full-width="false"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Categoria</strong></td><td><strong>Exemplos</strong></td></tr><tr><td><strong>Primitivos</strong></td><td><code>int</code>, <code>char</code>, <code>float</code>, <code>double</code>, <code>void</code></td></tr><tr><td><strong>Modificados</strong></td><td><code>signed</code>, <code>unsigned</code>, <code>short</code>, <code>long</code></td></tr><tr><td><strong>Derivados</strong></td><td><code>array</code>, <code>pointer</code>, <code>struct</code>, <code>union</code>, <code>enum</code></td></tr><tr><td><strong>Definidos pelo usuário</strong></td><td><code>typedef</code>, <code>enum</code>, <code>struct</code></td></tr></tbody></table>
 
