@@ -26,13 +26,11 @@ Uma função normalmente tem:\
 
 {% code title="main.c" overflow="wrap" fullWidth="false" %}
 ```c
-#include <stdio.h>  // Biblioteca padrão de entrada e saída
-
-int main()  // Função principal do programa
+#include <stdio.h> 
+int main()
 {
     printf("Hello World");  // Exibe "Hello World" na tela
-
-    return 0;  // Indica que o programa foi executado com sucesso
+    return 0;
 }
 
 ```
@@ -88,10 +86,6 @@ void show_name(char nome[]) {
 
 
 
-
-
-## Função `printf` <a href="#funcao-printf" id="funcao-printf"></a>
-
 A função `printf` é uma ferramenta essencial na linguagem C para exibir mensagens e dados na tela. Ela oferece flexibilidade para formatar a saída e apresentar informações.
 
 ```c
@@ -103,36 +97,35 @@ printf(format_string, argument1, argument2);
 * `format_string`: Uma string que define o layout da saída, incluindo texto e especificadores de formato.
 * `argument1, argument2, ...`: Uma lista variável de argumentos que fornecem os dados a serem impressos.
 
+
+
+***
+
+
+
+## Especificadores de formato <a href="#especificadores-de-formato" id="especificadores-de-formato"></a>
+
+Para explorar o poder da linguagem e como os nossos programas pode ser interesentes precisamos antes entender os especificadores de formato como determinar argumentos como serão formatados e exibidos na tela, alguns dos mais comuns incluem:
+
+1. `%d`: Inteiro decimal
+2. `%ld`: Longo inteiro decimal
+3. `%f`: Ponto flutuante (números com vírgula)
+4. `%lf`: Duplo ponto flutuante
+5. `%c`: Carácter
+6. `%s`: String
+7. `%x` ou `%X`: Inteiro hexadecimal
+8. `%o`: Inteiro octal
+9. `%u`: Inteiro sem sinal
+10. `%p`: Ponteiro
+11. `%%`: carácter de percentagem (para imprimir um símbolo de percentagem)
+
 ```c
 printf("Olá, mundo!\n"); // Exibe a mensagem "Olá, mundo!"
 printf("O valor de x é %d\n", 10); // Exibe "O valor de x é 10"
 printf("Nome: %s, Idade: %d\n", "João", 30); // Exibe "Nome: João, Idade: 30"
 ```
 
-### Especificadores de formato <a href="#especificadores-de-formato" id="especificadores-de-formato"></a>
-
-Os especificadores de formato determinam como os argumentos serão formatados e exibidos na tela, em funções como `printf()` e `scanf()`. Alguns dos mais comuns incluem:
-
-*
-  1. `%d`: Inteiro decimal
-  2. `%ld`: Longo inteiro decimal
-  3. `%f`: Ponto flutuante
-  4. `%lf`: Duplo ponto flutuante
-  5. `%c`: carácter
-  6. `%s`: String
-  7. `%x` ou `%X`: Inteiro hexadecimal
-  8. `%o`: Inteiro octal
-  9. `%u`: Inteiro sem sinal
-  10. `%p`: Ponteiro
-  11. `%%`: carácter de percentagem (para imprimir um símbolo de percentagem)
-
-```c
-printf("Olá, mundo!\n"); // Exibe a mensagem "Olá, mundo!"
-printf("O valor de x é %d\n", 10); // Exibe "O valor de x é 10"
-printf("Nome: %s, Idade: %d\n", "João", 30); // Exibe "Nome: João, Idade: 30"
-```
-
-**Formatação adicional:**
+### **Formatação adicional:**
 
 A função `printf` oferece opções avançadas para formatar a saída, como:
 
@@ -140,11 +133,19 @@ A função `printf` oferece opções avançadas para formatar a saída, como:
 * Definir a precisão de casas decimais para números de ponto flutuante.
 * Usar modificadores de tipo de dados para garantir a correspondência correta entre especificadores e argumentos.
 
-### Sequências de escape em C <a href="#sequencias-de-escape-em-c" id="sequencias-de-escape-em-c"></a>
 
-1. : Nova linha
-2. : Tabulação horizontal
-3. : Retorno de carro (move o cursor para o início da linha)
+
+## Sequências de escape em C <a href="#sequencias-de-escape-em-c" id="sequencias-de-escape-em-c"></a>
+
+***
+
+
+
+As sequências de escape são combinações de caracteres que começam com uma barra invertida (`\`) e são usadas para representar caracteres especiais ou ações específicas em strings e caracteres. Elas são úteis para incluir caracteres que não podem ser digitados diretamente ou para controlar a formatação de saída.
+
+1. `\n`: Nova linha
+2. `\t`: Tabulação horizontal
+3. `\r`: Retorno de carro (move o cursor para o início da linha)
 4. `\\`: Barra invertida (usada para representar uma barra invertida literal)
 5. `\"`: Aspas duplas (usada para representar aspas duplas literais dentro de uma string)
 6. `\'`: Apóstrofo (usado para representar um apóstrofo literal dentro de uma string)
@@ -153,6 +154,8 @@ A função `printf` oferece opções avançadas para formatar a saída, como:
 9. `\v`: Tabulação vertical
 10. `\a`: Alerta sonoro (produz um som de alerta)
 11. `\0`: carácter nulo (termina uma string)
+12. `\ooo` - Caractere Octal
+13. `\xhh` - Caractere Hexadecimal
 
 Estes são apenas alguns dos especificadores de formato básicos. Existem outros modificadores que podem ser usados com esses especificadores para controlar a precisão, largura do campo, preenchimento, alinhamento e muito mais.
 
