@@ -20,6 +20,8 @@ Uma função normalmente tem:\
 
 <figure><img src="../.gitbook/assets/My First Board (1).jpg" alt=""><figcaption></figcaption></figure>
 
+***
+
 
 
 {% code title="main.c" overflow="wrap" fullWidth="false" %}
@@ -35,6 +37,28 @@ int main()  // Função principal do programa
 
 ```
 {% endcode %}
+
+***
+
+
+
+### **Tipos de Funções**
+
+As funções podem ser classificadas principalmente com base em dois critérios: **tipo de retorno** e **presença de parâmetros.** Veremos as principais razões para uma função ter retorno.
+
+1. **Comunicação de Resultados**: O retorno permite que a função comunique o resultado de sua execução para o chamador. Isso é essencial para funções que realizam cálculos, verificações ou processamentos, onde o resultado precisa ser utilizado posteriormente.
+2. **Controle de Fluxo**: O valor de retorno pode ser usado para indicar sucesso, falha ou diferentes estados de execução, permitindo que o programa tome decisões com base no que a função realizou. Por exemplo, muitas funções retornam `0` para indicar sucesso e valores diferentes de `0` para indicar erros.
+3. **Conformidade com Protótipos**: Em C, o tipo de retorno da função é parte de sua assinatura. Se uma função é declarada para retornar um valor (por exemplo, `int`, `float`, `char*`, etc.), ela deve retornar um valor compatível com esse tipo. Funções que não retornam nada devem ser declaradas com `void`.
+
+
+
+1. **Função sem retorno e sem parâmetros**
+
+```c
+void hello_message() {
+    printf("Bem-vindo ao sistema!\n");
+}
+```
 
 
 
