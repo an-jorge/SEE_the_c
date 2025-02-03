@@ -17,7 +17,7 @@ O operador de atribuição básico é o sinal de igual (`=`), mas existem també
 6. **Atribuição com módulo:** `%=`
    * Calcula o módulo do valor à esquerda pela variável à direita e atribui o resultado à variável à esquerda.
 
-{% code title="main.c" overflow="wrap" fullWidth="true" %}
+{% code title="main.c" fullWidth="false" %}
 ```c
 int x = 10;
 x += 5;     // x agora é 15 (10 + 5)

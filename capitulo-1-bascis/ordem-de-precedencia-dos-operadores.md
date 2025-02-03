@@ -30,7 +30,7 @@ Exemplo que demonstra a **precedência de operadores** :&#x20;
 
 #### **Exemplo de Código**
 
-{% code title="main.c" overflow="wrap" lineNumbers="true" %}
+{% code title="main.c" overflow="wrap" %}
 ````c
 ```c
 #include <stdio.h>
