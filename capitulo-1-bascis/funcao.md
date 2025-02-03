@@ -55,10 +55,38 @@ As funções podem ser classificadas principalmente com base em dois critérios:
 1. **Função sem retorno e sem parâmetros**
 
 ```c
-void hello_message() {
+void hello_message()
+{
     printf("Bem-vindo ao sistema!\n");
 }
 ```
+
+***
+
+2. &#x20; **Função com retorno e sem parâmetros**
+
+```c
+void get_number()
+{
+    return 44;
+}
+```
+
+***
+
+
+
+3. &#x20;**Função sem retorno e com parâmetros**
+
+```c
+void show_name(char nome[]) {
+    printf("Olá, %s!\n", nome);
+}
+```
+
+***
+
+
 
 
 
