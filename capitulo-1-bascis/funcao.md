@@ -159,7 +159,13 @@ As sequências de escape são combinações de caracteres que começam com uma b
 
 Estes são apenas alguns dos especificadores de formato básicos. Existem outros modificadores que podem ser usados com esses especificadores para controlar a precisão, largura do campo, preenchimento, alinhamento e muito mais.
 
-### Função `scanf_s` <a href="#funcao-scanf_s" id="funcao-scanf_s"></a>
+
+
+***
+
+
+
+## Função `scanf_s` <a href="#funcao-scanf_s" id="funcao-scanf_s"></a>
 
 `scanf_s` é uma versão alternativa e mais segura da função `scanf` introduzida no padrão C11 (2011) e em bibliotecas C seguras como Microsoft Secure CRT. Ela oferece recursos para mitigar os problemas de segurança associados ao `scanf` tradicional, mas nem sempre está disponível em todos os ambientes de desenvolvimento.
 
@@ -169,23 +175,27 @@ Estes são apenas alguns dos especificadores de formato básicos. Existem outros
 * **Validação de tipo (opcional):** Dependendo da implementação, `scanf_s` pode realizar verificações de tipo opcionais para garantir que os dados lidos correspondam ao tipo de variável esperado.
 * **Retorno de erro:** `scanf_s` retorna códigos de erro específicos para indicar problemas durante a leitura, auxiliando no tratamento de excepções.
 
+Vamos fazer um conjunto de bricandeiras com a funções `scanf` e `print`
+
+{% code title="main.c" overflow="wrap" %}
 ```c
 #include <stdio.h>
 
 int main() 
 {
   char name[50];
-  int idade;
+  int age;
 
   printf("Digite seu nome: ");
   scanf_s("%s", nome, sizeof(name));
   printf("Digite sua idade: ");
-  scanf_s("%d", &idade, sizeof(idade));
-  printf("Nome: %s, Idade: %d\n", name, idade);
+  scanf_s("%d", &age, sizeof(age));
+  printf("Nome: %s, Idade: %d\n", name, age);
 
   return 0;
 }
 ```
+{% endcode %}
 
 ### Scanf\_s ambas plataformas <a href="#scanf_s-ambas-plataformas" id="scanf_s-ambas-plataformas"></a>
 
@@ -218,9 +228,9 @@ int main()
 }
 ```
 
-**Por que `_WIN32` funciona no Windows de 64 bits?**
+### **Por que `_WIN32` funciona no Windows de 64 bits?**
 
-O nome **`_WIN32`** é um resquício histórico da época em que o Windows 32 bits era introduzido, mas foi mantido por razões de compatibilidade. Mesmo em ambientes de 64 bits, essa macro é definida para indicar que o sistema operacional é Windows, independentemente da arquitectura.
+Se você o seu computador for um 64 bit esta duvida pode surgir, entretanto saiba que o nome **`_WIN32`** é um resquício histórico da época em que o Windows 32 bits era introduzido, mas foi mantido por razões de compatibilidade. Mesmo em ambientes de 64 bits, essa macro é definida para indicar que o sistema operacional é Windows, independentemente da arquitectura.
 
 Se você quiser especificamente verificar se está em um sistema **Windows de 64 bits**, pode usar a macro **`_WIN64`**, que **apenas** é definida em sistemas Windows de 64 bits. Assim, se você precisa distinguir entre sistemas de 32 bits e 64 bits no Windows, pode usar as duas macros:
 
