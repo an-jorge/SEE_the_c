@@ -14,6 +14,14 @@ Uma função normalmente tem:\
 3️**Código executável** – O que a função faz.\
 4️**Retorno (opcional)** – O que a função devolve ao chamador.
 
+***
+
+
+
+<figure><img src="../.gitbook/assets/My First Board (1).jpg" alt=""><figcaption></figcaption></figure>
+
+
+
 {% code title="main.c" overflow="wrap" fullWidth="false" %}
 ```c
 #include <stdio.h>  // Biblioteca padrão de entrada e saída
