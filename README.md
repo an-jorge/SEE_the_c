@@ -2,9 +2,9 @@
 
 #### **Sobre**
 
-O guia see the C nasceu pelo interesse na linguagem e por querer registrar os meus estudos e do desejo de compartilhar com você o que aprendi ao longo dos anos. Se você já se sentiu perdido ou inseguro sobre algo, bem este guia é para você.&#x20;
+O guia **See the C** nasceu pelo interesse na linguagem e por querer registrar os meus estudos e do desejo de compartilhar com você o que aprendi ao longo dos anos. Se você já se sentiu perdido ou inseguro sobre algo, bem este guia é para você.&#x20;
 
-Este guia é diferente por causa dos Exercícios e Projecto no final de cada capítulo. Começa pequeno faça as suas alterações, pratique bastante peça ajuda quando necessário as "respostas" estão disponibilizadas para você visualizar
+Este guia é diferente por causa dos exercícios e Projecto no final de cada capítulo. Começa pequeno faça as suas alterações, pratique bastante [peça ajuda](https://github.com/an-jorge/Clang/issues) quando necessário as "respostas" estão disponibilizadas para você visualizar.
 
 #### Objectivo
 
@@ -18,5 +18,5 @@ Ao longo dos próximos capítulos, você encontrará detalhes, dicas, reflexões
 
 #### Agradecimentos
 
-Este é um trabalho que reflecte minha jornada pessoal, e espero que você o encare como um companheiro na sua própria trajectória. Agradeço a todos que me apoiaram nesse processo e, principalmente, a você, leitor, por investir seu tempo nesta leitura.
+Este é um trabalho que reflecte minha jornada pessoal, e espero que você o encare como um companheiro na sua própria trajectória. Agradeço a todos que me apoiaram nesse processo e, principalmente a você leitor, por investir seu tempo nesta leitura.
 

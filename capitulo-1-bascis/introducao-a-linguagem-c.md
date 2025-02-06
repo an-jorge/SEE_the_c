@@ -66,7 +66,7 @@ Usam a sintaxe e conceitos de **C** como base:
 
 ***
 
-#### **Sistemas operacionais baseados em C**
+### **Sistemas operacionais baseados em C**
 
 Além das linguagens, o C é a base para muitos sistemas operacionais, como:
 
@@ -84,7 +84,7 @@ Além das linguagens, o C é a base para muitos sistemas operacionais, como:
 
 
 
-### [TIOBE Index for January 2025](https://www.tiobe.com/tiobe-index/)
+## [TIOBE Index for January 2025](https://www.tiobe.com/tiobe-index/)
 
 
 
