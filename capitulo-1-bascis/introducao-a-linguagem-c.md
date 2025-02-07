@@ -4,7 +4,7 @@
 
 C é uma linguagem poderosa e flexível, ideal para desenvolvimento de baixo nível e aplicações que exigem desempenho optimizado. Embora exigente em termos de gerenciamento de memória e complexidade, seu aprendizado é fundamental para quem deseja entender profundamente como o computador e a programação funcionam.
 
-Desenvolvida por Dennis Ritchie no início dos anos 1970 na AT\&T Bell Labs. Ela é amplamente utilizada devido à sua eficiência, flexibilidade e controle detalhado sobre o hardware, C é considerada uma linguagem de baixo nível em relação a outras linguagens modernas, o que a torna ideal para o desenvolvimento de sistemas, aplicativos e software que exigem alta performance.
+Desenvolvida por **Dennis Ritchie** no início dos anos 1970 na AT\&T Bell Labs. Ela é amplamente utilizada devido à sua eficiência, flexibilidade e controle detalhado sobre o hardware, C é considerada uma linguagem de baixo nível em relação a outras linguagens modernas, o que a torna ideal para o desenvolvimento de sistemas, aplicativos e software que exigem alta performance.
 
 Popularmente a linguagem C é chamada de "**mãe**" das linguagens modernas porque influenciou muitas linguagens que vieram depois. Pela eficiencia, flexíbilidade e impacto enorme no desenvolvimento de software. Abaixo algumas linguagens que foram diretamente derivadas ou fortemente influenciadas por **C**:
 

@@ -1,6 +1,6 @@
 # Operadores matemáticos
 
-## Sobre os operadores matemáticos <a href="#operadores-matematicos" id="operadores-matematicos"></a>
+Sobre os operadores matemáticos
 
 Operadores matemáticos são símbolos usados na linguagem C para realizar cálculos com variáveis e valores numéricos. Eles se comportam de maneira similar aos operadores matemáticos que você já conhece da álgebra.
 
@@ -50,6 +50,10 @@ int soma = c1 + c2; // soma será igual a 131 (valor ASCII de 'A' + valor ASCII 
 ***
 
 ### Subtracção: `-`
+
+***
+
+
 
 
 
