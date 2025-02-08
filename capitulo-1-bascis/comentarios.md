@@ -71,9 +71,9 @@ int main() {
 
 
 {% hint style="danger" %}
-### Desafio Relâmpago (Lightning Round)
+### Lightning Round ⚡️
 
-_CP1\_Challenge commit_
+#### _CP1\_Challenge commit_
 
 * Use uma mistura de comentários de uma única linha e comentários de várias linhas.
 {% endhint %}
