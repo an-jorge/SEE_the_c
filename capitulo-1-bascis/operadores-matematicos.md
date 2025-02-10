@@ -12,7 +12,7 @@ Operadores matemáticos são símbolos usados na linguagem C para realizar cálc
 6. Incremento: `++`
 7. Decremento: `--`
 
-### Adição `+`
+### 1.  Adição `+`
 
 Na programação de forma geral, o operador de adição é o símbolo **+**. Ele é usado para somar dois ou mais valores, sejam eles números inteiros, números de ponto flutuante ou até mesmo caracteres.
 
@@ -41,19 +41,60 @@ int soma = c1 + c2; // soma será igual a 131 (valor ASCII de 'A' + valor ASCII 
 
 
 
+***
+
+
+
+{% hint style="info" %}
+\
 **Observações importantes:**
 
 * O operador de adição pode ser usado com qualquer tipo de dado numérico em C, incluindo `int`, `float`, `double`, `char`, etc.
 * Quando os operandos são de tipos diferentes, o C realiza conversões automáticas para um tipo comum antes de realizar a soma.
 * O operador de adição também pode ser usado para concatenar strings em C, mas para isso é necessário usar funções específicas da [**biblioteca string.h**](#user-content-fn-1)[^1], como `strcat`.
+{% endhint %}
 
 ***
 
-### Subtracção: `-`
+### 2. Subtracção: `-`
+
+A **subtração em C** é feita usando o operador de subtração `-`, assim como fazemos na matemática. Aqui estão alguns exemplos práticos:
+
+{% code overflow="wrap" %}
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    int b = 4;
+    int result = a - b;
+
+    printf("Resultado da subtração: %d\n", result);  // Saída: 6
+    return 0;
+}
+
+```
+{% endcode %}
+
+
 
 ***
 
+#### **Subtração com números de ponto flutuante (`float`)**
 
+```c
+#include <stdio.h>
+
+int main() {
+    float x = 5.5;
+    float y = 2.2;
+    float resultado = x - y;
+
+    printf("Resultado da subtração: %.2f\n", resultado);  // Saída: 3.30
+    return 0;
+}
+
+```
 
 
 
