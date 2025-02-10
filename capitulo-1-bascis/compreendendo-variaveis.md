@@ -2,43 +2,66 @@
 
 ## Variáveis <a href="#variaveis" id="variaveis"></a>
 
-Variáveis são elementos fundamentais para armazenar e manipular dados durante a execução de um programa. Elas permitem que você represente valores e associe-os a identificadores únicos para uso posterior. Antes de usar uma variável, é necessário declará-la. A declaração informa ao compilador o tipo de dado que a variável armazenará e aloca memória para ela.
+Variáveis são elementos fundamentais para armazenar e manipular dados durante a execução de um programa. Elas permitem que você represente valores e associe-os a identificadores únicos para uso posterior. Antes de usar uma variável, é necessário declará-la. A declaração informa ao compilador o tipo de dado que a variável armazenará e aloca **memória** para ela.
+
+### **1. Regras de nomenclatura**
+
+* Deve começar com uma **letra** ou **underscore** (`_`), mas não com um número.
+  * ✅ **Correto**: `idade`, `_altura`
+  * ❌ **Errado**: `2anos`, `@valor`&#x20;
+* Pode conter letras, números e underscores, mas **não pode conter espaços** nem caracteres especiais.
+  * ✅ **Corret**o: `valor_total`
+  * ❌ **Errado**: `valor total`, `valor@total`
+* Não pode usar palavras reservadas do C (ex.: `int`, `float`, `return`, etc.).
 
 
 
 <figure><img src="../.gitbook/assets/RAM memory.jpg" alt="Memoria RAM"><figcaption><p>RAM Memory</p></figcaption></figure>
 
-A sintaxe básica para declarar variáveis em C é:
+***
+
+
+
+**A sintaxe básica para declarar variáveis em C é:**
 
 ```c
 int number; // Declara uma variável inteira chamada "number"
 float price; // Declara uma variável do tipo flutuante chamada "price"
 char letter; // Declara uma variável do tipo caractere chamada 'letter'
+
 ```
 
-1.  **Inteiros**:
+### **Escopo das variáveis**
 
-    * `int`: Tipo de dado para armazenar números inteiros.
-    * `short`: Tipo de dado para armazenar inteiros menores que `int`.
-    * `long`: Tipo de dado para armazenar inteiros maiores que `int`.
-    * `long long`: Tipo de dado para armazenar inteiros muito grandes.
+O local onde a variável é declarada determina onde ela pode ser usada:
 
-    Vale ressaltar que em C, a linguagem não possui um tipo de dado `boolean` nativo como algumas linguagens modernas. No entanto, desde o padrão C99, existe a biblioteca `<stdbool.h>`, que fornece suporte ao tipo booleano de forma prática.
-2. **Ponto Flutuante**:
+* **Global**: Declarada fora de funções, pode ser usada em qualquer parte do programa.
+* **Local**: Declarada dentro de uma função ou bloco, só pode ser usada naquele escopo.
+
+1. **Inteiros**:
+
+* `int`: Tipo de dado para armazenar números inteiros.
+* `short`: Tipo de dado para armazenar inteiros menores que `int`.
+* `long`: Tipo de dado para armazenar inteiros maiores que `int`.
+* `long long`: Tipo de dado para armazenar inteiros muito grandes.
+
+Vale ressaltar que em C, a linguagem não possui um tipo de dado `boolean` nativo como algumas linguagens modernas. No entanto, desde o padrão C99, existe a biblioteca `<stdbool.h>`, que fornece suporte ao tipo booleano de forma prática.
+
+1. **Ponto Flutuante**:
    * `float`: Tipo de dado para armazenar números de ponto flutuante de precisão simples.
    * `double`: Tipo de dado para armazenar números de ponto flutuante de precisão dupla.
    * `long double`: Tipo de dado para armazenar números de ponto flutuante de precisão estendida.
-3. **Caracteres**:
+2. **Caracteres**:
    * `char`: Tipo de dado para armazenar caracteres individuais.
-4. **Ponteiro**:
+3. **Ponteiro**:
    * `tipo`: Tipo de dado para armazenar o endereço de memória de outro tipo de dado.
-5. **Enumerado**:
+4. **Enumerado**:
    * `enum`: Tipo de dado definido pelo usuário que consiste em um conjunto de constantes nomeadas.
-6. **Estrutura**:
+5. **Estrutura**:
    * `struct`: Tipo de dado definido pelo usuário que pode agrupar diferentes tipos de dados em uma única unidade.
-7. **União**:
+6. **União**:
    * `union`: Tipo de dado definido pelo usuário que permite armazenar diferentes tipos de dados em uma mesma área de memória.
-8. **Tipo de Dado Void**:
+7. **Tipo de Dado Void**:
    * `void`: Tipo de dado usado para indicar ausência de tipo ou valor.
 
 Além desses, C também suporta modificadores de tipo, como `unsigned` para indicar que um número inteiro não deve ser negativo, e `signed` para indicar que um número inteiro pode ser positivo ou negativo (o qual é implícito para tipos inteiros).
