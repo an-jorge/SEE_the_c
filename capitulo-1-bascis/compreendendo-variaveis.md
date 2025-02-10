@@ -38,35 +38,11 @@ O local onde a variável é declarada determina onde ela pode ser usada:
 * **Global**: Declarada fora de funções, pode ser usada em qualquer parte do programa.
 * **Local**: Declarada dentro de uma função ou bloco, só pode ser usada naquele escopo.
 
-1. **Inteiros**:
-
-* `int`: Tipo de dado para armazenar números inteiros.
-* `short`: Tipo de dado para armazenar inteiros menores que `int`.
-* `long`: Tipo de dado para armazenar inteiros maiores que `int`.
-* `long long`: Tipo de dado para armazenar inteiros muito grandes.
-
 Vale ressaltar que em C, a linguagem não possui um tipo de dado `boolean` nativo como algumas linguagens modernas. No entanto, desde o padrão C99, existe a biblioteca `<stdbool.h>`, que fornece suporte ao tipo booleano de forma prática.
 
-1. **Ponto Flutuante**:
-   * `float`: Tipo de dado para armazenar números de ponto flutuante de precisão simples.
-   * `double`: Tipo de dado para armazenar números de ponto flutuante de precisão dupla.
-   * `long double`: Tipo de dado para armazenar números de ponto flutuante de precisão estendida.
-2. **Caracteres**:
-   * `char`: Tipo de dado para armazenar caracteres individuais.
-3. **Ponteiro**:
-   * `tipo`: Tipo de dado para armazenar o endereço de memória de outro tipo de dado.
-4. **Enumerado**:
-   * `enum`: Tipo de dado definido pelo usuário que consiste em um conjunto de constantes nomeadas.
-5. **Estrutura**:
-   * `struct`: Tipo de dado definido pelo usuário que pode agrupar diferentes tipos de dados em uma única unidade.
-6. **União**:
-   * `union`: Tipo de dado definido pelo usuário que permite armazenar diferentes tipos de dados em uma mesma área de memória.
-7. **Tipo de Dado Void**:
-   * `void`: Tipo de dado usado para indicar ausência de tipo ou valor.
+Além desses, C também [suporta modificadores de tipo](tipos-de-dados.md#id-2-modificadores-de-tipo) como `unsigned` para indicar que um **número inteiro não deve ser negativo**, e `signed` para indicar que um **número inteiro pode ser positivo ou negativo** (o qual é implícito para tipos inteiros).
 
-Além desses, C também suporta modificadores de tipo, como `unsigned` para indicar que um número inteiro não deve ser negativo, e `signed` para indicar que um número inteiro pode ser positivo ou negativo (o qual é implícito para tipos inteiros).
-
-### Variáveis imutáveis <a href="#variaveis-imutaveis" id="variaveis-imutaveis"></a>
+### 2.  Variáveis imutáveis <a href="#variaveis-imutaveis" id="variaveis-imutaveis"></a>
 
 Embora que as variaveis podem ser alteradas na programação temos variáveis imutáveis aquelas que não pode ser alteradas depois de declaradas. Em C, `#define` e `const` são usados para finalidades semelhantes (definir valores constantes), mas são conceitos diferentes e têm nomes específicos:
 

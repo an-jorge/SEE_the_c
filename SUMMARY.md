@@ -9,7 +9,7 @@
 ## Capítulo 1: Bascis
 
 * [Introdução a Linguagem C](capitulo-1-bascis/introducao-a-linguagem-c.md)
-* [Uma Jornada pela Computação com Bit e byte](capitulo-1-bascis/uma-jornada-pela-computacao-com-bit-e-byte.md)
+* [Uma Jornada pela Computação com bit e byte](capitulo-1-bascis/uma-jornada-pela-computacao-com-bit-e-byte.md)
 * [Ciclo de Desenvolvimento](capitulo-1-bascis/ciclo-de-desenvolvimento.md)
 * [Compreendendo variáveis](capitulo-1-bascis/compreendendo-variaveis.md)
 * [Tipos de dados](capitulo-1-bascis/tipos-de-dados.md)
