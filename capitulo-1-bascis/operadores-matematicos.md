@@ -14,7 +14,7 @@ Operadores matemáticos são símbolos usados na linguagem C para realizar cálc
 
 ### 1.  Adição `+`
 
-Na programação de forma geral, o operador de adição é o símbolo **+**. Ele é usado para somar dois ou mais valores, sejam eles números inteiros, números de ponto flutuante ou até mesmo caracteres.
+Na programação de forma geral, o operador de adição é o símbolo **+**. Ele é usado para somar dois ou mais valores, sejam eles números inteiros, números de ponto flutuante ou até mesmo caracteres. A sintaxe é igual para todos todos os operadores matemáticos.
 
 ```
 result = value + value2;
@@ -56,9 +56,9 @@ int soma = c1 + c2; // soma será igual a 131 (valor ASCII de 'A' + valor ASCII 
 
 ***
 
-### 2. Subtracção: `-`
+### 2. Subtração: `-`
 
-A **subtração em C** é feita usando o operador de subtração `-`, assim como fazemos na matemática. Aqui estão alguns exemplos práticos:
+A **subtração** é feita usando o operador de subtração `-`, assim como fazemos na matemática. Aqui estão alguns exemplos práticos:
 
 {% code overflow="wrap" %}
 ```c
@@ -88,15 +88,41 @@ int main() {
 int main() {
     float x = 5.5;
     float y = 2.2;
-    float resultado = x - y;
+    float result = x - y;
 
-    printf("Resultado da subtração: %.2f\n", resultado);  // Saída: 3.30
+    printf("Resultado da subtração: %.2f\n", result);  // Saída: 3.30
     return 0;
 }
 
 ```
 
 
+
+### 3. Multiplicação
+
+A **multiplicação** é feita usando o operador `*` (asterisco). Esse operador funciona para multiplicar **inteiros**, **floats** e **doubles**. Aqui vão exemplos simples e práticos:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 5;
+    int b = 3;
+    int result = a * b;
+
+    printf("Resultado da multiplicação: %d\n", result);  // Saída: 15
+    return 0;
+}
+
+```
+
+
+
+***
+
+
+
+A **divisão em C** é feita usando o operador `/`. Dependendo do tipo de dado (inteiro ou ponto flutuante), a divisão pode ter comportamentos diferentes.
 
 [^1]: 
 
