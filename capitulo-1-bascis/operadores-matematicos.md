@@ -41,12 +41,7 @@ int soma = c1 + c2; // soma será igual a 131 (valor ASCII de 'A' + valor ASCII 
 
 
 
-***
-
-
-
 {% hint style="info" %}
-\
 **Observações importantes:**
 
 * O operador de adição pode ser usado com qualquer tipo de dado numérico em C, incluindo `int`, `float`, `double`, `char`, etc.
@@ -98,7 +93,7 @@ int main() {
 
 
 
-### 3. Multiplicação
+### 3. Multiplicação \*
 
 A **multiplicação** é feita usando o operador `*` (asterisco). Esse operador funciona para multiplicar **inteiros**, **floats** e **doubles**. Aqui vão exemplos simples e práticos:
 
@@ -122,7 +117,66 @@ int main() {
 
 
 
-A **divisão em C** é feita usando o operador `/`. Dependendo do tipo de dado (inteiro ou ponto flutuante), a divisão pode ter comportamentos diferentes.
+### 4. Divisão /
+
+A **divisão** é feita usando o operador `/`. Dependendo do tipo de dado (inteiro ou ponto flutuante), a divisão pode ter comportamentos diferentes.
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    int b = 3;
+    int resultado = a / b;  // A parte decimal será descartada
+
+    printf("Resultado da divisão: %d\n", resultado);  // Saída: 3
+    return 0;
+}
+
+```
+
+{% hint style="info" %}
+* O resultado não será 3.33, porque a divisão entre inteiros retorna apenas a parte inteira.
+{% endhint %}
+
+***
+
+
+
+#### **Divisão de números de ponto flutuante (`float` ou `double`)**
+
+```c
+#include <stdio.h>
+
+int main() {
+    float x = 10.0;
+    float y = 3.0;
+    float result = x / y;
+
+    printf("Resultado da divisão: %.2f\n", result);  // Saída: 3.33
+    return 0;
+}
+
+```
+
+{% hint style="info" %}
+* &#x20;Se um ou ambos os números forem de ponto flutuante, o resultado será um número decimal.
+*   ### **Cuidado com a divisão por zero**
+
+    Divisão por zero em C pode causar erros ou resultados indefinidos. Sempre verifique se o divisor não é zero antes de dividir.
+
+
+{% endhint %}
+
+
+
+***
+
+
+
+### 5. Módulo (resto da divisão): `%`
+
+
 
 [^1]: 
 
