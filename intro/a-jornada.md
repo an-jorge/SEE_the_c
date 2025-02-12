@@ -10,7 +10,7 @@ icon: centercode
 
 ## **Estrutura do Guia** <a href="#estrutura-do-guia" id="estrutura-do-guia"></a>
 
-####
+
 
 Este é um guia de aprendizagem da linguagem C com tópicos essenciais da linguagem, com descrições, tempo estimado de estudo com caixas de seleção para acompanhamento do seu progresso. É direcionado para pessoas com pouca ou nenhuma experiência anterior em programação guia See the C, um projeto open-source focado no aprendizado compartilhado para informações futuras leia a página do [prefácio](../#sobre).
 
@@ -42,7 +42,7 @@ int total_fruit;
 void game_over();
 ```
 
-### 2. **ALL\_CAPS** para macros e constantes <a href="#id-2-all_caps-para-macros-e-constantes" id="id-2-all_caps-para-macros-e-constantes"></a>
+#### 2. **ALL\_CAPS** para macros e constantes <a href="#id-2-all_caps-para-macros-e-constantes" id="id-2-all_caps-para-macros-e-constantes"></a>
 
 Para macros e constantes definidas com `#define`, o estilo `ALL_CAPS` (todas as letras em maiúsculas) é padrão.
 
