@@ -40,7 +40,7 @@ int total_fruit;
 void game_over();
 ```
 
-#### 2. **ALL\_CAPS** para macros e constantes <a href="#id-2-all_caps-para-macros-e-constantes" id="id-2-all_caps-para-macros-e-constantes"></a>
+### 2. **ALL\_CAPS** para macros e constantes <a href="#id-2-all_caps-para-macros-e-constantes" id="id-2-all_caps-para-macros-e-constantes"></a>
 
 Para macros e constantes definidas com `#define`, o estilo `ALL_CAPS` (todas as letras em maiúsculas) é padrão.
 
@@ -49,23 +49,23 @@ Para macros e constantes definidas com `#define`, o estilo `ALL_CAPS` (todas as 
 const int MAX_LIFE = 5;
 ```
 
-**1 - Motivo**: O uso de maiúsculas ajuda a distinguir macros e constantes de variáveis regulares, tornando o código mais legível e ajudando a evitar confusões.
+#### **1 - Motivo**: O uso de maiúsculas ajuda a distinguir macros e constantes de variáveis regulares, tornando o código mais legível e ajudando a evitar confusões.
 
-**2 - Motivo**: Este estilo é fácil de ler, consistente e segue uma convenção de nomeação que é usada amplamente em sistemas baseados em C, como o kernel do Linux e projectos GNU.
+#### **2 - Motivo**: Este estilo é fácil de ler, consistente e segue uma convenção de nomeação que é usada amplamente em sistemas baseados em C, como o kernel do Linux e projectos GNU.
 
-**Observações Importantes**
+### **Observações Importantes**
 
 * O tempo estimado de estudo é aproximado e depende do seu ritmo de aprendizado e experiência anterior.
 * Este guia cobre os conceitos essenciais de C. À medida que você avança, pode explorar tópicos mais avançados como listas encadeadas, árvores e algoritmos.
 * A prática consistente é crucial! Existem muitos exercícios e projectos online disponíveis para solidificar seu aprendizado.
 
-**Recursos Adicionais**
+### **Recursos Adicionais**
 
 * [C docs - get started, tutorials, reference. | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/c-language/?view=msvc-170)
 * [Especificadores de formatação em C](https://www.freecodecamp.org/portuguese/news/especificadores-de-formatacao-em-c/)
 * [Filipe Louza](https://www.youtube.com/watch?v=hPHm98pS4zo\&list=PLuARAw3cqFRAUNLs3uyiabGuQceuSTeLS)&#x20;
 
-**Dicas**
+### **Dicas**
 
 * Pratique bastante usando os conceitos aprendidos em diferentes contextos.
 * Experimente diferentes modificadores e conversões para obter a formatação desejada.
