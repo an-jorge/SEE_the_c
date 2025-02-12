@@ -1,6 +1,6 @@
 # Prefácio
 
-## **Guia Essencial para Programação em C**
+## **See the C – Guia Colaborativo para Programação em C**
 
 ### **Sobre**
 

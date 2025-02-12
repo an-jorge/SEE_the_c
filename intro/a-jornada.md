@@ -6,15 +6,11 @@ icon: centercode
 
 ***
 
-
-
 ## **Estrutura do Guia** <a href="#estrutura-do-guia" id="estrutura-do-guia"></a>
-
-
 
 Este é um guia de aprendizagem da linguagem C com tópicos essenciais da linguagem, com descrições, tempo estimado de estudo com caixas de seleção para acompanhamento do seu progresso. É direcionado para pessoas com pouca ou nenhuma experiência anterior em programação guia See the C, um projeto open-source focado no aprendizado compartilhado para informações futuras leia a página do [prefácio](../#sobre).
 
-O guia é organizado em secções que cobrem os principais conceitos da linguagem C:
+**O guia é organizado em secções que cobrem os principais conceitos da linguagem C:**
 
 ***
 
