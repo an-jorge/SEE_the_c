@@ -1,5 +1,7 @@
 # Prefácio
 
+## **Guia Essencial para Programação em C**
+
 ### **Sobre**
 
 O guia **See the C** nasceu pelo interesse na linguagem e por querer registrar os meus estudos e do desejo de compartilhar com você o que aprendi ao longo dos anos. Se você já se sentiu perdido ou inseguro sobre algo, bem este guia é para você.&#x20;
