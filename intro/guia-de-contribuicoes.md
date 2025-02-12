@@ -12,13 +12,15 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 
 ### Tipos de commit
 
-**toFix \[**&#x54;itulo página/exercício/lin&#x6B;**]** - Bug encontrado
+**unFixed** - Bug encontrado ou falha na execução de algo
 
-**addNew \[**&#x54;itulo página/ex+número/lin&#x6B;**]** - Você adicionou coisas novas
+**Fixed** - Bug resolvido
 
-**addStyle** - Você corrigiu erro ortográfico ou melhorou a experiencia de leitura
+**addNew+Title** - Você adicionou novos arquivos
 
-**Resolved** - Você resolveu
+**addStyle** - Você corrigiu erro ortográfico ou melhorou a experiência de leitura
+
+**Resolved+Title** - Você resolveu
 
 ### Issues
 

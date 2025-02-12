@@ -68,7 +68,7 @@ const int MAX_LIFE = 5;
 ### **Dicas**
 
 * Pratique bastante usando os conceitos aprendidos em diferentes contextos.
-* Experimente diferentes modificadores e conversões para obter a formatação desejada.
+* Experimente diferentes modificadores e conversões para obter a formatação desejada. Em casos de duvida sobre o guia ou gitbook abra a sua issue [aqui ](https://github.com/an-jorge/Seethec/issues)em casos gerais saiba [como abrir a issue](guia-de-contribuicoes.md#issues)
 * Consulte a documentação oficial das funções e bibliotecas para obter informações mais detalhadas.
 
 #### [Contribuições](https://uuntu.gitbook.io/see-the-c/intro/guia-de-contribuicoes) <a href="#contribuicoes" id="contribuicoes"></a>
