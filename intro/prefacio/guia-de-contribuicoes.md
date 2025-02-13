@@ -16,6 +16,8 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 
 **Off-topic:tile** - Para perguntas rão elacionadas ao material
 
+**nice-toHave+title** - Para sugestões e melhorias
+
 
 
 ***
@@ -28,9 +30,9 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 
 **Fixed** - Bug resolvido
 
-**addNew:title** - Você adicionou novos arquivos
+**New:title** - Você adicionou novos arquivos
 
 **addStyle** - Você corrigiu erro ortográfico ou melhorou a experiência de leitura
 
-**Resolved:title** - Você resolveu
+**Resolved:title** - Você resolveu um exercício ou outro problema
 
