@@ -6,7 +6,7 @@
 
 O guia **See the C** nasceu pelo interesse na linguagem e por querer registrar os meus estudos e do desejo de compartilhar com você o que aprendi ao longo dos anos. Se você já se sentiu perdido ou inseguro sobre algo, bem este guia é para você.&#x20;
 
-Este guia é um guia vivo o que quer dizer? As alterações são constantes, como se diz popularmente vivendo aprendendo isso torna este guia diferente com muitos exercícios e projectos no final de cada capítulo. Sempre começa pequeno faça suas alterações, pratique bastante [peça ajuda](https://github.com/an-jorge/Clang/issues) quando necessário as "respostas" estão disponibilizadas para você visualizar. Então como posso pedir [ajuda](intro/a-jornada/a-organizacao-dos-estudos/guia-de-contribuicoes.md#issues)?&#x20;
+Este guia é um guia vivo o que quer dizer? As alterações são constantes, como se diz popularmente vivendo aprendendo isso torna este guia diferente com muitos exercícios e projectos no final de cada capítulo. Sempre começa pequeno faça suas alterações, pratique bastante [peça ajuda](https://github.com/an-jorge/Clang/issues) quando necessário as "respostas" estão disponibilizadas para você visualizar. Então como posso pedir [ajuda](intro/prefacio/guia-de-contribuicoes.md#issues)?&#x20;
 
 ### O Lobo solidário
 

@@ -16,7 +16,7 @@ Variáveis são elementos fundamentais para armazenar e manipular dados durante 
 
 
 
-<figure><img src="../.gitbook/assets/RAM memory.jpg" alt="Memoria RAM"><figcaption><p>RAM Memory</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/RAM memory.jpg" alt="Memoria RAM"><figcaption><p>RAM Memory</p></figcaption></figure>
 
 ***
 

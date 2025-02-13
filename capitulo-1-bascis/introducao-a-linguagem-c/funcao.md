@@ -18,7 +18,7 @@ Uma função normalmente tem:\
 
 
 
-<figure><img src="../.gitbook/assets/My First Board (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/My First Board (1).jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -249,3 +249,4 @@ int main() {
     return 0;
 }
 ```
+

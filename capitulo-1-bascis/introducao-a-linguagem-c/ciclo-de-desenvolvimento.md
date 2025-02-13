@@ -18,7 +18,7 @@ Esse "conversor" é chamado de **compilador**. Um compilador deve analisar um pr
 
 ### **Fluxo de compilação de um programa em C**
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/Fluxo do processo.jpg" alt="Compilação de um programa em C "><figcaption><p><strong>Fluxo do processo de compilação de um programa em C</strong></p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/Fluxo do processo.jpg" alt="Compilação de um programa em C "><figcaption><p><strong>Fluxo do processo de compilação de um programa em C</strong></p></figcaption></figure></div>
 
 ***
 
