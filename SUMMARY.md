@@ -4,8 +4,8 @@
 
 * [Prefácio](README.md)
 * [A Jornada](intro/a-jornada/README.md)
-  * [A organização dos estudos](intro/a-jornada/a-organizacao-dos-estudos.md)
-* [Guia de contribuições](intro/guia-de-contribuicoes.md)
+  * [A organização dos estudos](intro/a-jornada/a-organizacao-dos-estudos/README.md)
+    * [Guia de contribuições](intro/a-jornada/a-organizacao-dos-estudos/guia-de-contribuicoes.md)
 
 ## Capítulo 1: Bascis
 

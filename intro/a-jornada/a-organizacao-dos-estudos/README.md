@@ -8,6 +8,7 @@ A organização dos estudos é fundamental para o sucesso acadêmico e profissio
 
 Para poder companhar o guia você precisa dos softwares abaixo, com o seus respectivos links para download em qualquer dúvida sinta-se livre [abre uma issue](https://github.com/an-jorge/Clang/issues)
 
+* [Uma conta no GitHub](https://github.com/signup?ref_cta=Sign+up\&ref_loc=header+logged+out\&ref_page=%2F\&source=header-home)
 * &#x20;[Code::Blocks](https://www.codeblocks.org/downloads/binaries/)&#x20;
 * [GCC](https://gcc.gnu.org/install/)
 
