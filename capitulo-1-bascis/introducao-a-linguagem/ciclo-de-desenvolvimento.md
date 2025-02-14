@@ -2,11 +2,9 @@
 
 ## Algoritmos
 
-Desenvolver um aplicativo, um software desktop ou um website começa com o que chamamos de algoritmo expresso em uma linguagem de programação. Tudo que você já viu ou vai ver, desde a máquina de café a foguetes existe uma logica e um algoritmo. &#x20;
+Desenvolver um aplicativo, um software desktop ou um website começa com o que chamamos de algoritmo expresso em uma linguagem de programação. Tudo que você já viu ou vai ver, desde a máquina de café a foguetes existe uma lógica e um algoritmo. &#x20;
 
 **A final o que é um algoritmo**? De forma simples e direita como EU gosto, um algoritmo é uma colecção de instruções. Algoritmos têm nomes diferentes em contextos diferentes. Quando você está cozinhando comida, um algoritmo é uma receita, uma colecção de ingredientes e instruções que, quando seguidas, produzem delícias culinárias. Quando você está montando coisas que comprou na loja, um algoritmo geralmente é impresso para você e chamado de manual de instruções. Em um computador, um algoritmo é chamado de programa.
-
-Os programas devem ser expressos usando regras consistentes para que os computadores possam detectar os vários elementos do programa e convertê-los em linguagem que pode ser executada em uma CPU ao que chamamos de linguagem de máquina.
 
 **Linguagem de máquina** é a linguagem dos processadores. Ela é composta de instruções primitivas que correspondem à funcionalidade primitiva de uma CPU. Um algoritmo escrito na linguagem de alto nível que incrementa uma variável pode levar três ou quatro instruções no nível de linguagem de máquina. Portanto, deve haver ferramentas que possam converter de uma linguagem de alto nível, como C, para a linguagem de baixo nível de um processador.
 
