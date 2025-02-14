@@ -85,6 +85,8 @@ Ferramentas como o **GCC (GNU Compiler Collection)** seguem esse processo comple
 **como funciona a programação?**
 {% endembed %}
 
+***
+
 
 
 

@@ -3,13 +3,9 @@
 
 
 {% hint style="info" %}
-
-
 **No final desta lição, você será capaz de responder ao seguinte**:
 
 * Quais são os tipos de dados
-* O que o tipo `float` representa em C
-* Qual a diferença entre os tipos `float` e `double` em C?
 * Qual tipo de dado em C é usado para armazenar um único caractere?
 {% endhint %}
 
