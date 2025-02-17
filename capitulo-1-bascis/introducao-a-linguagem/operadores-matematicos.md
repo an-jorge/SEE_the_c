@@ -93,7 +93,7 @@ int main() {
 
 
 
-### 3. Multiplicação \*
+### 3. Multiplicação `*`
 
 A **multiplicação** é feita usando o operador `*` (asterisco). Esse operador funciona para multiplicar **inteiros**, **floats** e **doubles**. Aqui vão exemplos simples e práticos:
 
@@ -117,7 +117,7 @@ int main() {
 
 
 
-### 4. Divisão /
+### 4. Divisão `/`
 
 A **divisão** é feita usando o operador `/`. Dependendo do tipo de dado (inteiro ou ponto flutuante), a divisão pode ter comportamentos diferentes.
 
@@ -160,21 +160,82 @@ int main() {
 ```
 
 {% hint style="info" %}
-* &#x20;Se um ou ambos os números forem de ponto flutuante, o resultado será um número decimal.
-*   ### **Cuidado com a divisão por zero**
+Se um ou ambos os números forem de ponto flutuante, o resultado será um número decimal.
 
-    Divisão por zero em C pode causar erros ou resultados indefinidos. Sempre verifique se o divisor não é zero antes de dividir.
+### <mark style="color:red;">**Cuidado com a divisão por zero**</mark>
+
+Divisão por zero em C pode causar erros ou resultados indefinidos. Sempre verifique se o divisor não é zero antes de dividir.
 
 
 {% endhint %}
-
-
 
 ***
 
 
 
 ### 5. Módulo (resto da divisão): `%`
+
+O **módulo** (também chamado de **resto da divisão**) é feito usando o operador `%`. Esse operador retorna o **resto** de uma divisão entre dois números inteiros e Não o resultado da divisão como vimos com o operador `/` .
+
+{% code overflow="wrap" %}
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    int b = 3;
+    int result = a % b;  // 10 dividido por 3 dá 3 e sobra 1
+
+    printf("O resto da divisão é: %d\n", result);  // Saída: 1
+    return 0;
+}
+```
+{% endcode %}
+
+{% hint style="info" %}
+**Explicação:**
+
+* `10 / 3` = **3**, com resto **1**   &#x20;
+* `10 % 3` retorna **1**
+{% endhint %}
+
+***
+
+{% hint style="info" %}
+### <mark style="color:red;">**Cuidado! O operador**</mark><mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**`%`**</mark><mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**só funciona com inteiros**</mark>
+
+O operador **módulo (%) só pode ser usado com números inteiros (`int`)**.\
+Se tentar usá-lo com `float` ou `double`, o compilador dará erro.
+
+***
+
+
+
+Se precisar do **resto da divisão para números decimais**, recomendo fortemente que use a função `fmod()` da biblioteca `<math.h>`:
+{% endhint %}
+
+{% code overflow="wrap" %}
+```c
+#include <stdio.h>
+#include <math.h>  // Biblioteca para fmod()
+
+int main() {
+    double a = 10.5;
+    double b = 3.2;
+    double result = fmod(a, b);  // Retorna o resto da divisão
+
+    printf("O resto da divisão é: %.2f\n", result);  // Saída: Resto: 0.90
+    return 0;
+}
+
+```
+{% endcode %}
+
+Mais além entenderemos em detalhe sobre bibloteca Math.h e outros.
+
+***
+
+### Incremento ++
 
 
 
