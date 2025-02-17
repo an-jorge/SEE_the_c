@@ -235,7 +235,31 @@ Mais além entenderemos em detalhe sobre bibloteca Math.h e outros.
 
 ***
 
-### Incremento ++
+### Incremento `++`
+
+O **operador de incremento (`++`)** é usado para aumentar o valor de uma variável em 1.
+
+Ele pode ser usado de duas formas:
+
+* **Pré-incremento (`++x`)** → Incrementa **primeiro**, depois usa o valor.
+* **Pós-incremento (`x++`)** → Usa o valor primeiro, **depois** incrementa.
+
+```c
+#include <stdio.h>
+
+int main() {
+  int x = 5;
+
+  x++; // Equivalente a: x = x + 1;
+
+  printf("Valor de x: %d\n", x); // Saída: 6
+  return 0;
+}
+```
+
+***
+
+
 
 
 
