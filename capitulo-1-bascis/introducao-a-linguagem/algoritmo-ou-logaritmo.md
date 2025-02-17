@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Algoritmo ou logaritmo?
 
 **Afinal é algoritmo e não logaritmo?**
