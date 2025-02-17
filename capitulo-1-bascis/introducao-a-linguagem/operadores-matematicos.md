@@ -237,12 +237,12 @@ Mais além entenderemos em detalhe sobre bibloteca Math.h e outros.
 
 ### Incremento `++`
 
-O **operador de incremento (`++`)** é usado para aumentar o valor de uma variável em 1.
+O **operador de incremento** (`++`) em C é usado para **aumentar** o valor de uma variável em 1.
 
 Ele pode ser usado de duas formas:
 
-* **Pré-incremento (`++x`)** → Incrementa **primeiro**, depois usa o valor.
-* **Pós-incremento (`x++`)** → Usa o valor primeiro, **depois** incrementa.
+* **Pré-incremento** (`++x`) → Incrementa **primeiro**, depois usa o valor.
+* **Pós-incremento** (`x++`) → Usa o valor primeiro, **depois** incrementa.
 
 ```c
 #include <stdio.h>
@@ -259,7 +259,36 @@ int main() {
 
 ***
 
+### Operador de decremento (`--`)
 
+**O decremento** em C funciona de maneira semelhante ao incremento, mas, em vez de aumentar o valor de uma variável, ele **diminui** o valor. Assim como no incremento, existem duas formas de decremento.
+
+* **Pré-decremento** (`--x`) → **Decrementa antes** de usar o valor.
+* **Pós-decremento** (`x--`) → **Usa o valor primeiro**, depois decrementa.
+
+```c
+#include <stdio.h>
+
+int main() {
+  int x = 5;
+
+  x--; // Equivalente a: x = x - 1;
+
+  printf("Valor de x: %d\n", x); // Saída: 4
+  return 0;
+}
+
+```
+
+***
+
+{% hint style="danger" %}
+### Lightning Round ⚡️
+
+#### _CP1\_Challenge Mathematical operators_
+
+* &#x20;Diga uma aplicação de uso do operator de incremento ou decremento
+{% endhint %}
 
 
 

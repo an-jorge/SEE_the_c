@@ -21,6 +21,6 @@
   * [Operadores matemáticos](capitulo-1-bascis/introducao-a-linguagem/operadores-matematicos.md)
   * [Aprender operadores (aritméticos, relacionais, lógicos etc.)](capitulo-1-bascis/introducao-a-linguagem/aprender-operadores-aritmeticos-relacionais-logicos-etc..md)
   * [Operadores de comparação](capitulo-1-bascis/introducao-a-linguagem/operadores-de-comparacao.md)
-  * [Operadores atribuição](capitulo-1-bascis/introducao-a-linguagem/operadores-atribuicao.md)
+  * [Operador atribuição](capitulo-1-bascis/introducao-a-linguagem/operador-atribuicao.md)
   * [Função](capitulo-1-bascis/introducao-a-linguagem/funcao.md)
   * [I/O Funções](capitulo-1-bascis/introducao-a-linguagem/i-o-funcoes.md)

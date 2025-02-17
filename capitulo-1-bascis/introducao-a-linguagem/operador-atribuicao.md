@@ -1,6 +1,6 @@
-# Operadores atribuição
+# Operador atribuição
 
-## Intro a operadores atribuição <a href="#operadores-atribuicao" id="operadores-atribuicao"></a>
+## Introdução ao operadores atribuição <a href="#operadores-atribuicao" id="operadores-atribuicao"></a>
 
 O operador de atribuição básico é o sinal de igual (`=`), mas existem também operadores compostos de atribuição que facilitam a manipulação e atualização do valor das variáveis. Os operadores de atribuição são usados para atribuir valores a variáveis, aqui estão os operadores de atribuição mais comuns em C:
 
@@ -17,7 +17,7 @@ O operador de atribuição básico é o sinal de igual (`=`), mas existem també
 6. **Atribuição com módulo:** `%=`
    * Calcula o módulo do valor à esquerda pela variável à direita e atribui o resultado à variável à esquerda.
 
-{% code title="main.c" fullWidth="false" %}
+{% code overflow="wrap" fullWidth="false" %}
 ```c
 int x = 10;
 x += 5;     // x agora é 15 (10 + 5)
