@@ -1,6 +1,6 @@
 # A organização dos estudos
 
-A organização dos estudos é fundamental para o sucesso acadêmico e profissional. mesmo com a guia estudos sem uma boa organização não valera muito, você podera se sentir perdido, sobrecarregado e com a sensação de que não está progredindo. Mas não se preocupe! Com encontros ao vivo, exercícios e dicas, você pode organizar seus estudos de forma eficiente e assim alcançar seus objetivos.
+A organização dos estudos é fundamental para o sucesso acadêmico e profissional. mesmo com a guia estudos sem uma boa organização não valera muito, você podera se sentir perdido, sobrecarregado e com a sensação de que não está progredindo. Mas não se preocupe! **Com encontros ao online**, **exercícios** e **dicas**, você pode organizar seus estudos de forma eficiente e assim alcançar seus objetivos.
 
 ### Ferramentas recomendadas
 
@@ -20,25 +20,35 @@ Para poder companhar o guia ou os encontros ao vivo você precisa dos softwares 
 
 ***
 
+
+
+### Indicação de ícones
+
+{% hint style="info" %}
+**Saiba mais:** oferece novas informações.
+{% endhint %}
+
+{% hint style="warning" %}
+**Atividades de aprendizagem**: apresenta atividades em diferentes níveis de aprendizagem.
+{% endhint %}
+
+{% hint style="danger" %}
+**Atenção**: indica pontos de maior relevância.
+{% endhint %}
+
+
+
+***
+
 ### Lembre-se!
 
-#### Seja consistente
-
-Mantenha uma rotina de estudos regular e consistente.
-
-#### Seja flexível
-
-Adapte seu cronograma e métodos de estudo às suas necessidades e imprevistos.
-
-#### Seja paciente
-
-A organização dos estudos é um processo que leva tempo e exige prática.
-
-#### Celebre suas conquistas
-
-Reconheça e comemore cada meta alcançada.
-
-Lembre-se que cada pessoa tem seu próprio ritmo e estilo de estudo. Experimente diferentes métodos e estratégias até encontrar o que funciona melhor para você.
+* &#x20;Seja consistente
+* &#x20;Mantenha uma rotina de estudos regular e consistente.
+* Adapte seu cronograma e métodos de estudo às suas necessidades e imprevistos.
+* Seja paciente
+* A organização dos estudos é um processo que leva tempo e exige prática.
+* Celebre suas conquistas
+* Lembre-se que cada pessoa tem seu próprio ritmo e estilo de estudo. Experimente diferentes métodos e estratégias até encontrar o que funciona melhor para você.
 
 
 
