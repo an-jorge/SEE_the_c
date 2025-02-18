@@ -87,5 +87,34 @@ Ferramentas como o **GCC (GNU Compiler Collection)** seguem esse processo comple
 
 
 
+{% hint style="warning" %}
+### ✏️Actividade de aprendizagem
+
+***
+
+#### &#x20;
+
+#### **"Planejamento ou execução: Qual é mais importante?"**
+
+**Perguntas para debate:**
+
+* Um planejamento detalhado reduz problemas futuros?
+* É possível planejar demais e nunca começar?
+
+***
+
+
+
+#### **"Devemos sempre testar o software?"**
+
+* Até que ponto vale a pena testar um software?
+* É possível lançar um software sem testes?
+* Qual a diferença entre testes automatizados e manuais?
+
+
+{% endhint %}
+
+***
+
 
 
