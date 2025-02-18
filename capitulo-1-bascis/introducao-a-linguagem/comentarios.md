@@ -1,8 +1,6 @@
 # Comentários
 
 {% hint style="info" %}
-
-
 **No final desta lição, você será capaz de responder ao seguinte**:
 
 * O que são comentários? Por que devo usá-los?
@@ -70,7 +68,7 @@ int main() {
 
 
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 ### Lightning Round ⚡️
 
 #### _CP1\_Challenge commit_

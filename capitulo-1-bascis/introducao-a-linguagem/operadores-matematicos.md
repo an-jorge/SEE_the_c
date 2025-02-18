@@ -71,10 +71,6 @@ int main() {
 ```
 {% endcode %}
 
-
-
-***
-
 #### **Subtração com números de ponto flutuante (`float`)**
 
 ```c
@@ -90,6 +86,8 @@ int main() {
 }
 
 ```
+
+***
 
 
 
@@ -111,11 +109,9 @@ int main() {
 
 ```
 
-
-
 ***
 
-
+###
 
 ### 4. Divisão `/`
 
@@ -138,10 +134,6 @@ int main() {
 {% hint style="info" %}
 * O resultado não será 3.33, porque a divisão entre inteiros retorna apenas a parte inteira.
 {% endhint %}
-
-***
-
-
 
 #### **Divisão de números de ponto flutuante (`float` ou `double`)**
 
@@ -173,7 +165,7 @@ Divisão por zero em C pode causar erros ou resultados indefinidos. Sempre verif
 
 
 
-### 5. Módulo (resto da divisão): `%`
+### 5. Módulo `%`
 
 O **módulo** (também chamado de **resto da divisão**) é feito usando o operador `%`. Esse operador retorna o **resto** de uma divisão entre dois números inteiros e Não o resultado da divisão como vimos com o operador `/` .
 
@@ -200,6 +192,8 @@ int main() {
 {% endhint %}
 
 ***
+
+
 
 {% hint style="info" %}
 ### <mark style="color:red;">**Cuidado! O operador**</mark><mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**`%`**</mark><mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**só funciona com inteiros**</mark>
@@ -235,6 +229,8 @@ Mais além entenderemos em detalhe sobre bibloteca Math.h e outros.
 
 ***
 
+
+
 ### Incremento `++`
 
 O **operador de incremento** (`++`) em C é usado para **aumentar** o valor de uma variável em 1.
@@ -259,7 +255,9 @@ int main() {
 
 ***
 
-### Operador de decremento (`--`)
+###
+
+### Decremento (`--`)
 
 **O decremento** em C funciona de maneira semelhante ao incremento, mas, em vez de aumentar o valor de uma variável, ele **diminui** o valor. Assim como no incremento, existem duas formas de decremento.
 
@@ -282,7 +280,9 @@ int main() {
 
 ***
 
-{% hint style="danger" %}
+
+
+{% hint style="warning" %}
 ### Lightning Round ⚡️
 
 #### _CP1\_Challenge Mathematical operators_

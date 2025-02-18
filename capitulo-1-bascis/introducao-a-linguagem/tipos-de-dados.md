@@ -51,7 +51,7 @@ Esses tipos são construídos a partir dos tipos primitivos e permitem armazenar
 
 
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 ### Lightning Round ⚡️
 
 #### _CP1\_Challenge data type_

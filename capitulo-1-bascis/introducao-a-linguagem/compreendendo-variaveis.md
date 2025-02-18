@@ -78,3 +78,14 @@ Aqui, `weightMax` é uma variável do tipo `int` que não pode ser modificada. D
 * **Não ocupa memória**: Diferente de variáveis, `#define` não ocupa espaço de memória, já que a substituição ocorre antes da compilação.
 * **Sem tipo**: Como é uma substituição de texto, não tem tipo definido. É importante tomar cuidado com tipos e precedências ao usar macros.
 * **Escopo global**: As macros definidas com `#define` são visíveis por todo o arquivo em que são declaradas, a menos que haja directivas condicionais.
+
+***
+
+
+
+{% hint style="info" %}
+
+
+* Por que a memoria é tão importante para o computador?
+{% endhint %}
+
