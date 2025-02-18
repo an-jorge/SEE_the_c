@@ -2,11 +2,9 @@
 
 A organização dos estudos é fundamental para o sucesso acadêmico e profissional. mesmo com a guia estudos sem uma boa organização não valera muito, você podera se sentir perdido, sobrecarregado e com a sensação de que não está progredindo. Mas não se preocupe! Com encontros ao vivo, exercícios e dicas, você pode organizar seus estudos de forma eficiente e assim alcançar seus objetivos.
 
-
-
 ### Ferramentas recomendadas
 
-Para poder companhar o guia você precisa dos softwares abaixo, com o seus respectivos links para download em qualquer dúvida sinta-se livre [abre uma issue](https://github.com/an-jorge/Clang/issues)
+Para poder companhar o guia ou os encontros ao vivo você precisa dos softwares abaixo, com o seus respectivos links para download em qualquer dúvida sinta-se livre [abre uma issue](https://github.com/an-jorge/Clang/issues)
 
 * [Uma conta no GitHub](https://github.com/signup?ref_cta=Sign+up\&ref_loc=header+logged+out\&ref_page=%2F\&source=header-home)
 * &#x20;[Code::Blocks](https://www.codeblocks.org/downloads/binaries/)&#x20;
@@ -17,9 +15,6 @@ Para poder companhar o guia você precisa dos softwares abaixo, com o seus respe
 * &#x20;[CCoder - C compiler & IDE](https://play.google.com/store/apps/details?id=com.ikou.ccoding\&hl=pt)
 * [GitHub Mobile](https://play.google.com/store/search?q=github+mobile\&c=apps\&hl=pt)
 * [Google meet](https://play.google.com/store/search?q=google+meet\&c=apps\&hl=pt)
-
-_Um auricular com micro para chamadas_\
-
 
 
 
