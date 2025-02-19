@@ -10,8 +10,6 @@ Os algoritmos pode ser representados de forma visual por meio de um fluxograma, 
 
 <figure><img src="https://pati.arisa.com.br/wiki/images/b/bb/Fluxograma_simbologia.png" alt="Forma padronizada para representar os passos lógicos de um determinado processamento."><figcaption></figcaption></figure>
 
-
-
 {% hint style="danger" %}
 #### **Regras para criar um Fluxograma**
 
@@ -32,15 +30,13 @@ Defina um objetivo claro:
 
 ### Pseudolinguagem&#x20;
 
-Uma **pseudolinguagem** é um conjunto de técnicas e comandos construídos na [linguagem natural](#user-content-fn-1)[^1] com o objetivo de facilitar a programação e o entendimento dos programas principalmente daqueles que ainda não dominam nenhuma linguagem de programação. Algoritmos desenvolvidos numa pseudolinguagem não são executados diretamente pelo computador. Necessitam ser transcritos para uma linguagem de programação (PASCAL, C++, por exemplo).
-
-
+Outra tecnica de representação é a pseudolinguagem, é um conjunto de técnicas e comandos construídos na [linguagem natural](#user-content-fn-1)[^1] com o objetivo de facilitar a programação e o entendimento dos programas principalmente daqueles que ainda não dominam nenhuma linguagem de programação. Algoritmos desenvolvidos numa pseudolinguagem não são executados diretamente pelo computador. Necessitam ser transcritos para uma linguagem de programação como C/C++, Java etc. por exemplo.
 
 ***
 
 
 
-{% hint style="success" %}
+{% hint style="warning" %}
 ### ✏️**Actividade** de aprendizagem&#x20;
 
 ***
