@@ -10,13 +10,13 @@ Este é um guia em constante desenvolvimento. Se você tiver sugestões, correc�
 
 Este projecto completamente gratuito aceita contribuições via pull requests no GitHub. Esta página é responsável por alinhar as doações pelos padrões estabelecidos nele. Em caso de dúvida, [abra um issue](https://github.com/an-jorge/Clang/issues).
 
-### Issues
+## Issues
 
-**On-topic:title -** Para perguntas relacionadas ao material
+**On-topic+title -** Para perguntas relacionadas ao material
 
-**Off-topic:tile** - Para perguntas rão elacionadas ao material
+**Off-topic+title** - Para perguntas rão elacionadas ao material
 
-**nice-toHave+title** - Para sugestões e melhorias
+**Suggestion+title** - Para sugestões e melhorias
 
 
 
@@ -24,15 +24,15 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 
 
 
-### Tipos de commit
+## Tipos de commit
 
-**unFixed** - Bug encontrado ou falha na execução de algo
+**Un-fixed** - Bug encontrado ou falha na execução de algo
 
 **Fixed** - Bug resolvido
 
-**New:title** - Você adicionou novos arquivos
+**New+title** - Você adicionou novos arquivos
 
-**addStyle** - Você corrigiu erro ortográfico ou melhorou a experiência de leitura
+**Add-style** - Você corrigiu erro ortográfico ou melhorou a experiência de leitura
 
-**Resolved:title** - Você resolveu um exercício ou outro problema
+**Resolved+title** - Você resolveu um exercício ou outro problema
 

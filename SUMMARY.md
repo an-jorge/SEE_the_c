@@ -12,7 +12,7 @@
 * [Introdução a Linguagem](capitulo-1-bascis/introducao-a-linguagem/README.md)
   * [Uma Jornada pela Computação com bit e byte](capitulo-1-bascis/introducao-a-linguagem/uma-jornada-pela-computacao-com-bit-e-byte.md)
   * [Fluxograma](capitulo-1-bascis/introducao-a-linguagem/fluxograma.md)
-  * [Algoritmo ou logaritmo?](capitulo-1-bascis/introducao-a-linguagem/algoritmo-ou-logaritmo.md)
+  * [Algoritmos?](capitulo-1-bascis/introducao-a-linguagem/algoritmos.md)
   * [Ciclo de Desenvolvimento](capitulo-1-bascis/introducao-a-linguagem/ciclo-de-desenvolvimento.md)
   * [Compreendendo variáveis](capitulo-1-bascis/introducao-a-linguagem/compreendendo-variaveis.md)
   * [Tipos de dados](capitulo-1-bascis/introducao-a-linguagem/tipos-de-dados.md)

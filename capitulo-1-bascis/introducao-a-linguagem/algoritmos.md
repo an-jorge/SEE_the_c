@@ -2,11 +2,13 @@
 hidden: true
 ---
 
-# Algoritmo ou logaritmo?
+# Algoritmos?
 
-**Afinal é algoritmo e não logaritmo?**
+**Afinal o que é algoritmo?**
 
 Para responder a pergunta precisamos ir com calma. Um **algoritmo** é uma **sequência de passos bem definidos** para resolver um problema ou executar uma tarefa. Na programação, algoritmos servem como uma base para o desenvolvimento de softwares, ajudando a organizar o raciocínio lógico.
 
-Um **logaritmo** não é um conceito de programação, mas de **matemática**. Ele responde à pergunta: **"A que potência devo elevar um número (base) para obter outro número?"**
+Na cozinha, uma receita é um algoritmo, ela tem todas as instruções que é preciso seguir para uma bela refeição. Quando você monta um movél que comprou na loja um algoritmo geralmente é impresso para você a loja chama de manual de instruções.
+
+###
 

@@ -22,13 +22,19 @@ Defina um objetivo claro:
 
 ***
 
-
-
 #### **Representação do algoritmo de cálculo de média de um aluno na forma de fluxograma:**
 
 
 
 <figure><img src="https://pati.arisa.com.br/wiki/images/4/4b/Fluxograma_algoritmo01.png" alt="Fluxograma de cálculo de média de um aluno"><figcaption></figcaption></figure>
+
+***
+
+### Pseudolinguagem&#x20;
+
+Uma **pseudolinguagem** é um conjunto de técnicas e comandos construídos na [linguagem natural](#user-content-fn-1)[^1] com o objetivo de facilitar a programação e o entendimento dos programas principalmente daqueles que ainda não dominam nenhuma linguagem de programação. Algoritmos desenvolvidos numa pseudolinguagem não são executados diretamente pelo computador. Necessitam ser transcritos para uma linguagem de programação (PASCAL, C++, por exemplo).
+
+
 
 ***
 
@@ -46,3 +52,6 @@ Defina um objetivo claro:
 * Implementar um **fluxograma** que leia uma letra. Se a letra for uma vogal, imprimir a mensagem “vogal”, caso contrário, imprimir a mensagem “consoante”.  🏗️
 {% endhint %}
 
+
+
+[^1]: Língua natural (língua humana ou somente língua ou idioma) _é qualquer linguagem desenvolvida naturalmente pelo ser humano._
