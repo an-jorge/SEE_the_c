@@ -104,6 +104,14 @@ Além das linguagens, o C é a base para muitos sistemas operacionais, como:
 
 
 
+***
+
+{% hint style="info" %}
+
+{% endhint %}
+
+
+
 [^1]: O kernel é o **cérebro do sistema operacional**, controlando tudo o que acontece entre o hardware e os programas. Sem ele, nada funcionaria.
 
 [^2]: **Baixo nível** se refere a uma proximidade maior do **hardware** e das operações internas do computador. As linguagens ou sistemas de baixo nível lidam diretamente com os componentes da máquina, como processador, memória e dispositivos.

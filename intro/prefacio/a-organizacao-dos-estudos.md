@@ -10,7 +10,7 @@ Para poder companhar o guia ou os encontros ao vivo você precisa dos softwares 
 * &#x20;[Code::Blocks](https://www.codeblocks.org/downloads/binaries/)&#x20;
 * [GCC](https://gcc.gnu.org/install/)
 
-#### Android apps
+**Android apps**
 
 * &#x20;[CCoder - C compiler & IDE](https://play.google.com/store/apps/details?id=com.ikou.ccoding\&hl=pt)
 * [GitHub Mobile](https://play.google.com/store/search?q=github+mobile\&c=apps\&hl=pt)
@@ -29,7 +29,13 @@ Para poder companhar o guia ou os encontros ao vivo você precisa dos softwares 
 {% endhint %}
 
 {% hint style="warning" %}
-**Atividades de aprendizagem**: apresenta atividades em diferentes níveis de aprendizagem.
+✏️**Actividades de aprendizagem**: apresenta actividades em diferentes níveis de aprendizagem.
+
+***
+
+
+
+⚡️ **Lightning Round**: apresenta actividades de código ou raciocínio lógico em diferentes niveis de aprendizagem.
 {% endhint %}
 
 {% hint style="danger" %}
