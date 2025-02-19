@@ -27,7 +27,16 @@ Bits e bytes são os alicerces da informação digital. Ao entender esses concei
 
 Ao longo do tempo para facilitar a vida dos programadores, foram criadas **linguagens de programação** de alto nível, como Python, Java, C++ etc. Essas linguagens são mais próximas da linguagem humana o que os torna mais fáceis de entender e escrever.
 
+***
 
+
+
+{% hint style="warning" %}
+## ✏️**Actividades de aprendizagem**
+
+* O que é linguagem de maquina?
+* Quantos byte ocupam 2 caracteres "AB"?
+{% endhint %}
 
 
 

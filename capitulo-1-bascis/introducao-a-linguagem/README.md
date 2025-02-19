@@ -106,8 +106,16 @@ Além das linguagens, o C é a base para muitos sistemas operacionais, como:
 
 ***
 
-{% hint style="info" %}
+{% hint style="warning" %}
+## ✏️**Actividades de aprendizagem**
 
+***
+
+
+
+* O que é entendes por Hardware e Software?
+* O que entendes por multiplataforma e quais OS conheces?
+* O que é a sintaxe de uma linguagem de programção?
 {% endhint %}
 
 
