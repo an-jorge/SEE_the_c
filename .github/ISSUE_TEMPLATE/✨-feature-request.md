@@ -1,6 +1,6 @@
 ---
 name: "✨ Feature request"
-about: Descreva a solução que você gostaria
+about: Descreva as sugestões ou melhorias você gostaria
 title: ''
 labels: documentation, enhancement
 assignees: ''
