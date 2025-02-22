@@ -12,11 +12,13 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 
 ## Issues
 
-**On-topic+title -** Para perguntas relacionadas ao material
+🚸 **Help -** Para perguntas, dúvidas relacionadas ao material
 
-**Off-topic+title** - Para perguntas rão elacionadas ao material
+🧐 **Off-topic** - Para perguntas rão elacionadas
 
-**Suggestion+title** - Para sugestões e melhorias
+✨ **Feature request** - Para sugestões ou melhorias
+
+🐛 **Bug report -** Bug encontrado ou falha na execução de algo
 
 
 
