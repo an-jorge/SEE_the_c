@@ -1,6 +1,6 @@
-# Introdução a Linguagem
+# Introdução a Linguagem C
 
-### O Que é a linguagem C? <a href="#a-introducao-a-linguagem-c" id="a-introducao-a-linguagem-c"></a>
+### O que é a linguagem C? <a href="#a-introducao-a-linguagem-c" id="a-introducao-a-linguagem-c"></a>
 
 C é uma linguagem poderosa e flexível, ideal para desenvolvimento de baixo nível e aplicações que exigem **desempenho optimizado.** Embora exigente em termos de gerenciamento de memória e complexidade, seu aprendizado é fundamental para quem deseja entender profundamente como o computador e a programação funcionam.
 
@@ -107,11 +107,7 @@ Além das linguagens, o C é a base para muitos sistemas operacionais, como:
 ***
 
 {% hint style="warning" %}
-## ✏️**Actividades de aprendizagem**
-
-***
-
-
+## ✏️ **Actividades de aprendizagem**
 
 * O que é entendes por Hardware e Software?
 * O que entendes por multiplataforma e quais OS conheces?

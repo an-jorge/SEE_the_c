@@ -1,8 +1,6 @@
 # Ciclo de Desenvolvimento
 
-## Algoritmos
-
-Desenvolver um aplicativo, um software desktop ou um website começa com o que chamamos de algoritmo expresso em uma linguagem de programação. Tudo que você já viu ou vai ver, desde a máquina de café a foguetes existe uma lógica e um algoritmo. &#x20;
+Para desenvolver um aplicativo, um software desktop ou um website começa com o que chamamos de algoritmo expresso em uma linguagem de programação. Tudo que você já viu ou vai ver, desde a máquina de café a foguetes existe uma lógica e um algoritmo. &#x20;
 
 **Linguagem de máquina** é a linguagem dos processadores. Ela é composta de instruções primitivas que correspondem à funcionalidade primitiva de uma CPU. Um algoritmo escrito na linguagem de alto nível que incrementa uma variável pode levar três ou quatro instruções no nível de linguagem de máquina. Portanto, deve haver ferramentas que possam converter de uma linguagem de alto nível, como C, para a linguagem de baixo nível de um processador.
 
@@ -86,11 +84,7 @@ Ferramentas como o **GCC (GNU Compiler Collection)** seguem esse processo comple
 
 
 {% hint style="warning" %}
-### ✏️Actividade de aprendizagem
-
-***
-
-#### &#x20;
+### ✏️ Actividade de aprendizagem
 
 #### **"Planejamento ou execução: Qual é mais importante?"**
 

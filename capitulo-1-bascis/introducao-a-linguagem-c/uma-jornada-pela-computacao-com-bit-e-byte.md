@@ -32,7 +32,7 @@ Ao longo do tempo para facilitar a vida dos programadores, foram criadas **lingu
 
 
 {% hint style="warning" %}
-## ✏️**Actividades de aprendizagem**
+## ✏️ **Actividades de aprendizagem**
 
 * O que é linguagem de maquina?
 * Quantos byte ocupam 2 caracteres "AB"?

@@ -52,9 +52,7 @@ Esses tipos são construídos a partir dos tipos primitivos e permitem armazenar
 
 
 {% hint style="warning" %}
-### Lightning Round ⚡️
-
-#### _CP1\_Challenge data type_
+#### ✏️ Actividade de aprendizagem <a href="#actividade-de-aprendizagem" id="actividade-de-aprendizagem"></a>
 
 * Qual a diferença entre os tipos `float` e `double` em C?
 * Qual biblioteca em C contém a definição para o tipo `bool`?\

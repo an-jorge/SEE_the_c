@@ -83,8 +83,8 @@ Aqui, `weightMax` é uma variável do tipo `int` que não pode ser modificada. D
 
 
 
-{% hint style="info" %}
-
+{% hint style="warning" %}
+#### ✏️ Actividade de aprendizagem <a href="#actividade-de-aprendizagem" id="actividade-de-aprendizagem"></a>
 
 * Por que a memoria é tão importante para o computador?
 {% endhint %}
