@@ -69,9 +69,7 @@ int main() {
 
 
 {% hint style="warning" %}
-### Lightning Round ⚡️
-
-#### _CP1\_Challenge commit_
+#### ✏️ Actividade de aprendizagem <a href="#actividade-de-aprendizagem" id="actividade-de-aprendizagem"></a>
 
 * Use uma mistura de comentários de uma única linha e comentários de várias linhas.
 {% endhint %}
