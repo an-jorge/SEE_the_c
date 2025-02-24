@@ -1,8 +1,8 @@
-# Operadores matemáticos
+# Operadores aritméticos
 
-Sobre os operadores matemáticos
+## Sobre os operadores **aritméticos** <a href="#operadores-matematicos" id="operadores-matematicos"></a>
 
-Operadores matemáticos são símbolos usados na linguagem C para realizar cálculos com variáveis e valores numéricos. Eles se comportam de maneira similar aos operadores matemáticos que você já conhece da álgebra.
+Operadores **aritméticos** são símbolos usados na linguagem C para realizar cálculos com variáveis e valores numéricos. Eles se comportam de maneira similar aos operadores matemáticos que você já conhece da álgebra.
 
 1. Adição: `+`
 2. subtracção: `-`
@@ -16,7 +16,7 @@ Operadores matemáticos são símbolos usados na linguagem C para realizar cálc
 
 Na programação de forma geral, o operador de adição é o símbolo **+**. Ele é usado para somar dois ou mais valores, sejam eles números inteiros, números de ponto flutuante ou até mesmo caracteres. A sintaxe é igual para todos todos os operadores matemáticos.
 
-```
+```c
 result = value + value2;
 ```
 
@@ -42,7 +42,7 @@ int soma = c1 + c2; // soma será igual a 131 (valor ASCII de 'A' + valor ASCII 
 
 
 {% hint style="info" %}
-**Observações importantes:**
+**Saiba mais:**
 
 * O operador de adição pode ser usado com qualquer tipo de dado numérico em C, incluindo `int`, `float`, `double`, `char`, etc.
 * Quando os operandos são de tipos diferentes, o C realiza conversões automáticas para um tipo comum antes de realizar a soma.
@@ -89,8 +89,6 @@ int main() {
 
 ***
 
-
-
 ### 3. Multiplicação `*`
 
 A **multiplicação** é feita usando o operador `*` (asterisco). Esse operador funciona para multiplicar **inteiros**, **floats** e **doubles**. Aqui vão exemplos simples e práticos:
@@ -111,8 +109,6 @@ int main() {
 
 ***
 
-###
-
 ### 4. Divisão `/`
 
 A **divisão** é feita usando o operador `/`. Dependendo do tipo de dado (inteiro ou ponto flutuante), a divisão pode ter comportamentos diferentes.
@@ -132,6 +128,8 @@ int main() {
 ```
 
 {% hint style="info" %}
+**Saiba mais:**
+
 * O resultado não será 3.33, porque a divisão entre inteiros retorna apenas a parte inteira.
 {% endhint %}
 
@@ -151,19 +149,19 @@ int main() {
 
 ```
 
-{% hint style="info" %}
-Se um ou ambos os números forem de ponto flutuante, o resultado será um número decimal.
+{% hint style="danger" %}
+**Atenção**
+
+* Se um ou ambos os números forem de ponto flutuante, o resultado será um número decimal.
 
 ### <mark style="color:red;">**Cuidado com a divisão por zero**</mark>
 
-Divisão por zero em C pode causar erros ou resultados indefinidos. Sempre verifique se o divisor não é zero antes de dividir.
+* Divisão por zero em C pode causar erros ou resultados indefinidos. Sempre verifique se o divisor não é zero antes de dividir.
 
 
 {% endhint %}
 
 ***
-
-
 
 ### 5. Módulo `%`
 
@@ -184,8 +182,10 @@ int main() {
 ```
 {% endcode %}
 
-{% hint style="info" %}
-**Explicação:**
+{% hint style="danger" %}
+### **Atenção:**
+
+### **Explicação:**
 
 * `10 / 3` = **3**, com resto **1**   &#x20;
 * `10 % 3` retorna **1**
@@ -195,7 +195,9 @@ int main() {
 
 
 
-{% hint style="info" %}
+{% hint style="danger" %}
+### **Atenção:**
+
 ### <mark style="color:red;">**Cuidado! O operador**</mark><mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**`%`**</mark><mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**só funciona com inteiros**</mark>
 
 O operador **módulo (%) só pode ser usado com números inteiros (`int`)**.\
@@ -207,6 +209,12 @@ Se tentar usá-lo com `float` ou `double`, o compilador dará erro.
 
 Se precisar do **resto da divisão para números decimais**, recomendo fortemente que use a função `fmod()` da biblioteca `<math.h>`:
 {% endhint %}
+
+
+
+***
+
+
 
 {% code overflow="wrap" %}
 ```c
@@ -225,11 +233,14 @@ int main() {
 ```
 {% endcode %}
 
-Mais além entenderemos em detalhe sobre bibloteca Math.h e outros.
+{% hint style="info" %}
+**Saiba:**
+
+Mais além entenderemos em detalhe sobre bibloteca **Math.h** e outros.\
+
+{% endhint %}
 
 ***
-
-
 
 ### Incremento `++`
 
@@ -254,8 +265,6 @@ int main() {
 ```
 
 ***
-
-###
 
 ### Decremento (`--`)
 
@@ -283,9 +292,7 @@ int main() {
 
 
 {% hint style="warning" %}
-### Lightning Round ⚡️
-
-#### _CP1\_Challenge Mathematical operators_
+#### ✏️ **Actividade** de aprendizagem <a href="#actividade-de-aprendizagem" id="actividade-de-aprendizagem"></a>
 
 * &#x20;Diga uma aplicação de uso do operator de incremento ou decremento
 {% endhint %}

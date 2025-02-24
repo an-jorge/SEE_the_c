@@ -1,4 +1,4 @@
-# Função
+# O uso Função
 
 Na programação funções são blocos de código reutilizáveis que ajudam a organizar um programa e evitar repetição de código.&#x20;
 
@@ -249,4 +249,8 @@ int main() {
     return 0;
 }
 ```
+
+***
+
+## I/O Funções
 

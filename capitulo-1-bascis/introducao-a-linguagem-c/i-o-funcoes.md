@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # I/O Funções
 
 ## Função `printf` <a href="#funcao-printf" id="funcao-printf"></a>
