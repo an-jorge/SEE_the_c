@@ -30,8 +30,7 @@ Exemplo que demonstra a **precedência de operadores** :&#x20;
 
 #### **Exemplo de Código**
 
-{% code title="main.c" overflow="wrap" %}
-````c
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -52,14 +51,12 @@ int main()
 
     return 0;
 }
-
 ```
-````
 {% endcode %}
 
 #### **Saída**
 
-```
+```c
 Resultado 1: 20
 Resultado 2: 30
 Resultado 3: 1
