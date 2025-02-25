@@ -48,9 +48,11 @@ Os **operadores lógicos** são usados para combinar expressões relacionais e t
 
 
 
+***
 
 
-O símbolo do **operador E lógico (AND)** em C é:
+
+### O símbolo do **operador E lógico (AND)** em C é:
 
 **Como funciona?**
 
@@ -61,22 +63,82 @@ O operador `&&` retorna **verdadeiro (1)** **apenas se ambas as condições fore
 ```c
 #include <stdio.h>
 
-int main() {
-    int idade = 20;
-    int temCarteira = 1; // 1 = verdadeiro (tem carteira), 0 = falso
+int main()
+{
+    int age = 20;
+    int drive_license = 1; // 1 = verdadeiro (tem carteira), 0 = falso
 
     // Verifica se a pessoa tem 18 anos ou mais E tem carteira de motorista
-    if (idade >= 18 && temCarteira) {
-        printf("Você pode dirigir!\n");
-    } else {
-        printf("Você não pode dirigir.\n");
+    if (age >= 18 && drive_license)
+    {
+        printf("Você pode conduzir!\n");
     }
-
+    else
+    {
+        printf("Você não pode conduzir.\n");
+    }
     return 0;
 }
+```
 
+***
+
+
+
+### O símbolo do **operador OU lógico (OR)** em C é:
+
+**Como funciona?**
+
+O operador `||` retorna **verdadeiro (1)** se **pelo menos uma** das condições for verdadeira. Ele só retorna **falso (0)** se **todas as condições** forem falsas.
+
+```c
+#include <stdio.h>
+
+int main() {
+  int a = 5, b = 10;
+
+  // Verifica se pelo menos uma das condições é verdadeira
+  if (a > 0 || b < 0) {
+    printf("Pelo menos uma das condições é verdadeira.\n");
+  } else {
+    printf("Nenhuma das condições é verdadeira.\n");
+  }
+  return 0;
+}
 ```
 
 
 
-####
+***
+
+
+
+## O símbolo do **operador NÃO lógico (NOT)** em C é:
+
+#### &#x20;**Como funciona?**
+
+O operador `!` **inverte** o valor lógico de uma expressão:
+
+* Se a condição for **verdadeira (1)**, o operador retorna **falso (0)**.
+* Se a condição for **falsa (0)**, o operador retorna **verdadeiro (1)**.
+
+```c
+#include <stdio.h>
+
+int main() {
+    int x = 0;
+
+    if (!x) { // x é 0 (falso), mas o operador NOT inverte para verdadeiro
+        printf("A condição é verdadeira após a negação.\n");
+    } else {
+        printf("A condição permanece falsa.\n");
+    }
+
+    return 0;
+}
+```
+
+
+
+***
+
