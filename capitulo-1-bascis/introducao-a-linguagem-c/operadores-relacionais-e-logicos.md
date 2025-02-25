@@ -48,3 +48,35 @@ Os **operadores lógicos** são usados para combinar expressões relacionais e t
 
 
 
+
+
+O símbolo do **operador E lógico (AND)** em C é:
+
+**Como funciona?**
+
+O operador `&&` retorna **verdadeiro (1)** **apenas se ambas as condições forem verdadeiras**.
+
+* Se **uma ou ambas** forem falsas, o resultado será **falso (0)**.
+
+```c
+#include <stdio.h>
+
+int main() {
+    int idade = 20;
+    int temCarteira = 1; // 1 = verdadeiro (tem carteira), 0 = falso
+
+    // Verifica se a pessoa tem 18 anos ou mais E tem carteira de motorista
+    if (idade >= 18 && temCarteira) {
+        printf("Você pode dirigir!\n");
+    } else {
+        printf("Você não pode dirigir.\n");
+    }
+
+    return 0;
+}
+
+```
+
+
+
+####
