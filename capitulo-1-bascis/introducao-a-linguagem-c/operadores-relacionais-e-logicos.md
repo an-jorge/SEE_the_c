@@ -60,6 +60,7 @@ O operador `&&` retorna **verdadeiro (1)** **apenas se ambas as condições fore
 
 * Se **uma ou ambas** forem falsas, o resultado será **falso (0)**.
 
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -80,6 +81,7 @@ int main()
     return 0;
 }
 ```
+{% endcode %}
 
 ***
 
@@ -91,6 +93,7 @@ int main()
 
 O operador `||` retorna **verdadeiro (1)** se **pelo menos uma** das condições for verdadeira. Ele só retorna **falso (0)** se **todas as condições** forem falsas.
 
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -106,6 +109,7 @@ int main() {
   return 0;
 }
 ```
+{% endcode %}
 
 
 
@@ -122,6 +126,7 @@ O operador `!` **inverte** o valor lógico de uma expressão:
 * Se a condição for **verdadeira (1)**, o operador retorna **falso (0)**.
 * Se a condição for **falsa (0)**, o operador retorna **verdadeiro (1)**.
 
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -137,6 +142,7 @@ int main() {
     return 0;
 }
 ```
+{% endcode %}
 
 
 

@@ -28,8 +28,13 @@ x %= 2;     // x agora é 0 (6 % 2)
 ```
 {% endcode %}
 
+{% hint style="info" %}
+**Saiba mais:**
+
+É importante lembrar da precedência dos operadores, que define a ordem em que as operações são realizadas em uma expressão. Para mais detalhes confira a ordem de [precedência dos operadores.](ordem-de-precedencia-dos-operadores.md)
+{% endhint %}
+
 ***
 
 
 
-É importante lembrar da precedência dos operadores, que define a ordem em que as operações são realizadas em uma expressão. Para mais detalhes confira a ordem de [precedência dos operadores.](ordem-de-precedencia-dos-operadores.md)

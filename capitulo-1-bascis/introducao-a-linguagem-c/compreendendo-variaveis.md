@@ -28,7 +28,6 @@ Variáveis são elementos fundamentais para armazenar e manipular dados durante 
 int number; // Declara uma variável inteira chamada "number"
 float price; // Declara uma variável do tipo flutuante chamada "price"
 char letter; // Declara uma variável do tipo caractere chamada 'letter'
-
 ```
 
 ### **Escopo das variáveis**

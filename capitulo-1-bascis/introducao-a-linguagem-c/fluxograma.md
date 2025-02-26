@@ -41,7 +41,7 @@ Outra tecnica de representação é a pseudolinguagem, é um conjunto de técnic
 
 * Faça um **fluxograma** para imprimir dois nomes que deverão ser lidos através de uma unidade de entrada de dados qualquer.
 * Faça um **fluxograma** que leia 3 números inteiros. Calcule e imprima a soma desses números.
-* Implementar um **fluxograma** que leia uma letra. Se a letra for uma vogal, imprimir a mensagem “vogal”, caso contrário, imprimir a mensagem “consoante”.  🏗️
+* Implementar um **fluxograma** que leia uma letra. Se a letra for uma vogal, imprimir a mensagem “vogal”, caso contrário, imprimir a mensagem “consoante”.&#x20;
 {% endhint %}
 
 
