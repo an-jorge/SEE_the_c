@@ -1,12 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Ciclo de Desenvolvimento
 
-## Algoritmos
-
-Desenvolver um aplicativo, um software desktop ou um website começa com o que chamamos de algoritmo expresso em uma linguagem de programação. Tudo que você já viu ou vai ver, desde a máquina de café a foguetes existe uma logica e um algoritmo. &#x20;
-
-**A final o que é um algoritmo**? De forma simples e direita como EU gosto, um algoritmo é uma colecção de instruções. Algoritmos têm nomes diferentes em contextos diferentes. Quando você está cozinhando comida, um algoritmo é uma receita, uma colecção de ingredientes e instruções que, quando seguidas, produzem delícias culinárias. Quando você está montando coisas que comprou na loja, um algoritmo geralmente é impresso para você e chamado de manual de instruções. Em um computador, um algoritmo é chamado de programa.
-
-Os programas devem ser expressos usando regras consistentes para que os computadores possam detectar os vários elementos do programa e convertê-los em linguagem que pode ser executada em uma CPU ao que chamamos de linguagem de máquina.
+Para desenvolver um aplicativo, um software desktop ou um website começa com o que chamamos de algoritmo expresso em uma linguagem de programação. Tudo que você já viu ou vai ver, desde a máquina de café a foguetes existe uma lógica e um algoritmo. &#x20;
 
 **Linguagem de máquina** é a linguagem dos processadores. Ela é composta de instruções primitivas que correspondem à funcionalidade primitiva de uma CPU. Um algoritmo escrito na linguagem de alto nível que incrementa uma variável pode levar três ou quatro instruções no nível de linguagem de máquina. Portanto, deve haver ferramentas que possam converter de uma linguagem de alto nível, como C, para a linguagem de baixo nível de um processador.
 
@@ -18,7 +26,7 @@ Esse "conversor" é chamado de **compilador**. Um compilador deve analisar um pr
 
 ### **Fluxo de compilação de um programa em C**
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/Fluxo do processo.jpg" alt="Compilação de um programa em C "><figcaption><p><strong>Fluxo do processo de compilação de um programa em C</strong></p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/Fluxo do processo.jpg" alt="Compilação de um programa em C "><figcaption><p><strong>Fluxo do processo de compilação de um programa em C</strong></p></figcaption></figure></div>
 
 ***
 
@@ -85,7 +93,34 @@ Ferramentas como o **GCC (GNU Compiler Collection)** seguem esse processo comple
 **como funciona a programação?**
 {% endembed %}
 
+***
 
+
+
+{% hint style="warning" %}
+### ✏️ Actividade de aprendizagem
+
+#### **"Planejamento ou execução: Qual é mais importante?"**
+
+**Perguntas para debate:**
+
+* Um planejamento detalhado reduz problemas futuros?
+* É possível planejar demais e nunca começar?
+
+***
+
+
+
+#### **"Devemos sempre testar o software?"**
+
+* Até que ponto vale a pena testar um software?
+* É possível lançar um software sem testes?
+* Qual a diferença entre testes automatizados e manuais?
+
+
+{% endhint %}
+
+***
 
 
 

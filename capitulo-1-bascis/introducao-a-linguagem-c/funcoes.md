@@ -1,4 +1,4 @@
-# Função
+# Funções
 
 Na programação funções são blocos de código reutilizáveis que ajudam a organizar um programa e evitar repetição de código.&#x20;
 
@@ -9,16 +9,17 @@ A linguagem incorpora muitas funções que facilita a vida de programadores ao l
 ### **Estrutura de uma Função**
 
 Uma função normalmente tem:\
-1️**Nome** – Para ser chamada dentro do código.\
-2️**Parâmetros (opcionais)** – Entrada de dados.\
-3️**Código executável** – O que a função faz.\
-4️**Retorno (opcional)** – O que a função devolve ao chamador.
+**Nome** – Para ser chamada dentro do código.\
+**Parâmetros (opcionais)** – Entrada de dados
+
+️**Código executável** – O que a função faz.\
+️**Retorno (opcional)** – O que a função devolve ao chamador.
 
 ***
 
 
 
-<figure><img src="../.gitbook/assets/My First Board (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/My First Board (1).jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -27,12 +28,12 @@ Uma função normalmente tem:\
 {% code title="main.c" overflow="wrap" fullWidth="false" %}
 ```c
 #include <stdio.h> 
+
 int main()
 {
     printf("Hello World");  // Exibe "Hello World" na tela
     return 0;
 }
-
 ```
 {% endcode %}
 
@@ -135,7 +136,7 @@ A função `printf` oferece opções avançadas para formatar a saída, como:
 
 
 
-## Sequências de escape em C <a href="#sequencias-de-escape-em-c" id="sequencias-de-escape-em-c"></a>
+### Sequências de escape em C <a href="#sequencias-de-escape-em-c" id="sequencias-de-escape-em-c"></a>
 
 ***
 
@@ -249,3 +250,35 @@ int main() {
     return 0;
 }
 ```
+
+***
+
+## I/O Funções
+
+
+
+Começando com a **função** mais popular da programação a função `printf. É` uma ferramenta essencial em qualuer linguagem serve para exibir mensagens e dados na **tela**. Ela oferece flexibilidade para formatar a saída e apresentar informações.
+
+{% code overflow="wrap" %}
+```c
+printf(format_string, argument1, argument2);
+```
+{% endcode %}
+
+**Componentes:**
+
+* `format_string`: Uma string que define o layout da saída, incluindo texto e especificadores de formato.
+* `argument1, argument2, ...`: Uma lista variável de argumentos que fornecem os dados a serem impressos.
+
+{% code overflow="wrap" %}
+```c
+printf("Olá, mundo!\n"); // Exibe a mensagem "Olá, mundo!"
+printf("O valor de x é %d\n", 10); // Exibe "O valor de x é 10"
+printf("Nome: %s, Idade: %d\n", "João", 30); // Exibe "Nome: João, Idade: 30"
+```
+{% endcode %}
+
+
+
+***
+

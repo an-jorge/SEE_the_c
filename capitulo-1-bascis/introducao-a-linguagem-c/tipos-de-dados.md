@@ -1,5 +1,16 @@
 # Tipos de dados
 
+
+
+{% hint style="info" %}
+**No final desta lição, você será capaz de responder ao seguinte**:
+
+* Quais são os tipos de dados
+* Qual tipo de dado em C é usado para armazenar um único caractere?
+{% endhint %}
+
+
+
 ## Compreendendo tipos de dados <a href="#variaveis" id="variaveis"></a>
 
 Em C, os tipos de dados são categorias que definem o tipo e o tamanho da informação que pode ser armazenada em uma variável. Eles podem ser classificados em **tipos primitivos**, **modificadores de tipo** e **tipos derivados**. Aqui está uma visão geral:
@@ -32,13 +43,19 @@ Esses tipos são construídos a partir dos tipos primitivos e permitem armazenar
 
 <table data-full-width="false"><thead><tr><th>Tipo</th><th>Descrição</th></tr></thead><tbody><tr><td><strong>Array</strong></td><td>Colecção de elementos do mesmo tipo.</td></tr><tr><td><strong>Pointer</strong></td><td>Armazena o endereço de uma variável.</td></tr><tr><td><strong>Struct</strong></td><td>Agrupa diferentes tipos de dados.</td></tr><tr><td><strong>Union</strong></td><td>Semelhante à <code>struct</code>, mas compartilha o mesmo espaço de memória.</td></tr><tr><td><strong>Enum</strong></td><td>Define um conjunto de valores constantes inteiros.</td></tr></tbody></table>
 
-
-
-***
-
 ### **Resumo da classificação:** <a href="#resumo-da-classificacao" id="resumo-da-classificacao"></a>
 
 <table data-header-hidden data-full-width="false"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Categoria</strong></td><td><strong>Exemplos</strong></td></tr><tr><td><strong>Primitivos</strong></td><td><code>int</code>, <code>char</code>, <code>float</code>, <code>double</code>, <code>void</code></td></tr><tr><td><strong>Modificados</strong></td><td><code>signed</code>, <code>unsigned</code>, <code>short</code>, <code>long</code></td></tr><tr><td><strong>Derivados</strong></td><td><code>array</code>, <code>pointer</code>, <code>struct</code>, <code>union</code>, <code>enum</code></td></tr><tr><td><strong>Definidos pelo usuário</strong></td><td><code>typedef</code>, <code>enum</code>, <code>struct</code></td></tr></tbody></table>
 
+***
 
+
+
+{% hint style="warning" %}
+#### ✏️ Actividade de aprendizagem <a href="#actividade-de-aprendizagem" id="actividade-de-aprendizagem"></a>
+
+* Qual a diferença entre os tipos `float` e `double` em C?
+* Qual biblioteca em C contém a definição para o tipo `bool`?\
+
+{% endhint %}
 
