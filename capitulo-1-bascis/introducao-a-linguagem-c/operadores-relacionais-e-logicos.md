@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Operadores relacionais e lógicos
 
 Os operadores de relacionais são usados para comparar valores e produzir um resultado booleano (verdadeiro ou falso) com base na comparação. Aqui estão os operadores de comparação mais comuns em C:
@@ -23,16 +37,14 @@ Estes operadores geralmente são usados em expressões condicionais, como em **e
 
 **Operadores relacionais** comparam dois valores e retornam um resultado **verdadeiro (1)** ou **falso (0)**.
 
-| Operador | Significado      | Exemplo  | Resultado      |
-| -------- | ---------------- | -------- | -------------- |
-| `==`     | Igual a          | `5 == 5` | Verdadeiro (1) |
-| `!=`     | Diferente de     | `5 != 3` | Verdadeiro (1) |
-| `>`      | Maior que        | `5 > 3`  | Verdadeiro (1) |
-| `<`      | Menor que        | `5 < 3`  | Falso (0)      |
-| `>=`     | Maior ou igual a | `5 >= 5` | Verdadeiro (1) |
-| `<=`     | Menor ou igual a | `5 <= 3` | Falso (0)      |
-
-
+| Operador | Significado          | Exemplo  | Resultado          |
+| -------- | -------------------- | -------- | ------------------ |
+| `==`     | **Igual a**          | `5 == 5` | **Verdadeiro (1)** |
+| `!=`     | **Diferente de**     | `5 != 3` | **Verdadeiro (1)** |
+| `>`      | **Maior que**        | `5 > 3`  | **Verdadeiro (1)** |
+| `<`      | **Menor que**        | `5 < 3`  | **Falso (0)**      |
+| `>=`     | **Maior ou igual a** | `5 >= 5` | **Verdadeiro (1)** |
+| `<=`     | **Menor ou igual a** | `5 <= 3` | **Falso (0)**      |
 
 ***
 
@@ -130,7 +142,8 @@ O operador `!` **inverte** o valor lógico de uma expressão:
 ```c
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int x = 0;
 
     if (!x) { // x é 0 (falso), mas o operador NOT inverte para verdadeiro
@@ -159,7 +172,8 @@ Qual será o valor de `resultado` após a execução do código abaixo?
 ```c
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int a = 3, b = 7, c = 0;
     int resultado = (a > 2 && b < 10) || !c;
 
@@ -179,7 +193,8 @@ O que será impresso pelo seguinte código?
 ```c
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int x = 5, y = 10, z = 0;
 
     if (x > 0 && y > 5) {
