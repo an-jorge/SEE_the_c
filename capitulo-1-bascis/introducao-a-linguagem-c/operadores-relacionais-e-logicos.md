@@ -148,3 +148,55 @@ int main() {
 
 ***
 
+
+
+{% hint style="warning" %}
+### ⚡️ **Lightning Round 2**: <a href="#actividades-de-aprendizagem" id="actividades-de-aprendizagem"></a>
+
+Qual será o valor de `resultado` após a execução do código abaixo?
+
+{% code overflow="wrap" %}
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 3, b = 7, c = 0;
+    int resultado = (a > 2 && b < 10) || !c;
+
+    printf("%d\n", resultado);
+    return 0;
+}
+```
+{% endcode %}
+{% endhint %}
+
+{% hint style="warning" %}
+### ⚡️ Lightning Round 1:&#x20;
+
+O que será impresso pelo seguinte código?
+
+{% code overflow="wrap" %}
+```c
+#include <stdio.h>
+
+int main() {
+    int x = 5, y = 10, z = 0;
+
+    if (x > 0 && y > 5) {
+        printf("A\n");
+    }
+    if (x < 0 || z) {
+        printf("B\n");
+    }
+    if (!(y == 10)) {
+        printf("C\n");
+    }
+
+    return 0;
+}
+```
+{% endcode %}
+
+
+{% endhint %}
+
