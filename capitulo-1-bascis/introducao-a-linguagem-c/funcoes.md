@@ -53,23 +53,27 @@ As funções podem ser classificadas principalmente com base em dois critérios:
 
 1. **Função sem retorno e sem parâmetros**
 
+{% code overflow="wrap" %}
 ```c
 void hello_message()
 {
     printf("Bem-vindo ao sistema!\n");
 }
 ```
+{% endcode %}
 
 ***
 
 2. &#x20; **Função com retorno e sem parâmetros**
 
+{% code overflow="wrap" %}
 ```c
 void get_number()
 {
     return 44;
 }
 ```
+{% endcode %}
 
 ***
 
@@ -77,11 +81,13 @@ void get_number()
 
 3. &#x20;**Função sem retorno e com parâmetros**
 
+{% code overflow="wrap" %}
 ```c
 void show_name(char nome[]) {
     printf("Olá, %s!\n", nome);
 }
 ```
+{% endcode %}
 
 ***
 
@@ -89,9 +95,11 @@ void show_name(char nome[]) {
 
 A função `printf` é uma ferramenta essencial na linguagem C para exibir mensagens e dados na tela. Ela oferece flexibilidade para formatar a saída e apresentar informações.
 
+{% code overflow="wrap" %}
 ```c
 printf(format_string, argument1, argument2);
 ```
+{% endcode %}
 
 **Componentes:**
 
@@ -120,11 +128,13 @@ Para explorar o poder da linguagem e como os nossos programas pode ser interesen
 10. `%p`: Ponteiro
 11. `%%`: carácter de percentagem (para imprimir um símbolo de percentagem)
 
+{% code overflow="wrap" %}
 ```c
 printf("Olá, mundo!\n"); // Exibe a mensagem "Olá, mundo!"
 printf("O valor de x é %d\n", 10); // Exibe "O valor de x é 10"
 printf("Nome: %s, Idade: %d\n", "João", 30); // Exibe "Nome: João, Idade: 30"
 ```
+{% endcode %}
 
 ### **Formatação adicional:**
 
@@ -178,7 +188,7 @@ Estes são apenas alguns dos especificadores de formato básicos. Existem outros
 
 Vamos fazer um conjunto de bricandeiras com a funções `scanf` e `print`
 
-{% code title="main.c" overflow="wrap" %}
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -207,6 +217,7 @@ int main()
 * **`scanf_s`** é exclusivo do Microsoft Visual Studio e Windows, enquanto `scanf` é amplamente suportado em qualquer compilador compatível com C (incluindo Linux, GCC, Clang, etc.).
 * Usar diretivas de pré-processador permite que o código se adapte automaticamente ao sistema onde está sendo compilado, tornando-o portável entre Windows e Linux.
 
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -228,6 +239,7 @@ int main()
     return 0;
 }
 ```
+{% endcode %}
 
 ### **Por que `_WIN32` funciona no Windows de 64 bits?**
 
@@ -235,6 +247,7 @@ Se você o seu computador for um 64 bit esta duvida pode surgir, entretanto saib
 
 Se você quiser especificamente verificar se está em um sistema **Windows de 64 bits**, pode usar a macro **`_WIN64`**, que **apenas** é definida em sistemas Windows de 64 bits. Assim, se você precisa distinguir entre sistemas de 32 bits e 64 bits no Windows, pode usar as duas macros:
 
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -250,6 +263,7 @@ int main() {
     return 0;
 }
 ```
+{% endcode %}
 
 ***
 

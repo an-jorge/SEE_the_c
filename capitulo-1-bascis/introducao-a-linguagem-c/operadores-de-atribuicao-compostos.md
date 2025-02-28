@@ -1,8 +1,20 @@
-# Operador atribuição
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
 
-## Introdução ao operadores atribuição <a href="#operadores-atribuicao" id="operadores-atribuicao"></a>
+# Operadores de atribuição Compostos
 
-O operador de atribuição básico é o sinal de igual (`=`), mas existem também operadores compostos de atribuição que facilitam a manipulação e atualização do valor das variáveis. Os operadores de atribuição são usados para atribuir valores a variáveis, aqui estão os operadores de atribuição mais comuns em C:
+O operador de atribuição básico é o sinal de igual (`=`), mas existem também operadores compostos de atribuição que facilitam a manipulação e atualização do valor das variáveis, melhoram **a leitura do código**, deixa o **código** mais **limpo**, e com **menos repetições** Os operadores de atribuição são usados para atribuir valores a variáveis, aqui estão os operadores de atribuição mais comuns em C:
 
 1. **Atribuição simples:** `=`
    * Atribui o valor à direita do operador à variável à esquerda.
@@ -17,16 +29,17 @@ O operador de atribuição básico é o sinal de igual (`=`), mas existem també
 6. **Atribuição com módulo:** `%=`
    * Calcula o módulo do valor à esquerda pela variável à direita e atribui o resultado à variável à esquerda.
 
-{% code overflow="wrap" fullWidth="false" %}
-```c
-int x = 10;
-x += 5;     // x agora é 15 (10 + 5)
-x -= 3;     // x agora é 12 (15 - 3)
-x *= 2;     // x agora é 24 (12 * 2)
-x /= 4;     // x agora é 6 (24 / 4)
-x %= 2;     // x agora é 0 (6 % 2)
-```
-{% endcode %}
+***
+
+### Operadores de Atribuição Compostos
+
+| Operador | Equivalente a | Exemplo (x = 10) | Novo valor de x |
+| -------- | ------------- | ---------------- | --------------- |
+| `+=`     | `x = x + y`   | `x += 5;`        | `15`            |
+| `-=`     | `x = x - y`   | `x -= 3;`        | `7`             |
+| `*=`     | `x = x * y`   | `x *= 2;`        | `20`            |
+| `/=`     | `x = x / y`   | `x /= 2;`        | `5`             |
+| `%=`     | `x = x % y`   | `x %= 3;`        | `1`             |
 
 {% hint style="info" %}
 ## Saiba mais:
@@ -35,8 +48,6 @@ x %= 2;     // x agora é 0 (6 % 2)
 {% endhint %}
 
 ***
-
-
 
 {% hint style="warning" %}
 ### ✏️  **Actividades de aprendizagem**:

@@ -22,6 +22,6 @@
   * [Operadores relacionais e lógicos](capitulo-1-bascis/introducao-a-linguagem-c/operadores-relacionais-e-logicos.md)
   * [Operadores lógicos](capitulo-1-bascis/introducao-a-linguagem-c/operadores-logicos.md)
   * [Operadores de comparação](capitulo-1-bascis/introducao-a-linguagem-c/operadores-de-comparacao.md)
-  * [Operador atribuição](capitulo-1-bascis/introducao-a-linguagem-c/operador-atribuicao.md)
+  * [Operadores de atribuição Compostos](capitulo-1-bascis/introducao-a-linguagem-c/operadores-de-atribuicao-compostos.md)
   * [Funções](capitulo-1-bascis/introducao-a-linguagem-c/funcoes.md)
   * [I/O Funções](capitulo-1-bascis/introducao-a-linguagem-c/i-o-funcoes.md)
