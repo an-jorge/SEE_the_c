@@ -29,7 +29,7 @@ x %= 2;     // x agora é 0 (6 % 2)
 {% endcode %}
 
 {% hint style="info" %}
-**Saiba mais:**
+## Saiba mais:
 
 É importante lembrar da precedência dos operadores, que define a ordem em que as operações são realizadas em uma expressão. Para mais detalhes confira a ordem de [precedência dos operadores.](ordem-de-precedencia-dos-operadores.md)
 {% endhint %}
@@ -37,4 +37,10 @@ x %= 2;     // x agora é 0 (6 % 2)
 ***
 
 
+
+{% hint style="warning" %}
+### ✏️  **Actividades de aprendizagem**:
+
+Diga a importancia de uso de um dos operadores de atribuição&#x20;
+{% endhint %}
 
