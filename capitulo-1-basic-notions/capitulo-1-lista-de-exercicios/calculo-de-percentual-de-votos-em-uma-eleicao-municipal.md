@@ -1,5 +1,5 @@
 ---
-icon: '7'
+icon: '6'
 layout:
   title:
     visible: true
@@ -14,8 +14,6 @@ layout:
 ---
 
 # Cálculo de Percentual de Votos em uma Eleição Municipal
-
-
 
 {% hint style="warning" %}
 ## ⚡️ Exercício 7:  Cálculo de Percentual de Votos em uma Eleição Municipal
@@ -82,12 +80,6 @@ Percentual de votos válidos: 85.0%
 
 1. Modifique o programa para exibir uma mensagem de erro se a soma de votos brancos, nulos e válidos for maior que o total de eleitores.
 2. Adicione uma funcionalidade para calcular o percentual de abstenção, considerando o total de eleitores e a soma de todos os votos.
-
-
-
-
-
-
 
 
 
