@@ -1,5 +1,6 @@
 ---
-icon: '6'
+icon: '2'
+hidden: true
 layout:
   title:
     visible: true
@@ -14,8 +15,6 @@ layout:
 ---
 
 # Leitura e Impressão de Elementos de um Array
-
-
 
 {% hint style="warning" %}
 ## ⚡️ Exercício 6:  Leitura e Impressão de Elementos de um Array

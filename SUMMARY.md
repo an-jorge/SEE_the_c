@@ -35,7 +35,7 @@
   * [Cálculo de Percentual de Votos em uma Eleição Municipal](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/calculo-de-percentual-de-votos-em-uma-eleicao-municipal.md)
   * [Cálculo de Novo Salário com Reajuste](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/calculo-de-novo-salario-com-reajuste.md)
   * [Jogo de Adivinhação Simples](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/jogo-de-adivinhacao-simples.md)
-  * [🔟 Pesquisa de Elemento em um Array](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/pesquisa-de-elemento-em-um-array.md)
+  * [Pesquisa de Elemento em um Array](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/pesquisa-de-elemento-em-um-array.md)
 
 ## Capítulo 2: Control Flow
 
