@@ -28,7 +28,7 @@
 * [Capítulo 1: Lista de Exercícios](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/README.md)
   * [Exercício](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/exercicio.md)
   * [Exercício](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/exercicio-1.md)
-  * [Exercício](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/exercicio-2.md)
+  * [Conversão de Temperatura de Celsius para Fahrenheit](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/conversao-de-temperatura-de-celsius-para-fahrenheit.md)
 
 ## Capítulo 2: Control Flow
 
