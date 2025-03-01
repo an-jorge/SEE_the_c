@@ -36,6 +36,7 @@
   * [Cálculo de Novo Salário com Reajuste](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/calculo-de-novo-salario-com-reajuste.md)
   * [Jogo de Adivinhação Simples](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/jogo-de-adivinhacao-simples.md)
   * [Pesquisa de Elemento em um Array](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/pesquisa-de-elemento-em-um-array.md)
+  * [Manipulação de Arrays - Inserindo e Exibindo Valores](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/manipulacao-de-arrays-inserindo-e-exibindo-valores.md)
 
 ## Capítulo 2: Control Flow
 
