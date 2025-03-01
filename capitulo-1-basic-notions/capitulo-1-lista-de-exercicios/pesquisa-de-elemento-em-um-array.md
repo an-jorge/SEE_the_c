@@ -1,5 +1,6 @@
 ---
 icon: '1'
+hidden: true
 layout:
   title:
     visible: true
