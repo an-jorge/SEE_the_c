@@ -26,9 +26,10 @@
   * [Funções](capitulo-1-basic-notions/introducao-a-linguagem-c/funcoes.md)
   * [I/O Funções](capitulo-1-basic-notions/introducao-a-linguagem-c/i-o-funcoes.md)
 * [Capítulo 1: Lista de Exercícios](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/README.md)
-  * [Exercício](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/exercicio.md)
-  * [Exercício](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/exercicio-1.md)
+  * [Operações Matemáticas Simples](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/operacoes-matematicas-simples.md)
+  * [Cálculo de Média Aritmética](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/calculo-de-media-aritmetica.md)
   * [Conversão de Temperatura](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/conversao-de-temperatura.md)
+  * [Verificação de Paridade de um Número](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/verificacao-de-paridade-de-um-numero.md)
 
 ## Capítulo 2: Control Flow
 

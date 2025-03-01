@@ -37,14 +37,22 @@ layout:
    * NOTA: (2&#x30;**°C** × 9/5) + 32 = 6&#x38;**°F**
    * O valor da temperatura em Celsius e o resultado da conversão em Fahrenheit são exibidos.
    * O código também tenta configurar a localidade para o português utilizando `setlocale(LC_ALL, "Portuguese")` para suportar caracteres específicos e formatação de acordo com o idioma.
-2. **Tarefa:**
-   1. Copie o código e execute-o no seu compilador C.
-   2. Observe a saída com as temperaturas exibidas tanto em Celsius quanto em Fahrenheit.
-   3. Certifique-se de que a configuração da localidade funcione correctamente. Se a localidade `portuguese` não estiver disponível no sistema, o código exibe uma mensagem de erro.
-3. **Perguntas para reflexão:**
+
+### **Tarefa:**
+
+1. Copie o código e execute-o no seu compilador C.
+2. Observe a saída com as temperaturas exibidas tanto em Celsius quanto em Fahrenheit.
+3. Certifique-se de que a configuração da localidade funcione correctamente. Se a localidade `portuguese` não estiver disponível no sistema, o código exibe uma mensagem de erro.
+4. **Perguntas para reflexão:**
    * A fórmula de conversão para Fahrenheit está correta? Se sim, por que a multiplicação por 9/5 é necessária?
    * O que acontece se você alterar o valor da variável `celsius` para outro número? O cálculo se ajusta correctamente?
    * A função `setlocale` funcionou como esperado no seu ambiente de desenvolvimento? Se não, que passos adicionais podem ser necessários para configurar a localidade no seu sistema?
+
+
+
+***
+
+
 
 ### **Desafio extra:**
 
