@@ -31,6 +31,8 @@
   * [Conversão de Temperatura](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/conversao-de-temperatura.md)
   * [Verificação de Paridade de um Número](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/verificacao-de-paridade-de-um-numero.md)
   * [Entrada e Saída de dados Simples](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/entrada-e-saida-de-dados-simples.md)
+  * [Leitura e Impressão de Elementos de um Array](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/leitura-e-impressao-de-elementos-de-um-array.md)
+  * [Copy of Leitura e Impressão de Elementos de um Array](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/copy-of-leitura-e-impressao-de-elementos-de-um-array.md)
 
 ## Capítulo 2: Control Flow
 
