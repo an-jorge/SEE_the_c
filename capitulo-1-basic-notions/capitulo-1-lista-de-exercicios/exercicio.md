@@ -15,9 +15,20 @@ layout:
 
 # Exercício
 
-Exercício: **Operações Matemáticas Simples em C**
 
+
+{% hint style="info" %}
+## ⚡️ Exercício 1: **Operações Matemáticas Simples**
+
+\
 **Objectivos:** Neste exercício, você aprenderá como realizar operações matemáticas básicas em C, utilizando variáveis inteiras e a função `printf` para exibir o resultado da soma de dois números inteiros.
+{% endhint %}
+
+
+
+***
+
+
 
 **Instruções:**
 
