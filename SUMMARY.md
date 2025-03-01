@@ -33,6 +33,7 @@
   * [Entrada e Saída de dados Simples](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/entrada-e-saida-de-dados-simples.md)
   * [Leitura e Impressão de Elementos de um Array](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/leitura-e-impressao-de-elementos-de-um-array.md)
   * [Cálculo de Percentual de Votos em uma Eleição Municipal](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/calculo-de-percentual-de-votos-em-uma-eleicao-municipal.md)
+  * [Cálculo de Novo Salário com Reajuste](capitulo-1-basic-notions/capitulo-1-lista-de-exercicios/calculo-de-novo-salario-com-reajuste.md)
 
 ## Capítulo 2: Control Flow
 

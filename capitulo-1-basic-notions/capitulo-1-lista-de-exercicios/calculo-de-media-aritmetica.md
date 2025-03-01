@@ -13,11 +13,9 @@ layout:
     visible: true
 ---
 
-# Exercício
+# Cálculo de Média Aritmética
 
-
-
-{% hint style="info" %}
+{% hint style="warning" %}
 ## ⚡️ Exercício 2: **Cálculo de Média Aritmética**
 
 

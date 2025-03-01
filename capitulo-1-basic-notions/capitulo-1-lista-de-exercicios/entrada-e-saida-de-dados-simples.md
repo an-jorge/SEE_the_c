@@ -15,9 +15,7 @@ layout:
 
 # Entrada e Saída de dados Simples
 
-
-
-{% hint style="info" %}
+{% hint style="warning" %}
 ## ⚡️ Exercício 5:  Entrada e Saída de dados Simples
 
 

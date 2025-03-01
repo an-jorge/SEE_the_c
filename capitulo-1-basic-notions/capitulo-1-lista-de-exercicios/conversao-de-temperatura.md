@@ -15,9 +15,7 @@ layout:
 
 # Conversão de Temperatura
 
-
-
-{% hint style="info" %}
+{% hint style="warning" %}
 ## ⚡️ Exercício 3: Conversão de Temperatura de Celsius para Fahrenheit&#x20;
 
 

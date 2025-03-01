@@ -15,9 +15,7 @@ layout:
 
 # Operações Matemáticas Simples
 
-
-
-{% hint style="info" %}
+{% hint style="warning" %}
 ## ⚡️ Exercício 1: **Operações Matemáticas Simples**
 
 \

@@ -15,9 +15,7 @@ layout:
 
 # Verificação de Paridade de um Número
 
-
-
-{% hint style="info" %}
+{% hint style="warning" %}
 ## ⚡️ Exercício 4:  **Verificação de Paridade de um Número**&#x20;
 
 
