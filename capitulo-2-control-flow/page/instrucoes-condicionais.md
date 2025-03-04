@@ -2,7 +2,9 @@
 hidden: true
 ---
 
-# Condição booleana
+# instruções condicionais
+
+## Instrução `if` `else`
 
 Na programação as instruções `if` e `else` são usadas para controlar o fluxo do programa com base em condições. Assim como na vida, as condições permitem que você execute diferentes blocos de código dependendo se uma condição é verdadeira ou falsa.
 
@@ -50,5 +52,13 @@ int main() {
 
 
 
+***
 
+
+
+## Instrução `switch` <a href="#instrucao-switch" id="instrucao-switch"></a>
+
+`switche` é usada para realizar uma selecção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções if e else if.&#x20;
+
+**A estrutura básica do `switch` é a seguinte:**
 

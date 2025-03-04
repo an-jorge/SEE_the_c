@@ -40,7 +40,7 @@
 ## Capítulo 2: Control Flow
 
 * [Page](capitulo-2-control-flow/page/README.md)
-  * [Condição booleana](capitulo-2-control-flow/page/condicao-booleana.md)
+  * [instruções condicionais](capitulo-2-control-flow/page/instrucoes-condicionais.md)
   * [Page 1](capitulo-2-control-flow/page/page-1.md)
 
 ***
