@@ -39,9 +39,9 @@
 
 ## Capítulo 2: Control Flow
 
-* [Condição booleana](capitulo-2-control-flow/condicao-booleana/README.md)
-  * [Page 1](capitulo-2-control-flow/condicao-booleana/page-1.md)
-  * [Page 2](capitulo-2-control-flow/condicao-booleana/page-2.md)
+* [Page](capitulo-2-control-flow/page/README.md)
+  * [Condição booleana](capitulo-2-control-flow/page/condicao-booleana.md)
+  * [Page 1](capitulo-2-control-flow/page/page-1.md)
 
 ***
 
