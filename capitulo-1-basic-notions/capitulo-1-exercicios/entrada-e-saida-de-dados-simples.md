@@ -1,5 +1,5 @@
 ---
-icon: '5'
+icon: '4'
 layout:
   title:
     visible: true
