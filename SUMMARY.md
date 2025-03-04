@@ -29,7 +29,6 @@
   * [Operações Matemáticas Simples](capitulo-1-basic-notions/capitulo-1-exercicios/operacoes-matematicas-simples.md)
   * [Cálculo de Média Aritmética](capitulo-1-basic-notions/capitulo-1-exercicios/calculo-de-media-aritmetica.md)
   * [Conversão de Temperatura](capitulo-1-basic-notions/capitulo-1-exercicios/conversao-de-temperatura.md)
-  * [Verificação de Paridade de um Número](capitulo-1-basic-notions/capitulo-1-exercicios/verificacao-de-paridade-de-um-numero.md)
   * [Entrada e Saída de dados Simples](capitulo-1-basic-notions/capitulo-1-exercicios/entrada-e-saida-de-dados-simples.md)
   * [Leitura e Impressão de Elementos de um Array](capitulo-1-basic-notions/capitulo-1-exercicios/leitura-e-impressao-de-elementos-de-um-array.md)
   * [Cálculo de Percentual de Votos em uma Eleição Municipal](capitulo-1-basic-notions/capitulo-1-exercicios/calculo-de-percentual-de-votos-em-uma-eleicao-municipal.md)
@@ -40,5 +39,12 @@
 
 ## Capítulo 2: Control Flow
 
-* [Page](capitulo-2-control-flow/page.md)
-* [Page 1](capitulo-2-control-flow/page-1.md)
+* [Condição booleana](capitulo-2-control-flow/condicao-booleana/README.md)
+  * [Page 1](capitulo-2-control-flow/condicao-booleana/page-1.md)
+  * [Page 2](capitulo-2-control-flow/condicao-booleana/page-2.md)
+
+***
+
+* [Capítulo 2: Exercícios](capitulo-2-exercicios/README.md)
+  * [Calculadora de Notas](capitulo-2-exercicios/calculadora-de-notas.md)
+  * [Verificação de Paridade de um Número](capitulo-2-exercicios/verificacao-de-paridade-de-um-numero.md)
