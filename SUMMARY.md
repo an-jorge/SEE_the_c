@@ -39,9 +39,9 @@
 
 ## Capítulo 2: Control Flow
 
-* [Page](capitulo-2-control-flow/page/README.md)
-  * [instruções condicionais](capitulo-2-control-flow/page/instrucoes-condicionais.md)
-  * [Page 1](capitulo-2-control-flow/page/page-1.md)
+* [Introdução às Instruções if e else](capitulo-2-control-flow/introducao-as-instrucoes-if-e-else/README.md)
+  * [instruções condicionais](capitulo-2-control-flow/introducao-as-instrucoes-if-e-else/instrucoes-condicionais.md)
+  * [Page 1](capitulo-2-control-flow/introducao-as-instrucoes-if-e-else/page-1.md)
 
 ***
 
