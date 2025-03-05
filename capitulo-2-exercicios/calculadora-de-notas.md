@@ -20,7 +20,9 @@ icon: '0'
 2. **Nota entre 5 e 6.9** → "Recuperação!"
 3. **Nota abaixo de 5** → "Reprovado!"&#x20;
 
-#### Exemplo de entrada e saida
+
+
+Exemplo de entrada e saida
 
 ```c
 

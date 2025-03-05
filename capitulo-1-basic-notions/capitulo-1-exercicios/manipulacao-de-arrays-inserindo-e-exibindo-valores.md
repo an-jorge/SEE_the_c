@@ -17,7 +17,7 @@ layout:
 # Manipulação de Arrays - Inserindo e Exibindo Valores
 
 {% hint style="warning" %}
-## ⚡️ Exercício 1:  Manipulação de Arrays - Inserindo e Exibindo Valores
+## ⚡️ Exercício 3:  Manipulação de Arrays - Inserindo e Exibindo Valores
 
 
 

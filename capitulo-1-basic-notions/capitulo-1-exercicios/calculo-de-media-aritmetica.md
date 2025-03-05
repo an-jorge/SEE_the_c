@@ -16,7 +16,7 @@ layout:
 # Cálculo de Média Aritmética
 
 {% hint style="warning" %}
-## ⚡️ Exercício 2: **Cálculo de Média Aritmética**
+## ⚡️ Exercício 1: **Cálculo de Média Aritmética**
 
 
 

@@ -16,7 +16,7 @@ layout:
 # Cálculo de Novo Salário com Reajuste
 
 {% hint style="warning" %}
-## ⚡️ Exercício 8:  Cálculo de Novo Salário com Reajuste
+## ⚡️ Exercício 5:  Cálculo de Novo Salário com Reajuste
 
 
 

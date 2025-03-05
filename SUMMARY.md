@@ -48,3 +48,4 @@
 * [Capítulo 2: Exercícios](capitulo-2-exercicios/README.md)
   * [Calculadora de Notas](capitulo-2-exercicios/calculadora-de-notas.md)
   * [Verificação de Paridade de um Número](capitulo-2-exercicios/verificacao-de-paridade-de-um-numero.md)
+  * [Conversor de Temperatura Inteligente](capitulo-2-exercicios/conversor-de-temperatura-inteligente.md)

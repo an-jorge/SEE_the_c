@@ -16,7 +16,7 @@ layout:
 # Jogo de Adivinhação Simples
 
 {% hint style="warning" %}
-## ⚡️ Exercício 9:  Jogo de Adivinhação Simples
+## ⚡️ Exercício 6:  Jogo de Adivinhação Simples
 
 
 

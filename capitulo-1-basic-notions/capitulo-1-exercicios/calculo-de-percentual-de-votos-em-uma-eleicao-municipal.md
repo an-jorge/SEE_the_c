@@ -16,7 +16,7 @@ layout:
 # Cálculo de Percentual de Votos em uma Eleição Municipal
 
 {% hint style="warning" %}
-## ⚡️ Exercício 7:  Cálculo de Percentual de Votos em uma Eleição Municipal
+## ⚡️ Exercício 4:  Cálculo de Percentual de Votos em uma Eleição Municipal
 
 
 
